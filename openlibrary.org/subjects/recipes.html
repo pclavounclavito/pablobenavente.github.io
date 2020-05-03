@@ -1,0 +1,1742 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="recipes.html" />
+
+    <link href="../static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="../static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="../static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="../static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="../static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="../static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css"/>
+
+    <link href="../static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script src="https://openlibrary.org/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="https://openlibrary.org/static/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+    
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="../static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="../static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Recipes | Open Library</title>
+
+</head>
+
+
+
+
+
+<body id="user">
+  <div id="background">
+    <span id="top"></span>
+
+    <p class="shift">
+      <a href="#content" title="Click to skip!">Click here to skip to this page's main content.</a>
+    </p>
+                
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="../static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="../static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="../account/login.html">Log in</a></li>
+        <li><a href="../account/create.html">Sign up</a></li>
+        
+        <li><a href="../books/add.html">Add a Book</a></li>
+        <li><a href="../books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="../recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="../advancedsearch.html">Advanced Search</a></li>
+        <li><a href="../developers.html">Developer Center</a></li>
+        <li><a href="../help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="../index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="../static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="science.html">Science</a></li>
+          <li><a href="biographies.html">Biographies</a></li>
+          <li><a href="textbooks.html">Textbooks</a></li>
+          <li><a href="science_fiction.html">Sci-Fi</a></li>
+          <li><a href="romance.html">Romance</a></li>
+          <li><a href="fantasy.html">Fantasy</a></li>
+          <li><a href="../subjects.html">More Subjects</a></li>
+          <li><a href="../lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="../account/login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="../account/login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="../account/login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="../books/add.html">Add a Book</a></li>
+          <li><a href="../books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="../advancedsearch.html">Advanced Search</a></li>
+          <li><a href="../recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="../developers.html">Developer Center</a></li>
+          <li><a href="../help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="../account/login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="../account/create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+    
+    <div id="placement">
+      <div id="position">
+        <div id="content">
+          <div class="flash-messages">
+          </div>
+          <div id="contentMsg">
+            <div class="alert attn"><span></span></div>
+          </div>
+
+          <div class="page-banner page-banner-body">
+            <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+          </div>
+          
+          
+
+
+<div id="scrollHere"></div>
+
+<div id="contentHead">
+    <h1 class="inline">
+        Recipes
+    </h1>
+    <span class="heading">
+        <span class="count" id="coversCount">
+            <strong><span>4.270 works</span></strong>
+            / <a href="javascript:;" class="ebookcount"><span id="ebooks">1.666 ebooks</span></a>
+            <span class="clickdata"></span>
+        </span>
+
+        <span class="count hidden smaller chartZoom"><a href="javascript:;" class="resetSelection small">Clear this selection</a></span>
+    </span>
+    <a href="#search" class="shift">Search for books with subject Recipes.</a>
+
+    <p class="collapse sansserif">
+      <span class="tools brown">
+        <img src="https://openlibrary.org/images/icons/icon_sort.png" alt="Sorting by" width="9" height="11" style="margin-right:10px;"/>
+        Sort by:
+        <span id="sortByNew" style="display:none">
+          <a href="javascript:;" class="sortEditionCount"># of Editions</a>
+          |
+          <strong class="lightgreen">Most Recent Publish Date</strong>
+        </span>
+        <span id="sortByEdition">
+          <strong class="lightgreen"># of Editions</strong>
+          |
+          <a href="javascript:;" class="sortFirstPublish">Most Recent Publish Date</a>
+        </span>
+      </span>
+    </p>
+    <form action="https://openlibrary.org/search" class="olform pagesearchbox">
+      <input type="hidden" name="subject_facet" value="Recipes" />
+      <input type="text" name="q" id="searchSubjects" size="100" class="larger" value="" />
+      <button type="submit" class="larger">Search</button>
+    </form>
+</div>
+
+<script type="text/javascript">
+<!--
+var page = new Subject({"publishers": [{"count": 69, "name": "Oxmoor House", "key": "/publishers/Oxmoor_House"}, {"count": 56, "name": "Rodale", "key": "/publishers/Rodale"}, {"count": 55, "name": "American Diabetes Association", "key": "/publishers/American_Diabetes_Association"}, {"count": 55, "name": "Surrey Books", "key": "/publishers/Surrey_Books"}, {"count": 50, "name": "Simon & Schuster", "key": "/publishers/Simon_&_Schuster"}, {"count": 45, "name": "Publications International", "key": "/publishers/Publications_International"}, {"count": 40, "name": "Wiley", "key": "/publishers/Wiley"}, {"count": 35, "name": "Bantam Books", "key": "/publishers/Bantam_Books"}, {"count": 35, "name": "Doubleday", "key": "/publishers/Doubleday"}, {"count": 34, "name": "Contemporary Books", "key": "/publishers/Contemporary_Books"}, {"count": 34, "name": "Rodale Press", "key": "/publishers/Rodale_Press"}, {"count": 32, "name": "Warner Books", "key": "/publishers/Warner_Books"}, {"count": 30, "name": "Thorsons", "key": "/publishers/Thorsons"}, {"count": 29, "name": "New American Library", "key": "/publishers/New_American_Library"}, {"count": 28, "name": "Fair Winds Press", "key": "/publishers/Fair_Winds_Press"}, {"count": 28, "name": "Prima Pub.", "key": "/publishers/Prima_Pub."}, {"count": 28, "name": "St. Martin's Press", "key": "/publishers/St._Martin's_Press"}, {"count": 26, "name": "McGraw-Hill", "key": "/publishers/McGraw-Hill"}, {"count": 25, "name": "Avery Pub. Group", "key": "/publishers/Avery_Pub._Group"}, {"count": 24, "name": "Adams Media", "key": "/publishers/Adams_Media"}, {"count": 24, "name": "Bantam", "key": "/publishers/Bantam"}, {"count": 22, "name": "Meredith Corp.", "key": "/publishers/Meredith_Corp."}, {"count": 21, "name": "Ballantine Books", "key": "/publishers/Ballantine_Books"}, {"count": 21, "name": "Macmillan", "key": "/publishers/Macmillan"}, {"count": 20, "name": "Avery", "key": "/publishers/Avery"}], "subject_type": "subject", "name": "Recipes", "places": [{"count": 29, "name": "United States", "key": "/subjects/place:united_states"}, {"count": 20, "name": "China", "key": "/subjects/place:china"}, {"count": 7, "name": "California", "key": "/subjects/place:california"}, {"count": 5, "name": "England", "key": "/subjects/place:england"}, {"count": 4, "name": "Great Britain", "key": "/subjects/place:great_britain"}, {"count": 4, "name": "India", "key": "/subjects/place:india"}, {"count": 4, "name": "Italy", "key": "/subjects/place:italy"}, {"count": 3, "name": "France", "key": "/subjects/place:france"}, {"count": 3, "name": "Japan", "key": "/subjects/place:japan"}, {"count": 3, "name": "M\u00e1laga (Spain)", "key": "/subjects/place:m\u00e1laga_(spain)"}, {"count": 3, "name": "North Carolina", "key": "/subjects/place:north_carolina"}, {"count": 3, "name": "South Carolina", "key": "/subjects/place:south_carolina"}, {"count": 3, "name": "Utah", "key": "/subjects/place:utah"}, {"count": 2, "name": "Canada", "key": "/subjects/place:canada"}, {"count": 2, "name": "Halifax", "key": "/subjects/place:halifax"}, {"count": 2, "name": "Mediterranean Region", "key": "/subjects/place:mediterranean_region"}, {"count": 2, "name": "New York", "key": "/subjects/place:new_york"}, {"count": 2, "name": "Northeastern States", "key": "/subjects/place:northeastern_states"}, {"count": 2, "name": "Nova Scotia", "key": "/subjects/place:nova_scotia"}, {"count": 2, "name": "Oregon", "key": "/subjects/place:oregon"}, {"count": 2, "name": "Scotland", "key": "/subjects/place:scotland"}, {"count": 2, "name": "Southern States", "key": "/subjects/place:southern_states"}, {"count": 2, "name": "Wales", "key": "/subjects/place:wales"}, {"count": 2, "name": "West (U.S.)", "key": "/subjects/place:west_(u.s.)"}, {"count": 1, "name": "Advertising book for \"B. Harnwell\" store", "key": "/subjects/place:advertising_book_for_b._harnwell_store"}], "people": [{"count": 2, "name": "William Randolph Hearst (1863-1951)", "key": "/subjects/person:william_randolph_hearst_(1863-1951)"}, {"count": 1, "name": "Adrienne Alvares", "key": "/subjects/person:adrienne_alvares"}, {"count": 1, "name": "Alexander Alvares", "key": "/subjects/person:alexander_alvares"}, {"count": 1, "name": "Alice B. Toklas", "key": "/subjects/person:alice_b._toklas"}, {"count": 1, "name": "Allison Mitchell", "key": "/subjects/person:allison_mitchell"}, {"count": 1, "name": "Arthur Agatston", "key": "/subjects/person:arthur_agatston"}, {"count": 1, "name": "Basil Guinane", "key": "/subjects/person:basil_guinane"}, {"count": 1, "name": "Carlton Fredericks", "key": "/subjects/person:carlton_fredericks"}, {"count": 1, "name": "Carol Showalter", "key": "/subjects/person:carol_showalter"}, {"count": 1, "name": "Catherine  Alvares", "key": "/subjects/person:catherine__alvares"}, {"count": 1, "name": "Cecily Ross", "key": "/subjects/person:cecily_ross"}, {"count": 1, "name": "Daryl Vocat", "key": "/subjects/person:daryl_vocat"}, {"count": 1, "name": "Editor of Meyers and Kellner Publishing.", "key": "/subjects/person:editor_of_meyers_and_kellner_publishing."}, {"count": 1, "name": "Eric  Miranda", "key": "/subjects/person:eric__miranda"}, {"count": 1, "name": "Ernesto Contreras R.", "key": "/subjects/person:ernesto_contreras_r."}, {"count": 1, "name": "Founding Fathers", "key": "/subjects/person:founding_fathers"}, {"count": 1, "name": "George Washington", "key": "/subjects/person:george_washington"}, {"count": 1, "name": "Joan Lunden", "key": "/subjects/person:joan_lunden"}, {"count": 1, "name": "Joe Ollmann", "key": "/subjects/person:joe_ollmann"}, {"count": 1, "name": "Jos\u00e9 Bento Monteiro Lobato (1882-1948)", "key": "/subjects/person:jos\u00e9_bento_monteiro_lobato_(1882-1948)"}, {"count": 1, "name": "Judy Green", "key": "/subjects/person:judy_green"}, {"count": 1, "name": "Kazuko Yanagihara (1950-)", "key": "/subjects/person:kazuko_yanagihara_(1950-)"}, {"count": 1, "name": "Lynn Redgrave (1943)", "key": "/subjects/person:lynn_redgrave_(1943)"}, {"count": 1, "name": "Lynn Redgrave (1943-2010)", "key": "/subjects/person:lynn_redgrave_(1943-2010)"}, {"count": 1, "name": "M.D.", "key": "/subjects/person:m.d."}], "publishing_history": [[1558, 1], [1559, 2], [1560, 1], [1562, 1], [1564, 1], [1566, 1], [1568, 2], [1569, 1], [1572, 1], [1586, 1], [1587, 1], [1590, 1], [1592, 1], [1595, 4], [1596, 1], [1600, 2], [1602, 1], [1603, 1], [1611, 1], [1614, 1], [1615, 2], [1627, 1], [1629, 1], [1630, 1], [1631, 1], [1633, 1], [1637, 1], [1640, 1], [1644, 1], [1647, 1], [1651, 2], [1653, 2], [1654, 1], [1662, 1], [1664, 1], [1668, 3], [1670, 1], [1671, 1], [1672, 1], [1673, 1], [1674, 1], [1675, 3], [1678, 1], [1681, 1], [1682, 1], [1684, 1], [1685, 2], [1689, 1], [1702, 1], [1703, 1], [1704, 1], [1708, 1], [1711, 1], [1715, 1], [1723, 3], [1724, 1], [1725, 1], [1726, 1], [1728, 1], [1729, 1], [1730, 1], [1734, 1], [1737, 1], [1739, 1], [1740, 1], [1741, 1], [1742, 1], [1746, 1], [1747, 2], [1748, 1], [1749, 2], [1750, 3], [1751, 1], [1753, 1], [1755, 2], [1758, 1], [1759, 1], [1760, 1], [1761, 2], [1762, 1], [1763, 1], [1764, 1], [1765, 2], [1767, 1], [1768, 2], [1770, 3], [1774, 2], [1775, 1], [1776, 1], [1778, 1], [1781, 1], [1783, 2], [1784, 1], [1785, 1], [1788, 1], [1789, 1], [1790, 1], [1791, 2], [1792, 2], [1796, 1], [1797, 1], [1799, 3], [1800, 1], [1802, 2], [1803, 2], [1805, 1], [1806, 2], [1810, 1], [1812, 1], [1814, 2], [1815, 1], [1816, 3], [1817, 1], [1818, 1], [1819, 4], [1820, 1], [1823, 2], [1824, 2], [1825, 1], [1826, 2], [1827, 2], [1828, 1], [1829, 2], [1830, 1], [1831, 2], [1835, 1], [1836, 1], [1837, 3], [1841, 3], [1844, 1], [1845, 2], [1848, 1], [1850, 5], [1852, 2], [1853, 2], [1854, 2], [1855, 2], [1856, 5], [1857, 5], [1858, 2], [1859, 5], [1860, 7], [1861, 1], [1862, 4], [1864, 4], [1865, 3], [1866, 4], [1867, 4], [1868, 4], [1869, 5], [1870, 7], [1871, 1], [1872, 5], [1873, 7], [1874, 4], [1875, 5], [1876, 4], [1877, 5], [1878, 7], [1879, 4], [1880, 9], [1881, 3], [1882, 5], [1883, 6], [1884, 4], [1885, 1], [1886, 4], [1887, 5], [1888, 5], [1889, 4], [1890, 7], [1891, 2], [1892, 3], [1893, 4], [1894, 3], [1895, 5], [1896, 5], [1898, 4], [1899, 6], [1900, 8], [1901, 4], [1902, 3], [1903, 5], [1904, 2], [1905, 4], [1906, 5], [1907, 4], [1908, 4], [1909, 7], [1910, 5], [1911, 3], [1912, 6], [1913, 7], [1914, 3], [1915, 1], [1916, 1], [1917, 4], [1918, 5], [1919, 6], [1920, 8], [1921, 3], [1922, 4], [1923, 3], [1924, 5], [1925, 3], [1926, 3], [1927, 4], [1928, 2], [1931, 2], [1932, 3], [1933, 1], [1934, 1], [1935, 6], [1936, 1], [1937, 2], [1939, 2], [1940, 1], [1941, 3], [1942, 2], [1945, 3], [1946, 6], [1947, 1], [1948, 3], [1949, 3], [1950, 1], [1953, 1], [1954, 1], [1955, 5], [1956, 2], [1957, 7], [1958, 3], [1959, 2], [1960, 7], [1961, 7], [1962, 2], [1963, 6], [1964, 4], [1965, 7], [1966, 4], [1967, 12], [1968, 22], [1969, 19], [1970, 18], [1971, 24], [1972, 23], [1973, 23], [1974, 20], [1975, 31], [1976, 32], [1977, 43], [1978, 41], [1979, 64], [1980, 56], [1981, 59], [1982, 74], [1983, 84], [1984, 106], [1985, 106], [1986, 91], [1987, 101], [1988, 95], [1989, 117], [1990, 119], [1991, 100], [1992, 96], [1993, 113], [1994, 179], [1995, 178], [1996, 219], [1997, 216], [1998, 186], [1999, 135], [2000, 125], [2001, 114], [2002, 116], [2003, 157], [2004, 142], [2005, 147], [2006, 143], [2007, 137], [2008, 121], [2009, 140], [2010, 152], [2011, 112], [2012, 77], [2013, 16], [2014, 6], [2015, 4], [2016, 1]], "times": [{"count": 5, "name": "Early works to 1800", "key": "/subjects/time:early_works_to_1800"}, {"count": 3, "name": "Civil War, 1861-1865", "key": "/subjects/time:civil_war_1861-1865"}, {"count": 2, "name": "1950s", "key": "/subjects/time:1950s"}, {"count": 2, "name": "contemporary", "key": "/subjects/time:contemporary"}, {"count": 1, "name": "17th century", "key": "/subjects/time:17th_century"}, {"count": 1, "name": "18th Century", "key": "/subjects/time:18th_century"}, {"count": 1, "name": "18th century", "key": "/subjects/time:18th_century"}, {"count": 1, "name": "1920s to 1950s", "key": "/subjects/time:1920s_to_1950s"}, {"count": 1, "name": "1927", "key": "/subjects/time:1927"}, {"count": 1, "name": "1931", "key": "/subjects/time:1931"}, {"count": 1, "name": "1934", "key": "/subjects/time:1934"}, {"count": 1, "name": "1937", "key": "/subjects/time:1937"}, {"count": 1, "name": "1939", "key": "/subjects/time:1939"}, {"count": 1, "name": "1960s", "key": "/subjects/time:1960s"}, {"count": 1, "name": "1970's", "key": "/subjects/time:1970's"}, {"count": 1, "name": "1979", "key": "/subjects/time:1979"}, {"count": 1, "name": "1983", "key": "/subjects/time:1983"}, {"count": 1, "name": "2006-2008", "key": "/subjects/time:2006-2008"}, {"count": 1, "name": "Current.", "key": "/subjects/time:current."}, {"count": 1, "name": "Food Menu Planning and Fiunction Planning Ideas", "key": "/subjects/time:food_menu_planning_and_fiunction_planning_ideas"}, {"count": 1, "name": "Its a cook book for Sunset: recipes for 1998", "key": "/subjects/time:its_a_cook_book_for_sunset_recipes_for_1998"}, {"count": 1, "name": "Its a cook book.", "key": "/subjects/time:its_a_cook_book."}, {"count": 1, "name": "Nova Scotian food", "key": "/subjects/time:nova_scotian_food"}, {"count": 1, "name": "Nova Scotian history", "key": "/subjects/time:nova_scotian_history"}, {"count": 1, "name": "Present", "key": "/subjects/time:present"}], "languages": [{"count": 3644, "name": "eng"}, {"count": 193, "name": "chi"}, {"count": 69, "name": "spa"}, {"count": 34, "name": "fre"}, {"count": 31, "name": "jpn"}, {"count": 22, "name": "ger"}, {"count": 16, "name": "ita"}, {"count": 12, "name": "rus"}, {"count": 7, "name": "vie"}, {"count": 6, "name": "heb"}, {"count": 4, "name": "hun"}, {"count": 3, "name": "ara"}, {"count": 3, "name": "cze"}, {"count": 3, "name": "por"}, {"count": 3, "name": "und"}, {"count": 2, "name": "ben"}, {"count": 2, "name": "hin"}, {"count": 2, "name": "ind"}, {"count": 2, "name": "kor"}, {"count": 2, "name": "lat"}, {"count": 2, "name": "tam"}, {"count": 2, "name": "wel"}, {"count": 1, "name": "afr"}, {"count": 1, "name": "aze"}, {"count": 1, "name": "dan"}], "subjects": [{"count": 1690, "name": "Accessible book", "key": "/subjects/accessible_book"}, {"count": 1477, "name": "Protected DAISY", "key": "/subjects/protected_daisy"}, {"count": 1036, "name": "Diet therapy", "key": "/subjects/diet_therapy"}, {"count": 1020, "name": "Low-fat diet", "key": "/subjects/low-fat_diet"}, {"count": 969, "name": "In library", "key": "/subjects/in_library"}, {"count": 651, "name": "Reducing diets", "key": "/subjects/reducing_diets"}, {"count": 487, "name": "Low-calorie diet", "key": "/subjects/low-calorie_diet"}, {"count": 466, "name": "Cookery", "key": "/subjects/cookery"}, {"count": 415, "name": "Internet Archive Wishlist", "key": "/subjects/internet_archive_wishlist"}, {"count": 358, "name": "Diabetes", "key": "/subjects/diabetes"}, {"count": 357, "name": "Cooking", "key": "/subjects/cooking"}, {"count": 280, "name": "Low-cholesterol diet", "key": "/subjects/low-cholesterol_diet"}, {"count": 229, "name": "Nutrition", "key": "/subjects/nutrition"}, {"count": 198, "name": "Salt-free diet", "key": "/subjects/salt-free_diet"}, {"count": 173, "name": "Sugar-free diet", "key": "/subjects/sugar-free_diet"}, {"count": 166, "name": "Low-carbohydrate diet", "key": "/subjects/low-carbohydrate_diet"}, {"count": 162, "name": "Gluten-free diet", "key": "/subjects/gluten-free_diet"}, {"count": 153, "name": "Diseases", "key": "/subjects/diseases"}, {"count": 146, "name": "Desserts", "key": "/subjects/desserts"}, {"count": 144, "name": "Food", "key": "/subjects/food"}, {"count": 141, "name": "Cooking / Wine", "key": "/subjects/cooking__wine"}, {"count": 132, "name": "Nutritional aspects", "key": "/subjects/nutritional_aspects"}, {"count": 129, "name": "Weight loss", "key": "/subjects/weight_loss"}, {"count": 124, "name": "Food allergy", "key": "/subjects/food_allergy"}], "key": "/subjects/recipes", "authors": [{"count": 29, "name": "Girolamo Ruscelli", "key": "/authors/OL159569A"}, {"count": 27, "name": "Weight Watchers International", "key": "/authors/OL2728576A"}, {"count": 21, "name": "Betty Crocker", "key": "/authors/OL27838A"}, {"count": 18, "name": "JoAnna M. Lund", "key": "/authors/OL33399A"}, {"count": 16, "name": "Mary Jane Finsand", "key": "/authors/OL721993A"}, {"count": 14, "name": "Sue Spitler", "key": "/authors/OL229607A"}, {"count": 14, "name": "Jones, Jeanne.", "key": "/authors/OL238044A"}, {"count": 14, "name": "Better Homes and Gardens", "key": "/authors/OL2727286A"}, {"count": 13, "name": "American Heart Association", "key": "/authors/OL5159216A"}, {"count": 12, "name": "Mingquan Peng", "key": "/authors/OL4165529A"}, {"count": 12, "name": "Publications International, Ltd", "key": "/authors/OL6822137A"}, {"count": 11, "name": "Corinne T. Netzer", "key": "/authors/OL186120A"}, {"count": 11, "name": "Steven Raichlen", "key": "/authors/OL223966A"}, {"count": 11, "name": "Sandra L. Woodruff", "key": "/authors/OL234469A"}, {"count": 11, "name": "Ruth Glick", "key": "/authors/OL235466A"}, {"count": 10, "name": "Arthur Agatston", "key": "/authors/OL1399936A"}, {"count": 10, "name": "Weight Watchers", "key": "/authors/OL2625905A"}, {"count": 9, "name": "June Roth", "key": "/authors/OL1123354A"}, {"count": 9, "name": "Doris Cross", "key": "/authors/OL229425A"}, {"count": 9, "name": "Sarah Mountbatten-Windsor Duchess of York", "key": "/authors/OL241347A"}, {"count": 9, "name": "Anne Sheasby", "key": "/authors/OL25373A"}, {"count": 9, "name": "Dick Logue", "key": "/authors/OL3889187A"}, {"count": 9, "name": "Bobbie Hinman", "key": "/authors/OL394226A"}, {"count": 8, "name": "Barbara Gibbons", "key": "/authors/OL1011091A"}, {"count": 8, "name": "A. W. Chase", "key": "/authors/OL1092123A"}], "ebook_count": 1666, "works": [{"printdisabled": false, "cover_id": 779526, "ia_collection": ["leedsuniversitylibrary", "ukmhl", "europeanlibraries", "medicalheritagelibrary"], "has_fulltext": true, "edition_count": 45, "checked_out": false, "title": "The art of cookery, made plain and easy", "public_scan": true, "cover_edition_key": "OL8597867M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL1646026W", "authors": [{"name": "Hannah Glasse", "key": "/authors/OL183688A"}], "ia": "b21527350", "lending_identifier": "", "subject": ["English Cookery", "Cookery, English", "Accessible book", "Recipes", "Medicine, Popular", "Early works to 1800", "English Cooking", "Popular Medicine", "Cookery"]}, {"printdisabled": false, "cover_id": 8118929, "ia_collection": ["cornell", "cdl", "americana"], "has_fulltext": true, "edition_count": 28, "checked_out": false, "title": "Henley's twentieth century formulas, recipes and processes", "public_scan": true, "cover_edition_key": "OL6981576M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL6728730W", "authors": [{"name": "Gardner Dexter Hiscox", "key": "/authors/OL1822207A"}], "ia": "cu31924004933945", "lending_identifier": "", "subject": ["Recipes", "Accessible book", "Formularies", "Industrial arts", "Receipts"]}, {"printdisabled": false, "cover_id": null, "ia_collection": [], "has_fulltext": false, "edition_count": 18, "checked_out": false, "title": "Primitive physick", "public_scan": false, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL996947W", "authors": [{"name": "John Wesley", "key": "/authors/OL92736A"}], "ia": null, "lending_identifier": "", "subject": ["Recipes", "Popular Medicine"]}, {"printdisabled": false, "cover_id": 6307701, "ia_collection": ["thomasfishercanadiana", "toronto", "americana", "library_of_congress", "cdl", "thomasfisher"], "has_fulltext": true, "edition_count": 17, "checked_out": false, "title": "Dr. Chase's recipes", "public_scan": true, "cover_edition_key": "OL6987114M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL5022704W", "authors": [{"name": "A. W. Chase", "key": "/authors/OL1092123A"}], "ia": "drchasesrecipeso00chas_1", "lending_identifier": "", "subject": ["Accessible book", "Recipes", "Formulas, recipes", "Popular Medicine"]}, {"printdisabled": false, "cover_id": null, "ia_collection": [], "has_fulltext": false, "edition_count": 15, "checked_out": false, "title": "The queen-like closet, or, Rich cabinet", "public_scan": false, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL5225487W", "authors": [{"name": "Hannah Woolley", "key": "/authors/OL1171964A"}], "ia": null, "lending_identifier": "", "subject": ["Home economics", "English Cookery", "Recipes", "Early works to 1800", "Popular Medicine", "Cookery", "Traditional medicine"]}, {"printdisabled": false, "cover_id": 5756632, "ia_collection": ["toronto", "university_of_alberta_libraries", "medicalheritagelibrary", "microfilm", "university_of_alberta_libraries_microfilm", "additional_collections"], "has_fulltext": true, "edition_count": 13, "checked_out": false, "title": "Dr. Chase's recipes, or, Information for everybody", "public_scan": true, "cover_edition_key": "OL23296156M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL5022703W", "authors": [{"name": "A. W. Chase", "key": "/authors/OL1092123A"}], "ia": "cihm_01773", "lending_identifier": "", "subject": ["Encyclop\u00e9dies et dictionnaires", "Handbooks, vade-mecums", "Popular works Medicine", "Traditional medicine", "Recipes", "M\u00e9dicine", "Encyclopedias and dictionaries", "Popular Medicine", "Ouvrages de vulgarisation", "Formulas, recipes", "Accessible book", "Conseils pratiques, recettes, trucs"]}, {"printdisabled": false, "cover_id": 6024977, "ia_collection": ["toronto", "university_of_alberta_libraries", "americana", "microfilm", "university_of_alberta_libraries_microfilm", "getty", "additional_collections"], "has_fulltext": true, "edition_count": 12, "checked_out": false, "title": "The artizans' guide and everybody's assistant", "public_scan": true, "cover_edition_key": "OL23279001M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL233564W", "authors": [{"name": "Moore, R.", "key": "/authors/OL2510814A"}], "ia": "cihm_28164", "lending_identifier": "", "subject": ["Handbooks, vade-mecums", "Guides, vade-mecum", "M\u00e9tiers", "Ateliers", "Technologie", "Recipes", "Proc\u00e9d\u00e9s", "Accessible book", "Conseils pratiques, recettes, trucs", "Formulas, recipes", "Technology", "Industrial arts", "Workshop recipes"]}, {"printdisabled": false, "cover_id": null, "ia_collection": [], "has_fulltext": false, "edition_count": 11, "checked_out": false, "title": "The secrets of Alexis", "public_scan": false, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL1496628W", "authors": [{"name": "Girolamo Ruscelli", "key": "/authors/OL159569A"}], "ia": null, "lending_identifier": "", "subject": ["Formulae, receipts, prescriptions", "Pharmacy", "Early works to 1800", "Medicine", "Formulas, recipes", "Recipes"]}, {"printdisabled": false, "cover_id": null, "ia_collection": [], "has_fulltext": false, "edition_count": 11, "checked_out": false, "title": "The compleat housewife", "public_scan": false, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL4734066W", "authors": [{"name": "Smith, E.", "key": "/authors/OL985720A"}], "ia": null, "lending_identifier": "", "subject": ["Home economics", "English Cookery", "Formulae, receipts, prescriptions", "Recipes", "Early works to 1800", "Popular Medicine", "Medicine", "Cookery"]}, {"printdisabled": true, "cover_id": 4801741, "ia_collection": ["printdisabled", "americana", "internetarchivebooks", "inlibrary", "china", "browserlending"], "has_fulltext": true, "edition_count": 10, "checked_out": true, "title": "The yeast connection", "public_scan": false, "cover_edition_key": "OL2429092M", "lendinglibrary": false, "lending_edition": "OL2951581M", "first_publish_year": null, "key": "/works/OL2994140W", "authors": [{"name": "William G. Crook", "key": "/authors/OL458854A"}], "ia": "yeastconnectionm00croo_1", "lending_identifier": "yeastconnection00croo", "subject": ["Administration & dosage", "In library", "Protected DAISY", "Food allergy", "Mycotoxicoses", "Accessible book", "Allergy", "Candidiasis", "Low-carbohydrate diet", "Hypersensitivity", "Complications", "Diet therapy", "Complications and sequelae", "Mushroom Poisoning", "Popular works", "Recipes", "Dietary Carbohydrates"]}, {"printdisabled": true, "cover_id": 6803992, "ia_collection": ["printdisabled", "internetarchivebooks", "inlibrary", "china", "librarygenesis", "browserlending"], "has_fulltext": true, "edition_count": 10, "checked_out": false, "title": "The top 100 Zone foods", "public_scan": false, "cover_edition_key": "OL24750248M", "lendinglibrary": false, "lending_edition": "OL17008235M", "first_publish_year": null, "key": "/works/OL15840537W", "authors": [{"name": "Barry Sears", "key": "/authors/OL287932A"}], "ia": "top100zonefoodsz00sear", "lending_identifier": "top100zonefoodsz00sear", "subject": ["Nutrition", "In library", "Health & Fitness", "Recipes", "Reducing diets", "OverDrive", "Nonfiction", "Protected DAISY", "Accessible book"]}, {"printdisabled": true, "cover_id": 45374, "ia_collection": ["printdisabled", "china", "americana", "internetarchivebooks"], "has_fulltext": true, "edition_count": 9, "checked_out": false, "title": "The 8-week cholesterol cure", "public_scan": false, "cover_edition_key": "OL9242728M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL2985976W", "authors": [{"name": "Robert E. Kowalski", "key": "/authors/OL457231A"}], "ia": "8weekcholesterol00kowa", "lending_identifier": "", "subject": ["Administration & dosage", "Coraz\u00f3n", "Nutrition", "Diseases", "Terap\u00e9utica diet\u00e9tica", "Heart", "Low-cholesterol diet", "Accessible book", "Protected DAISY", "Enfermedades", "Heart Diseases", "Prevenci\u00f3n", "Dieta bajas en colesterol", "Diet therapy", "Cholesterol", "Health", "Dietary Cholesterol", "Recipes", "Prevention", "Prevention & control"]}], "work_count": 4270});
+//-->
+</script>
+
+
+<script type="text/javascript">
+<!--
+page.displayCovers = function(pagenum) {
+    page.loadPage(pagenum, function(data) {
+        $("#coversCarousel").empty().html(page.renderCovers(data));
+    });
+};
+
+function loadCoverCarousels(carousel, state) {
+    if (!page.coverCarousel) {
+        page.coverCarousel = carousel;
+        page.coverCarousel.size(page.getPageCount());
+    }
+    var index = carousel.first;
+    page.pos = (index-1)*12;
+
+    if (window.set_hash) {
+         var _p = (index == 1) ? null : index;
+        set_hash({"page": _p});
+    }
+
+    if (carousel.has(index)) {
+        return;
+    }
+    carousel.add(index, "<h3>Loading books...</h3>");
+    page.loadPage(index-1, function(data) {
+        carousel.add(index, page.renderCovers(data));
+        updateBookAvailability('#coversCarousel li ');
+    });
+}
+
+$().ready(function() {
+    page.renderCovers = render_page;
+    page.displayCovers(0);
+});
+
+$().ready(carousels);
+$().ready(function() {
+    carouselSetup(loadCoverCarousels);
+    $('.jcarousel-next').attr('title','View the next editions').append('<h4 class="shift"><a href="#" onclick="return false;">View the next editions</a></h4>');
+    $('.jcarousel-prev').attr('title','View the previous editions').append('<h4 class="shift"><a href="#" onclick="return false;">View the previous editions</a></h4>');
+});
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+function get_authors(work) {
+        var authors = [];
+        for (var i=0; i < work.authors.length; i++) {
+                authors.push(work.authors[i].name);
+        }
+        return authors.join(", ");
+}
+//-->
+</script>
+
+<script> var inlibrary = true; </script>
+
+<script> var all_borrow = false; </script>
+
+<script type="text/javascript">
+    function contains(array, value) {
+        return $.inArray(value, array) >= 0;
+    }
+</script>
+
+<script type="text/javascript"><!--
+function render_page(page){
+    var self = [], loop;
+    foreach(page.works, loop, function(loop, w) {
+        self.push("<div class=\"coverMagic\">\n");
+        if (w.cover_id) {
+            self.push("<div class=\"SRPCover\">\n");
+            self.push("    <a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\">\n");
+            self.push("      <img src=\"//covers.openlibrary.org/b/id/"); self.push(websafe(w.cover_id)); self.push("-M.jpg\" alt=\""); self.push(websafe(w.title)); self.push(" by "); self.push(websafe(get_authors(w))); self.push("\" class=\"cover\"/>\n");
+            self.push("    </a>\n");
+            self.push("</div>\n");
+        }
+        else if (w.ia) {
+            self.push("<div class=\"SRPCover\">\n");
+            self.push("    <a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\"><img src=\"//covers.openlibrary.org/b/ia/"); self.push(websafe(w.ia)); self.push("-M.jpg?default=https://openlibrary.org/images/icons/avatar_book.png\" alt=\""); self.push(websafe(w.title)); self.push(" by "); self.push(websafe(get_authors(w))); self.push("\" class=\"cover\"/></a>\n");
+            self.push("</div>\n");
+        }
+        else  {
+            self.push("<a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\">\n");
+            self.push("    <div class=\"SRPCoverBlank\" style=\"display:block;\">\n");
+            self.push("        <div class=\"innerBorder\">\n");
+            self.push("            <div class=\"BookTitle\">"); self.push(websafe(truncate(w.title, 40))); self.push("\n");
+            self.push("                <div class=\"Author\">"); self.push(websafe(truncate(get_authors(w), 40))); self.push("</div>\n");
+            self.push("            </div>\n");
+            self.push("        </div>\n");
+            self.push("    </div>\n");
+            self.push("</a>\n");
+            self.push("\n");
+        }
+        var borrowable = all_borrow || contains(w.subject, 'Lending library') || (inlibrary && contains(w.subject, 'In library'));
+        if (! all_borrow && w.ia && w.public_scan) {
+            self.push("<div class=\"coverEbook\">\n");
+            self.push("  <a href=\"//archive.org/stream/"); self.push(websafe(w.ia)); self.push("?ref=ol\" title=\""); self.push(websafe(_('Read online'))); self.push("\" class=\"borrow_available cta-btn\">\n");
+            self.push("    Read\n");
+            self.push("  </a>\n");
+            self.push("</div>\n");
+        }
+        else  {
+            self.push("<div class=\"coverEbook\">\n");
+            self.push("  <a href=\"/books/"); self.push(websafe(w.lending_edition)); self.push("/x/borrow\" class=\"borrow-link\"\n");
+            self.push("     title=\"Borrow this book\" data-key=\""); self.push(websafe((w.key))); self.push("\" data-ocaid=\""); self.push(websafe((w.ia))); self.push("\">\n");
+            self.push("    <span class=\"borrow\"></span>\n");
+            self.push("  </a>\n");
+            self.push("</div>\n");
+        }
+        self.push("</div>\n");
+        self.push("\n");
+    });
+    return self.join("");
+}
+//--></script>
+<div id="contentLists" class="results">
+    <div class="covers" id="resultsCovers">
+        <ul id="coversCarousel" class="jcarousel-skin-OL">
+            <li><div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL1646026W" title="The art of cookery, made plain and easy by Hannah Glasse, 45 editions">
+          <img src="https://covers.openlibrary.org/b/id/779526-M.jpg" alt="The art of cookery, made plain and easy by Hannah Glasse" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/b21527350?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL6728730W" title="Henley&#39;s twentieth century formulas, rec... by Gardner Dexter Hiscox, 28 editions">
+          <img src="https://covers.openlibrary.org/b/id/8118929-M.jpg" alt="Henley&#39;s twentieth century formulas, recipes and processes by Gardner Dexter Hiscox" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/cu31924004933945?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <a href="https://openlibrary.org/works/OL996947W" title="Primitive physick by John Wesley, 18 editions">
+        <div class="SRPCoverBlank" style="display:block;">
+            <div class="innerBorder">
+                <div class="BookTitle">Primitive physick
+                    <div class="Author">John Wesley</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books//x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL996947W" data-ocaid="">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL5022704W" title="Dr. Chase&#39;s recipes by A. W. Chase, 17 editions">
+          <img src="https://covers.openlibrary.org/b/id/6307701-M.jpg" alt="Dr. Chase&#39;s recipes by A. W. Chase" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/drchasesrecipeso00chas_1?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <a href="https://openlibrary.org/works/OL5225487W" title="The queen-like closet, or, Rich cabinet by Hannah Woolley, 15 editions">
+        <div class="SRPCoverBlank" style="display:block;">
+            <div class="innerBorder">
+                <div class="BookTitle">The queen-like closet, or, Rich cabinet
+                    <div class="Author">Hannah Woolley</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books//x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL5225487W" data-ocaid="">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL5022703W" title="Dr. Chase&#39;s recipes, or, Information for... by A. W. Chase, 13 editions">
+          <img src="https://covers.openlibrary.org/b/id/5756632-M.jpg" alt="Dr. Chase&#39;s recipes, or, Information for everybody by A. W. Chase" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/cihm_01773?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL233564W" title="The artizans&#39; guide and everybody&#39;s assi... by Moore, R., 12 editions">
+          <img src="https://covers.openlibrary.org/b/id/6024977-M.jpg" alt="The artizans&#39; guide and everybody&#39;s assistant by Moore, R." class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/cihm_28164?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <a href="https://openlibrary.org/works/OL1496628W" title="The secrets of Alexis by Girolamo Ruscelli, 11 editions">
+        <div class="SRPCoverBlank" style="display:block;">
+            <div class="innerBorder">
+                <div class="BookTitle">The secrets of Alexis
+                    <div class="Author">Girolamo Ruscelli</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books//x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL1496628W" data-ocaid="">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <a href="https://openlibrary.org/works/OL4734066W" title="The compleat housewife by Smith, E., 11 editions">
+        <div class="SRPCoverBlank" style="display:block;">
+            <div class="innerBorder">
+                <div class="BookTitle">The compleat housewife
+                    <div class="Author">Smith, E.</div>
+                </div>
+            </div>
+        </div>
+    </a>
+    
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books//x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL4734066W" data-ocaid="">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL2994140W" title="The yeast connection by William G. Crook, 10 editions">
+          <img src="https://covers.openlibrary.org/b/id/4801741-M.jpg" alt="The yeast connection by William G. Crook" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books/OL2951581M/x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL2994140W" data-ocaid="yeastconnectionm00croo_1">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL15840537W" title="The top 100 Zone foods by Barry Sears, 10 editions">
+          <img src="https://covers.openlibrary.org/b/id/6803992-M.jpg" alt="The top 100 Zone foods by Barry Sears" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books/OL17008235M/x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL15840537W" data-ocaid="top100zonefoodsz00sear">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL2985976W" title="The 8-week cholesterol cure by Robert E. Kowalski, 9 editions">
+          <img src="https://covers.openlibrary.org/b/id/45374-M.jpg" alt="The 8-week cholesterol cure by Robert E. Kowalski" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://openlibrary.org/books//x/borrow" class="borrow-link"
+         title="Borrow this book" data-key="/works/OL2985976W" data-ocaid="8weekcholesterol00kowa">
+        <span class="borrow"></span>
+      </a>
+    </div>
+</div>
+
+</li>
+        </ul>
+        <div id="coversLoading" class="hidden"><h3>Loading books...</h3></div>
+        <div id="coversNone" class="hidden"><h2>Open Library is unaware of any <span class="bookType">editions</span> about <span class="bookSubject">this subject</span> <span class="clickdata"></span> <a href="javascript:;" class="resetSelection">Zoom out again</a>?</h2></div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<div id="contentMeta" style="padding-top:0;">
+
+  <div class="head">
+    <h2 style="margin-bottom:0px!important;">
+      Publishing History
+      <span class="shift">This is a chart to show the publishing history of editions of works about this subject. Along the X axis is time, and on the y axis is the count of editions published. <a href="#subjectRelated">Click here to skip the chart</a>.</span>
+      <span class="count hidden chartZoom">&nbsp;<a href="javascript:;" class="resetSelection small">Reset chart</a> or continue zooming in.</span>
+      <span class="count chartUnzoom">&nbsp;This graph charts editions published on this subject. Click to view a single year, or drag across a range.</span>
+    </h2>
+  </div>
+
+<script type="text/javascript">
+<!--
+function parse_hash() {
+    try {
+        var hash = document.location.hash || "#";
+        var tokens = hash.substr(1).split("&");
+        var d = {};
+        for (var i in tokens) {
+            if (tokens[i]) {
+                var kv = tokens[i].split("=");
+                d[kv[0]] = kv[1];
+            }
+        }
+        return d;
+    }
+    catch (error) {
+        // Work-around for IE weirdness
+        return {};
+    }
+}
+
+function set_hash(data) {
+    var d = parse_hash();
+
+    for (var k in data) {
+        if (data[k])
+            d[k] = data[k];
+        else
+            delete d[k];
+    }
+
+    var tokens = [];
+    for (var k in d) {
+        tokens[tokens.length] = k + "=" + d[k];
+    }
+
+    var hash = "#" + tokens.join("&");
+    var current_hash = document.location.hash || "#";
+
+    if (hash == current_hash)
+        return;
+    document.location.hash = hash;
+}
+
+$().ready(function() {
+    var _hash = parse_hash();
+
+    if (_hash.ebooks === 'true') {
+        handle_ebooks(_hash)
+    }
+
+    var data = [{data: page.publishing_history}];
+    var options = {
+       series: {
+            bars: {
+                show: true,
+                fill: 0.6,
+                color: "#ffa337",
+                align: "center"
+            },
+            points: {
+                show: true
+            },
+            color: "#ffa337"
+        },
+        grid: {
+            hoverable: true,
+            clickable: true,
+            autoHighlight: true,
+            tickColor: "#d9d9d9",
+            borderWidth: 1,
+            borderColor: "#d9d9d9",
+            backgroundColor: "#fff"
+        },
+        xaxis: { tickDecimals: 0 },
+        yaxis: { tickDecimals: 0 },
+        selection: { mode: "xy", color: "#00636a" },
+        crosshair: {
+            mode: "xy",
+            color: "rgba(000, 099, 106, 0.4)",
+            lineWidth: 1
+        }
+    };
+
+    var placeholder = $("#chartPubHistory");
+    function showTooltip(x, y, contents) {
+        $('<div id="chartLabel">' + contents + '</div>').css( {
+            position: 'absolute',
+            display: 'none',
+            top: y + 12,
+            left: x + 12,
+            border: '1px solid #ffa337',
+            padding: '2px',
+            'background-color': '#fffdcd',
+            color: '#615132',
+            'font-size': '11px',
+            opacity: 0.90
+        }).appendTo("body").customFadeIn(200);
+    };
+    var previousPoint = null;
+    placeholder.bind("plothover", function (event, pos, item) {
+        $("#x").text(pos.x.toFixed(0));
+        $("#y").text(pos.y.toFixed(0));
+        if (item) {
+            if (previousPoint != item.datapoint) {
+                previousPoint = item.datapoint;
+                $("#chartLabel").remove();
+                var x = item.datapoint[0].toFixed(0),
+                    y = item.datapoint[1].toFixed(0);
+                if (y == 1) {
+                    showTooltip(item.pageX, item.pageY,
+                                y + " edition in " + x);
+                } else {
+                    showTooltip(item.pageX, item.pageY,
+                                y + " editions in " + x);
+                };
+            }
+        }
+        else {
+            $("#chartLabel").remove();
+            previousPoint = null;
+        }
+    });
+    placeholder.bind("plotclick", function (event, pos, item) {
+        $.scrollTo( $('#scrollHere'), 800);
+        if (page.getPageCount() > 0) {$("#coversNone").hide();};
+        $("#coversLoading").show();
+        $(".jcarousel-prev").hide();
+        $(".jcarousel-next").hide();
+
+        if (item) {
+            plot.unhighlight();
+            var x = item.datapoint[0].toFixed(0),
+                y = item.datapoint[1].toFixed(0);
+            page.addFilter({"published_in": item.datapoint[0]}, reset);
+            plot.highlight(item.series,item.datapoint);
+        }
+        else {
+            page.addFilter({"published_in": page._published_in}, reset);
+            plot.unhighlight();
+        }
+    });
+
+    placeholder.bind("plotselected", function (event, ranges) {
+        plot = $.plot(placeholder, data,
+            $.extend(true, {}, options, {
+                xaxis: { min: ranges.xaxis.from, max: ranges.xaxis.to },
+                yaxis: { min: ranges.yaxis.from, max: ranges.yaxis.to }
+            })
+        );
+
+        var yearFrom = ranges.xaxis.from.toFixed(0);
+        var yearTo = ranges.xaxis.to.toFixed(0);
+        $.scrollTo( $('#scrollHere'), 800);
+        if (page.getPageCount() > 0) {$("#coversNone").hide();};
+        $("#coversLoading").show();
+        $(".jcarousel-prev").hide();
+        $(".jcarousel-next").hide();
+        page.addFilter({"published_in": yearFrom + "-" + yearTo}, reset);
+    });
+    var plot = $.plot(placeholder, data, options);
+    var dateFrom = plot.getAxes().xaxis.min.toFixed(0);
+    var dateTo = plot.getAxes().xaxis.max.toFixed(0);
+
+    $(".resetSelection").click(function(){
+        $.plot(placeholder, data, options);
+        if (page.getPageCount() > 0) {$("#coversNone").hide();};
+        $("#coversLoading").show();
+        $(".jcarousel-prev").hide();
+        $(".jcarousel-next").hide();
+        page.reset(reset);
+    });
+
+    page._published_in = null;
+
+    function resetAndReplot() {
+        $.plot(placeholder, [{data: page.publishing_history}], options);
+        reset();
+    }
+
+    function resetCounts() {
+        var hash = {};
+        var counts = $("<span></span>");
+
+        var x = sprintf(ungettext("%s work", "%s works", page.work_count), commify(page.work_count));
+        var y = sprintf(ungettext("%s ebook", "%s ebooks", page.ebook_count), commify(page.ebook_count));
+
+        if (page.has_fulltext == "true") {
+            counts.append('<a class="bookcount" href="javascript:;"></a>').find("a:last").text(x);
+            counts.append(" / ");
+            counts.append('<strong></strong>').find("strong:last").text(y);
+            hash.ebooks = "true";
+        }
+        else {
+            counts.append('<strong></strong>').find("strong:last").text(x);
+            counts.append(" / ");
+            if (page.ebook_count > 0) {
+                counts.append('<a class="ebookcount" href="javascript:;"></a>').find("a:last").text(y);
+            } else {
+                counts.append('<span class="ebookcount"></span>').find("span.ebookcount:last").text(y);
+            }
+            hash.ebooks = null;
+        }
+        counts.append("&nbsp;");
+        counts.append('<span class="clickdata"></span>');
+
+        var yearFrom, yearTo;
+        if (page.filter.published_in) {
+            var y = "" + page.filter.published_in;
+            if (y.indexOf("-") > 0) {
+                var tokens = y.split("-");
+                yearFrom = tokens[0];
+                yearTo = tokens[1];
+                page._published_in = page.filter.published_in;
+            }
+            else {
+                yearFrom = yearTo = y;
+            }
+            
+            hash.published_in = y;
+            
+            $(".chartUnzoom").hide();
+            $(".chartZoom").show();
+        }
+        else {
+            page._published_in = null;
+            
+            yearFrom = page.publishing_history[0][0];
+            yearTo = page.publishing_history[page.publishing_history.length-1][0];
+            
+            hash.published_in = null;
+            
+            $(".chartZoom").hide();
+            $(".chartUnzoom").show();
+        }
+
+        $("#coversCount").html(counts.html());
+
+        if (yearFrom == yearTo) {
+            $(".clickdata").text(sprintf(_("published in %s."), yearFrom));
+        }
+        else {
+            $(".clickdata").text(sprintf(_("published between %s & %s."), yearFrom, yearTo-1));
+        }
+        
+        if (page.sort == 'new') {
+            hash.sort = 'date_published';
+            
+            $("#sortByNew").show();
+            $("#sortByEdition").hide();
+        }
+        else if (page.sort == 'editions') {
+            hash.sort = 'edition_count';
+            
+            $("#sortByNew").hide();
+            $("#sortByEdition").show();
+        }
+        set_hash(hash);
+    }
+
+    function resetCarousel() {
+        $("#coversCarousel").html("");
+        if(page.coverCarousel && page.coverCarousel.scroll) {
+            page.coverCarousel.scroll(1, false);
+            page.coverCarousel.size(page.getPageCount());
+            page.coverCarousel.reload();
+        }
+        $("#coversNone").hide();
+        if (page.getPageCount() == 0) {
+            $("#coversLoading").customFadeOut();
+            $("#coversNone").customFadeIn();
+            if (page.has_fulltext == "true") {
+                $("span.bookType").text("eBooks");
+            } else {
+                $("span.bookType").text("editions");
+            };
+            $("span.bookSubject").text("Recipes");
+        };
+    }
+
+    function resetFacets() {
+        $("#resultsPublishers div.unordered").html(renderPublishers(page.publishers));
+        $("#resultsAuthors div.unordered").html(renderAuthors(page.authors));
+        
+        $("#subjects-subjects").html(renderSubjects(page.subjects.slice(0, 20)));
+        $("#subjects-places").html(renderSubjects(page.places.slice(0, 20)));
+        $("#subjects-people").html(renderSubjects(page.people.slice(0, 10)));
+        $("#subjects-times").html(renderSubjects(page.times.slice(0, 10)));
+    }
+
+    window.resetCarousel = resetCarousel;
+    window.resetCounts = resetCounts;
+
+    function reset() {
+        resetCarousel();
+        resetCounts();
+        resetFacets();
+        
+        if (page.getPageCount() > 0) {
+            $("#coversNone").hide();
+        };
+        $("#coversLoading").customFadeOut();
+        $(".jcarousel-prev").customFadeIn();
+        $(".jcarousel-next").customFadeIn();
+        $("#coversCount").animate({backgroundColor:'#ffa337'},500).animate({backgroundColor:'#fff'},2000);
+    }
+
+    if (jQuery.support.opacity) {
+        $(".chartYaxis").css({'top' : '60px', 'left' : '-60px'})
+    } else {
+        $(".chartYaxis").css({'top' : '0', 'left' : '0'})
+    };
+
+    if (dateFrom == (dateTo - 1)) {
+        $(".clickdata").text("published in " + dateFrom);
+    } else {
+        $(".clickdata").text("published between " + dateFrom + " & " + (dateTo-1) + ".");
+    };
+
+    // ebooks
+
+    $("a.ebookcount").live("click", function() {
+        page.setFulltext("true");
+        resetCarousel();
+        resetCounts();
+        $("#coversCount strong").animate({backgroundColor:'#ffa337'},500).animate({backgroundColor:'#fff'},2000);
+    })
+
+    $("a.bookcount").live("click", function() {
+        page.setFulltext("false");
+        resetCarousel();
+        resetCounts();
+        $("#coversCount strong").animate({backgroundColor:'#ffa337'},500).animate({backgroundColor:'#fff'},2000);
+    })
+
+    // sort
+
+    $("a.sortEditionCount").live("click", function() {
+        page.setSort("editions");
+        $("#sortByNew").hide();
+        $("#sortByEdition").show();
+        resetCarousel();
+        resetCounts();
+    });
+
+    $("a.sortFirstPublish").live("click", function() {
+        page.setSort("new");
+        $("#sortByNew").show();
+        $("#sortByEdition").hide();
+        resetCarousel();
+        resetCounts();
+    });
+
+    // handle hash
+
+    function handle_ebooks(hash) {
+        if (hash.ebooks == "true") {
+            page.setFulltext("true");
+            resetCarousel();
+            resetCounts();
+        }
+    }
+
+    function handle_page(hash) {
+        $.log(["handle_page", _hash]);
+
+        var index = parseInt(hash.page);
+        if(index && index > 0) {
+            page.coverCarousel.scroll(index, false);
+        }
+    }
+
+    function handle_published_in(hash) {
+        if (!hash.published_in) {
+            return;
+        }
+
+        var yearFrom, yearTo;
+
+        var y = hash.published_in;
+        if (y.indexOf("-") > 0) {
+            var tokens = y.split("-");
+            yearFrom = tokens[0];
+            yearTo = tokens[1];
+
+            var _options = $.extend({}, options, {
+                xaxis: {min: yearFrom, max: yearTo}
+            });
+        }
+        else {
+            yearFrom = yearTo = y;
+            var _options = options;
+        }
+
+        if (parseInt(yearFrom) && parseInt(yearTo)) {
+            page.addFilter({"published_in": hash.published_in}, function() {
+                reset();
+                handle_page(hash);
+                var plot = $.plot(placeholder, data, _options);
+            });
+        }
+    }
+
+    function handle_sort(hash) {
+        if (!hash.sort) {
+            return;
+        }
+
+        if (hash.sort == 'date_published') {
+            page.setSort('new');
+            resetCarousel();
+            resetCounts();
+        }
+        else if (hash.sort == 'edition_count') {
+            page.setSort('editions');
+            resetCarousel();
+            resetCounts();
+        }
+    }
+
+    handle_sort(_hash);
+    handle_ebooks(_hash);
+    handle_published_in(_hash);
+    handle_page(_hash);
+});
+
+//-->
+</script>
+
+    <div class="chart" style="width:898px;height:140px;">
+        <div id="chartPubHistory" class="thisChart" style="width:898px;height:140px;">
+            <noscript>You need to have JavaScript turned on to see the nifty chart!</noscript>
+        </div>
+        <div class="chartYaxis" style="width:140px;">Editions Published</div>
+        <div class="chartXaxis">Year of Publication</div>
+    </div>
+
+    <div class="clearfix"></div>
+    
+    <div class="head" id="subjectRelated">
+      <h2>Related...
+        <!--
+            <span class="count">        <a href="/search?subject_facet=Recipes">Search within Recipes</a></span>
+            -->
+      </h2>
+    </div>
+
+<script type="text/javascript"><!--
+function renderSubjects(subjects){
+    var self = [], loop;
+    if (len(subjects) > 0) {
+        self.push("<span class=\"subject\">\n");
+        foreach(subjects, loop, function(loop, s) {
+            self.push("<a href=\""); self.push(websafe(s.key)); self.push("\">"); self.push(websafe(s.name)); self.push("</a>"); self.push(websafe(cond(loop.last, '', ','))); self.push("\n");
+        });
+        self.push("</span>\n");
+    }
+    else  {
+        self.push("<span class=\"title\"><em>"); self.push(websafe(_("None found."))); self.push("</em></span>\n");
+        self.push("\n");
+    }
+    return self.join("");
+}
+//--></script>
+    <div class="contentQuarter">
+      <h6 class="black collapse uppercase">subjects</h6>
+      <div class="subjects" id="subjects-subjects">
+            <span class="subject">
+    <a href="https://openlibrary.org/subjects/accessible_book">Accessible book</a>,
+    <a href="https://openlibrary.org/subjects/protected_daisy">Protected DAISY</a>,
+    <a href="https://openlibrary.org/subjects/diet_therapy">Diet therapy</a>,
+    <a href="https://openlibrary.org/subjects/low-fat_diet">Low-fat diet</a>,
+    <a href="https://openlibrary.org/subjects/in_library">In library</a>,
+    <a href="https://openlibrary.org/subjects/reducing_diets">Reducing diets</a>,
+    <a href="https://openlibrary.org/subjects/low-calorie_diet">Low-calorie diet</a>,
+    <a href="https://openlibrary.org/subjects/cookery">Cookery</a>,
+    <a href="https://openlibrary.org/subjects/internet_archive_wishlist">Internet Archive Wishlist</a>,
+    <a href="https://openlibrary.org/subjects/diabetes">Diabetes</a>,
+    <a href="https://openlibrary.org/subjects/cooking">Cooking</a>,
+    <a href="https://openlibrary.org/subjects/low-cholesterol_diet">Low-cholesterol diet</a>,
+    <a href="https://openlibrary.org/subjects/nutrition">Nutrition</a>,
+    <a href="https://openlibrary.org/subjects/salt-free_diet">Salt-free diet</a>,
+    <a href="https://openlibrary.org/subjects/sugar-free_diet">Sugar-free diet</a>,
+    <a href="https://openlibrary.org/subjects/low-carbohydrate_diet">Low-carbohydrate diet</a>,
+    <a href="https://openlibrary.org/subjects/gluten-free_diet">Gluten-free diet</a>,
+    <a href="https://openlibrary.org/subjects/diseases">Diseases</a>,
+    <a href="https://openlibrary.org/subjects/desserts">Desserts</a>,
+    <a href="https://openlibrary.org/subjects/food">Food</a>
+    </span>
+
+      </div>
+    </div>
+    <div class="contentSpacer"></div>
+    
+    <div class="contentQuarter">
+      <h6 class="black collapse uppercase">places</h6>
+      <div class="subjects" id="subjects-places">
+            <span class="subject">
+    <a href="https://openlibrary.org/subjects/place:united_states">United States</a>,
+    <a href="https://openlibrary.org/subjects/place:china">China</a>,
+    <a href="https://openlibrary.org/subjects/place:california">California</a>,
+    <a href="https://openlibrary.org/subjects/place:england">England</a>,
+    <a href="https://openlibrary.org/subjects/place:great_britain">Great Britain</a>,
+    <a href="https://openlibrary.org/subjects/place:india">India</a>,
+    <a href="https://openlibrary.org/subjects/place:italy">Italy</a>,
+    <a href="https://openlibrary.org/subjects/place:france">France</a>,
+    <a href="https://openlibrary.org/subjects/place:japan">Japan</a>,
+    <a href="https://openlibrary.org/subjects/place:m%C3%A1laga_(spain)">Málaga (Spain)</a>,
+    <a href="https://openlibrary.org/subjects/place:north_carolina">North Carolina</a>,
+    <a href="https://openlibrary.org/subjects/place:south_carolina">South Carolina</a>,
+    <a href="https://openlibrary.org/subjects/place:utah">Utah</a>,
+    <a href="https://openlibrary.org/subjects/place:canada">Canada</a>,
+    <a href="https://openlibrary.org/subjects/place:halifax">Halifax</a>,
+    <a href="https://openlibrary.org/subjects/place:mediterranean_region">Mediterranean Region</a>,
+    <a href="https://openlibrary.org/subjects/place:new_york">New York</a>,
+    <a href="https://openlibrary.org/subjects/place:northeastern_states">Northeastern States</a>,
+    <a href="https://openlibrary.org/subjects/place:nova_scotia">Nova Scotia</a>,
+    <a href="https://openlibrary.org/subjects/place:oregon">Oregon</a>
+    </span>
+
+      </div>
+    </div>
+    <div class="contentSpacer"></div>
+    
+    <div class="contentQuarter">
+      <h6 class="black collapse uppercase">people</h6>
+      <div class="subjects" id="subjects-people">
+            <span class="subject">
+    <a href="https://openlibrary.org/subjects/person:william_randolph_hearst_(1863-1951)">William Randolph Hearst (1863-1951)</a>,
+    <a href="https://openlibrary.org/subjects/person:adrienne_alvares">Adrienne Alvares</a>,
+    <a href="https://openlibrary.org/subjects/person:alexander_alvares">Alexander Alvares</a>,
+    <a href="https://openlibrary.org/subjects/person:alice_b._toklas">Alice B. Toklas</a>,
+    <a href="https://openlibrary.org/subjects/person:allison_mitchell">Allison Mitchell</a>,
+    <a href="https://openlibrary.org/subjects/person:arthur_agatston">Arthur Agatston</a>,
+    <a href="https://openlibrary.org/subjects/person:basil_guinane">Basil Guinane</a>,
+    <a href="https://openlibrary.org/subjects/person:carlton_fredericks">Carlton Fredericks</a>,
+    <a href="https://openlibrary.org/subjects/person:carol_showalter">Carol Showalter</a>,
+    <a href="https://openlibrary.org/subjects/person:catherine__alvares">Catherine  Alvares</a>
+    </span>
+
+      </div>
+    </div>
+    <div class="contentSpacer"></div>
+    
+    <div class="contentQuarter">
+      <h6 class="black collapse uppercase">times</h6>
+      <div class="subjects" id="subjects-times">
+            <span class="subject">
+    <a href="https://openlibrary.org/subjects/time:early_works_to_1800">Early works to 1800</a>,
+    <a href="https://openlibrary.org/subjects/time:civil_war_1861-1865">Civil War, 1861-1865</a>,
+    <a href="https://openlibrary.org/subjects/time:1950s">1950s</a>,
+    <a href="https://openlibrary.org/subjects/time:contemporary">contemporary</a>,
+    <a href="https://openlibrary.org/subjects/time:17th_century">17th century</a>,
+    <a href="https://openlibrary.org/subjects/time:18th_century">18th Century</a>,
+    <a href="https://openlibrary.org/subjects/time:18th_century">18th century</a>,
+    <a href="https://openlibrary.org/subjects/time:1920s_to_1950s">1920s to 1950s</a>,
+    <a href="https://openlibrary.org/subjects/time:1927">1927</a>,
+    <a href="https://openlibrary.org/subjects/time:1931">1931</a>
+    </span>
+
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+<script type="text/javascript"><!--
+function renderAuthors(authors){
+    var self = [], loop;
+    foreach(page.authors, loop, function(loop, a) {
+        self.push("<span class=\"tag\">\n");
+        self.push("    <a href=\""); self.push(websafe(a.key)); self.push("\" title=\""); self.push(websafe(_('See more books by, and learn about, this author'))); self.push("\">"); self.push(websafe(a.name)); self.push("</a>,\n");
+        self.push("</span>\n");
+        self.push("<span class=\"count\">"); self.push(websafe(sprintf(ungettext("%s book", "%s books", a.count), commify(a.count)))); self.push("</span>\n");
+        self.push("<br/>\n");
+    });
+    return self.join("");
+}
+//--></script>
+<div id="resultsAuthors">
+  <div class="head">
+    <h3>Prolific Authors</h3>
+    <div class="smallest lightgreen sansserif">who have written the most books on this subject</div>
+  </div>
+  <div class="unordered">
+    <span class="tag">
+    <a href="https://openlibrary.org/authors/OL159569A" title="See more books by, and learn about, this author">Girolamo Ruscelli</a>,
+</span>
+<span class="count">29 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL2728576A" title="See more books by, and learn about, this author">Weight Watchers International</a>,
+</span>
+<span class="count">27 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL27838A" title="See more books by, and learn about, this author">Betty Crocker</a>,
+</span>
+<span class="count">21 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL33399A" title="See more books by, and learn about, this author">JoAnna M. Lund</a>,
+</span>
+<span class="count">18 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL721993A" title="See more books by, and learn about, this author">Mary Jane Finsand</a>,
+</span>
+<span class="count">16 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL229607A" title="See more books by, and learn about, this author">Sue Spitler</a>,
+</span>
+<span class="count">14 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL238044A" title="See more books by, and learn about, this author">Jones, Jeanne.</a>,
+</span>
+<span class="count">14 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL2727286A" title="See more books by, and learn about, this author">Better Homes and Gardens</a>,
+</span>
+<span class="count">14 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL5159216A" title="See more books by, and learn about, this author">American Heart Association</a>,
+</span>
+<span class="count">13 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL4165529A" title="See more books by, and learn about, this author">Mingquan Peng</a>,
+</span>
+<span class="count">12 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL6822137A" title="See more books by, and learn about, this author">Publications International, Ltd</a>,
+</span>
+<span class="count">12 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL186120A" title="See more books by, and learn about, this author">Corinne T. Netzer</a>,
+</span>
+<span class="count">11 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL223966A" title="See more books by, and learn about, this author">Steven Raichlen</a>,
+</span>
+<span class="count">11 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL234469A" title="See more books by, and learn about, this author">Sandra L. Woodruff</a>,
+</span>
+<span class="count">11 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL235466A" title="See more books by, and learn about, this author">Ruth Glick</a>,
+</span>
+<span class="count">11 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL1399936A" title="See more books by, and learn about, this author">Arthur Agatston</a>,
+</span>
+<span class="count">10 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL2625905A" title="See more books by, and learn about, this author">Weight Watchers</a>,
+</span>
+<span class="count">10 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL1123354A" title="See more books by, and learn about, this author">June Roth</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL229425A" title="See more books by, and learn about, this author">Doris Cross</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL241347A" title="See more books by, and learn about, this author">Sarah Mountbatten-Windsor Duchess of York</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL25373A" title="See more books by, and learn about, this author">Anne Sheasby</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL3889187A" title="See more books by, and learn about, this author">Dick Logue</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL394226A" title="See more books by, and learn about, this author">Bobbie Hinman</a>,
+</span>
+<span class="count">9 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL1011091A" title="See more books by, and learn about, this author">Barbara Gibbons</a>,
+</span>
+<span class="count">8 books</span>
+<br/>
+<span class="tag">
+    <a href="https://openlibrary.org/authors/OL1092123A" title="See more books by, and learn about, this author">A. W. Chase</a>,
+</span>
+<span class="count">8 books</span>
+<br/>
+
+  </div>
+</div>
+<div class="spacer"></div>
+
+
+<script type="text/javascript">
+<!--
+    var page_key = "recipes";
+    var publishers_feature_enabled = true;
+//-->
+</script>
+<script type="text/javascript"><!--
+function renderPublishers(publishers){
+    var self = [], loop;
+    foreach(publishers, loop, function(loop, p) {
+        self.push("<span class=\"tag\">\n");
+        if (publishers_feature_enabled) {
+            self.push("<a href=\""); self.push(websafe(p.key)); self.push("\">"); self.push(websafe(p.name)); self.push("</a>,\n");
+        }
+        else  {
+            self.push("<a href=\"/search?"); self.push(websafe((page.subject_type))); self.push("_facet="); self.push(websafe(page.name.replace('&','%26'))); self.push("&amp;publisher_facet="); self.push(websafe(p.name.replace('"', '\\"').replace('&','%26'))); self.push("\" title=\""); self.push(websafe(_('Get more information about this publisher'))); self.push("\">"); self.push(websafe(p.name)); self.push("</a>,\n");
+        }
+        self.push("</span>\n");
+        self.push("<span class=\"count\">"); self.push(websafe(sprintf(ungettext("%s edition", "%s editions", p.count), commify(p.count)))); self.push("</span>\n");
+        self.push("<br/>\n");
+        self.push("\n");
+    });
+    return self.join("");
+}
+//--></script>
+<style type="text/css">#resultsAuthors,#resultsPublishers,#subjectLists {float:left;width:282px!important;}
+</style>
+<div class="spacer"></div>
+<div id="subjectLists">
+    
+
+
+
+<script type="text/javascript"><!--
+function show_list(list){
+    var self = [], loop;
+    var remove = (list.owner.key == user_key);
+    self.push("<li>\n");
+    self.push("    <span class=\"image\">\n");
+    self.push("        <a href=\""); self.push(websafe(list.key)); self.push("\"><img src=\""); self.push(websafe(list.cover_url)); self.push("\" alt=\"Cover of: "); self.push(websafe(list.name)); self.push("\" title=\"Cover of: "); self.push(websafe(list.name)); self.push("\"/></a>\n");
+    self.push("    </span>\n");
+    self.push("    <span class=\"data\">\n");
+    self.push("        <span class=\"label\">\n");
+    self.push("            <a href=\""); self.push(websafe(list.key)); self.push("\" title=\"See this list\">"); self.push(websafe(list.name)); self.push("</a>\n");
+    if (remove) {
+        var index = get_user_list_index(list);
+        self.push("<a href=\""); self.push(websafe(list.key)); self.push("\" class=\"remove-from-list red smaller arial plain\" id=\"list_"); self.push(websafe(index)); self.push("\" title=\"Remove from your list?\">[X]</a>\n");
+    }
+    self.push("        </span>\n");
+    if (remove) {
+        self.push("<span class=\"owner\">from <a href=\""); self.push(websafe(list.owner.key)); self.push("\">You</a></span>\n");
+    }
+    else  {
+        self.push("<span class=\"owner\">from <a href=\""); self.push(websafe(list.owner.key)); self.push("\">"); self.push(websafe(list.owner.displayname)); self.push("</a></span>\n");
+    }
+    self.push("    </span>\n");
+    self.push("</li>\n");
+    self.push("\n");
+    return self.join("");
+}
+//--></script>
+<script type="text/javascript"><!--
+function render_widget_add(lists, work_key, edition_key, users_work_read_status, username, pageurl){
+    var self = [], loop;
+    self.push("<div class=\"dropit\">\n");
+    self.push("  <div class=\"icon list hidetool\"></div>\n");
+    if (edition && ! work_key) {
+        self.push("<div class=\"dropper on edition-page-lists-dropdown\">\n");
+    }
+    else  {
+        self.push("<div class=\"dropper on\">\n");
+    }
+    if (work_key) {
+        self.push("<div class=\"log-work\">\n");
+        self.push("  <form method=\"POST\" action=\""); self.push(websafe((work_key))); self.push("/bookshelves.json\">\n");
+        if (users_work_read_status == 3) {
+            var message = "Already Read";
+        }
+        else if (users_work_read_status == 2) {
+            var message = "Currently Reading";
+        }
+        else  {
+            var message = "Want to Read";
+        }
+        if (users_work_read_status) {
+            self.push("<input type=\"hidden\" name=\"action\" value=\"remove\"/>\n");
+            self.push("<input type=\"hidden\" name=\"redir\" value=\"true\"/>\n");
+            self.push("<input type=\"hidden\" name=\"bookshelf_id\" value=\""); self.push(websafe((users_work_read_status))); self.push("\"/>\n");
+            self.push("<button class=\"book-progress-btn want-to-read activated\"\n");
+            self.push("        type=\"submit\">\n");
+            self.push("  <span class=\"activated-check\">\u2713</span> "); self.push(websafe((message))); self.push("\n");
+            self.push("</button>\n");
+        }
+        else  {
+            self.push("<input type=\"hidden\" name=\"action\" value=\"add\"/>\n");
+            self.push("<input type=\"hidden\" name=\"redir\" value=\"true\"/>\n");
+            self.push("<input type=\"hidden\" name=\"bookshelf_id\" value=\"1\"/>\n");
+            self.push("<button class=\"book-progress-btn want-to-read unactivated\"\n");
+            self.push("        type=\"submit\">\n");
+            self.push("  "); self.push(websafe((message))); self.push("\n");
+            self.push("</button>\n");
+            self.push("\n");
+        }
+        if (edition_key) {
+            self.push("<input type=\"hidden\" name=\"edition_id\" value=\""); self.push(websafe((edition_key))); self.push("\"/>\n");
+        }
+        self.push("  </form>\n");
+        if (users_work_read_status) {
+            self.push("<a href=\"javascript:;\" class=\"dropclick dropclick-activated\">\n");
+            self.push("  <div class=\"arrow arrow-activated\"></div>\n");
+            self.push("</a>\n");
+        }
+        else  {
+            self.push("<a href=\"javascript:;\" class=\"dropclick dropclick-unactivated\">\n");
+            self.push("  <div class=\"arrow arrow-unactivated\"></div>\n");
+            self.push("</a>\n");
+        }
+        self.push("</div>\n");
+        self.push("<div class=\"dropdown\">\n");
+        self.push("  <div class=\"read-statuses\">\n");
+        if (users_work_read_status == 2 || users_work_read_status == 3) {
+            self.push("<form method=\"POST\" action=\""); self.push(websafe((work_key))); self.push("/bookshelves.json?debug=true\">\n");
+            self.push("  <input type=\"hidden\" name=\"action\" value=\"add\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"redir\" value=\"true\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"bookshelf_id\" value=\"1\"/>\n");
+            if (edition_key) {
+                self.push("<input type=\"hidden\" name=\"edition_id\" value=\""); self.push(websafe((edition_key))); self.push("\"/>\n");
+            }
+            self.push("  <button class=\"nostyle-btn\" type=\"submit\">Want to Read</button>\n");
+            self.push("</form>\n");
+            self.push("\n");
+        }
+        if (users_work_read_status != 2) {
+            self.push("<form method=\"POST\" action=\""); self.push(websafe((work_key))); self.push("/bookshelves.json?debug=true\">\n");
+            self.push("  <input type=\"hidden\" name=\"action\" value=\"add\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"redir\" value=\"true\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"bookshelf_id\" value=\"2\"/>\n");
+            if (edition_key) {
+                self.push("<input type=\"hidden\" name=\"edition_id\" value=\""); self.push(websafe((edition_key))); self.push("\"/>\n");
+            }
+            self.push("  <button class=\"nostyle-btn\" type=\"submit\">Currently Reading</button>\n");
+            self.push("</form>\n");
+            self.push("\n");
+        }
+        if (users_work_read_status != 3) {
+            self.push("<form method=\"POST\" action=\""); self.push(websafe((work_key))); self.push("/bookshelves.json?debug=true\">\n");
+            self.push("  <input type=\"hidden\" name=\"action\" value=\"add\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"redir\" value=\"true\"/>\n");
+            self.push("  <input type=\"hidden\" name=\"bookshelf_id\" value=\"3\"/>\n");
+            if (edition_key) {
+                self.push("<input type=\"hidden\" name=\"edition_id\" value=\""); self.push(websafe((edition_key))); self.push("\"/>\n");
+            }
+            self.push("  <button class=\"nostyle-btn\" type=\"submit\">Already Read</button>\n");
+            self.push("</form>\n");
+        }
+        self.push("  </div>\n");
+        self.push("\n");
+        if (! readinglog_only) {
+            self.push("<div class=\"reading-lists\">\n");
+            self.push("  <p class=\"reading-list-title\">My Reading Lists:</p>\n");
+            self.push("  <div class=\"my-lists\">\n");
+            foreach(enumerate(lists), loop, function(loop, i, list) {
+                if (! list.active) {
+                    self.push("<p class=\"list\"><a href=\""); self.push(websafe(list.key)); self.push("\" class=\"add-to-list\" id=\"list_"); self.push(websafe(i)); self.push("\">"); self.push(websafe(list.name)); self.push("</a></p>\n");
+                }
+            });
+            self.push("  </div>\n");
+            self.push("  <p class=\"create\"><a href=\"javascript:;\" id=\"create-new-list\">Create a new list</a>\n");
+            self.push("    <a href=\"javascript:;\" class=\"hidden listClick\"></a>\n");
+            self.push("  </p>\n");
+            self.push("</div>\n");
+        }
+        self.push("</div>\n");
+    }
+    else  {
+        if (username) {
+            self.push("<div class=\"reading-lists\">\n");
+            self.push("  <a href=\"javascript:;\" class=\"dropclick\">\n");
+            self.push("    <h3>Add to List</h3>\n");
+            self.push("    <div class=\"arrow arrow-activated\"></div>\n");
+            self.push("  </a>\n");
+            self.push("  <div class=\"dropdown\">\n");
+            self.push("     <div class=\"my-lists\">\n");
+            foreach(enumerate(lists), loop, function(loop, i, list) {
+                if (! list.active) {
+                    self.push("<p class=\"list\"><a href=\""); self.push(websafe(list.key)); self.push("\" class=\"add-to-list\" id=\"list_"); self.push(websafe(i)); self.push("\">"); self.push(websafe(list.name)); self.push("</a></p>\n");
+                }
+            });
+            self.push("    </div>\n");
+            self.push("    <p class=\"create\"><a href=\"javascript:;\" id=\"create-new-list\">Create a new list</a>\n");
+            self.push("      <a href=\"javascript:;\" class=\"hidden listClick\"></a>\n");
+            self.push("    </p>\n");
+            self.push("  </div>\n");
+            self.push("</div>\n");
+            self.push("\n");
+        }
+        else  {
+            self.push("<a href=\"/account/login?redir="); self.push(websafe(pageurl)); self.push("\" class=\"dropclick plain\">\n");
+            self.push("  <h3>Add to List</h3>\n");
+            self.push("  <div class=\"arrow\"></div>\n");
+            self.push("</a>\n");
+        }
+    }
+    self.push("  </div>\n");
+    self.push("</div>\n");
+    self.push("\n");
+    return self.join("");
+}
+//--></script>
+<script type="text/javascript"><!--
+function render_widget_display(lists, limit){
+    var self = [], loop;
+    foreach(enumerate(lists), loop, function(loop, i, list) {
+        if (i < limit) {
+            self.push(show_list(list)); self.push("\n");
+            self.push("\n");
+        }
+    });
+    return self.join("");
+}
+//--></script>
+<script type="text/javascript"><!--
+function render_head(){
+    var self = [], loop;
+    if (seed_type == "subject") {
+        self.push("<div class=\"head\">\n");
+        self.push("  <h3>Lists</h3>\n");
+        self.push("  <div class=\"smallest lightgreen sansserif\">watch for edits or export all records</div>\n");
+        self.push("</div>\n");
+    }
+    else  {
+        self.push("<div>\n");
+        self.push("  <h3 class=\"header\">\n");
+        self.push("    <span class=\"icon list heart-adjust\"></span>\n");
+        if (len(page_lists) > 0) {
+            var msg = ungettext("%s List", "%s Lists", len(page_lists));
+            self.push("<span class=\"head\"><a href=\""); self.push(websafe(page_url)); self.push("/lists\">"); self.push(websafe((sprintf(msg, len(page_lists))))); self.push("</a></span>\n");
+        }
+        else  {
+            self.push("<span class=\"head\">"); self.push(websafe(_("Lists"))); self.push("</span>\n");
+        }
+        self.push("  </h3>\n");
+        self.push("</div>\n");
+        self.push("\n");
+    }
+    return self.join("");
+}
+//--></script>
+<div id="widget-head">
+  <div class="head">
+  <h3>Lists</h3>
+  <div class="smallest lightgreen sansserif">watch for edits or export all records</div>
+</div>
+
+</div>
+
+
+<form id="ratingsForm" method="POST" action="https://openlibrary.org/ratings.json"
+      roperty="reviewRating" typeof="Rating" vocab="http://schema.org/" typeof="Books">
+  <meta property="worstRating" content="1"/>
+  <meta property="bestRating" content="5"/>
+  <input type="hidden" value="" name="edition_id"/>
+  <input type="hidden" value="true" name="redir"/>
+  <div class="star-messaging">
+  </div>
+  <div class="stars">
+    <input type="submit" value="1" name="rating"
+      class="star-1"
+      id="star-1" />
+    <label class="star star-1 "
+      property="worstRating"
+      for="star-1">1</label>
+    <input type="submit" value="2" name="rating"
+      class="star-2"
+      id="star-2" />
+    <label class="star star-2 "
+      for="star-2">2</label>
+    <input type="submit" value="3" name="rating"
+      class="star-3"
+      id="star-3" />
+    <label class="star star-3 "
+      for="star-3">3</label>
+    <input type="submit" value="4" name="rating"
+      class="star-4"
+      id="star-4" />
+    <label class="star star-4 "
+      for="star-4">4</label>
+    <input type="submit" value="5" name="rating"
+      class="star-5"
+      id="star-5" />
+    <label class="star star-5 "
+      property="bestRating"
+      for="star-5">5</label>
+    <span></span>
+  </div>
+</form>
+
+<div id="widget-add" class="old-style-lists">
+  <div class="dropit">
+  <div class="icon list hidetool"></div>
+      <div class="dropper on">
+      <a href="https://openlibrary.org/account/login?redir=/subjects/recipes" class="dropclick plain">
+        <h3>Add to List</h3>
+        <div class="arrow"></div>
+      </a>
+  </div>
+</div>
+
+
+</div>
+<ul class="listLists" id="widget-lists">
+  <li>
+    <span class="image">
+        <a href="https://openlibrary.org/people/williamhawk/lists/OL110642L"><img src="https://covers.openlibrary.org/b/id/779526-S.jpg" alt="Cover of: Un-Enriched Flour in US?" title="Cover of: Un-Enriched Flour in US?"/></a>
+    </span>
+    <span class="data">
+        <span class="label">
+            <a href="https://openlibrary.org/people/williamhawk/lists/OL110642L" title="See this list">Un-Enriched Flour in US?</a>
+        </span>
+        <span class="owner">from <a href="https://openlibrary.org/people/williamhawk">william hawk</a></span>
+    </span>
+</li>
+
+
+
+<li>
+    <span class="image">
+        <a href="https://openlibrary.org/people/Blurays/lists/OL108155L"><img src="https://covers.openlibrary.org/b/id/779526-S.jpg" alt="Cover of: Watch Fifty Shades Darker (2017) Full Movie HD English" title="Cover of: Watch Fifty Shades Darker (2017) Full Movie HD English"/></a>
+    </span>
+    <span class="data">
+        <span class="label">
+            <a href="https://openlibrary.org/people/Blurays/lists/OL108155L" title="See this list">Watch Fifty Shades Darker (2017) Full Movie HD English</a>
+        </span>
+        <span class="owner">from <a href="https://openlibrary.org/people/Blurays">mamad</a></span>
+    </span>
+</li>
+
+
+
+
+</ul>
+
+<div id="remove-dialog" class="hidden" title="Remove">Are you sure you want to remove <strong>Recipes</strong> from your list?</div>
+
+
+</div>
+
+<div class="section clearfix"></div>
+
+</div>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="../index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="../subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="../advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="../developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="../books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="../help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=429.872989655;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+

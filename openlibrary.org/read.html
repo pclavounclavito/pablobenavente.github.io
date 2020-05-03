@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="read.html" />
+
+    <link href="static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css"/>
+
+    <link href="static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script src="https://openlibrary.org/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="https://openlibrary.org/static/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+    
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Read Classic eBooks | Open Library</title>
+
+</head>
+
+
+
+
+
+<body id="user">
+  <div id="background">
+    <span id="top"></span>
+
+    <p class="shift">
+      <a href="#content" title="Click to skip!">Click here to skip to this page's main content.</a>
+    </p>
+                
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="account/login.html">Log in</a></li>
+        <li><a href="account/create.html">Sign up</a></li>
+        
+        <li><a href="books/add.html">Add a Book</a></li>
+        <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="advancedsearch.html">Advanced Search</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+        <li><a href="help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="subjects/science.html">Science</a></li>
+          <li><a href="subjects/biographies.html">Biographies</a></li>
+          <li><a href="subjects/textbooks.html">Textbooks</a></li>
+          <li><a href="subjects/science_fiction.html">Sci-Fi</a></li>
+          <li><a href="subjects/romance.html">Romance</a></li>
+          <li><a href="subjects/fantasy.html">Fantasy</a></li>
+          <li><a href="subjects.html">More Subjects</a></li>
+          <li><a href="lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="account/login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="account/login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="account/login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="books/add.html">Add a Book</a></li>
+          <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="advancedsearch.html">Advanced Search</a></li>
+          <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+          <li><a href="help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="account/login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="account/create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+    
+    <div id="placement">
+      <div id="position">
+        <div id="content">
+          <div class="flash-messages">
+          </div>
+          <div id="contentMsg">
+            <div class="alert attn"><span></span></div>
+          </div>
+
+          <div class="page-banner page-banner-body">
+            <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+          </div>
+          
+          
+
+
+<div id="contentHead">
+    
+<div class="right large sansserif" style="text-align: right;">
+    <div>
+        <strong>Read</strong>
+
+        | <a href="https://openlibrary.org/borrow">Borrow</a>
+
+
+        | <a href="https://openlibrary.org/borrow/about">How it Works</a>
+
+
+        | <a href="https://openlibrary.org/stats/lending">Stats</a>
+
+
+    </div>
+</div>
+
+
+    <h1>Read Classic eBooks</h1>
+</div>
+
+<div id="contentBody">
+
+<div class="head">
+    <h2>Search Classic eBooks</h2>
+</div>
+
+<div class="section">
+    <form method="get" action="https://openlibrary.org/search" class="siteSearch olform">
+    <label for="q" class="hidden">Keywords</label>
+    <input type="text" name="q" id="q" value="" size="100" style="width:505px;"/>
+    <input type="hidden" name="public_scan_b" value="true">
+    <button type="submit" class="larger" id="searchsubmit">Search</button>
+    </form>
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+
+
+<script type="text/javascript">
+<!--
+var page = new Subject({"publishers": [{"count": 69141, "name": "Sine nomine", "key": "/publishers/Sine_nomine"}, {"count": 11463, "name": "Naval Postgraduate School", "key": "/publishers/Naval_Postgraduate_School"}, {"count": 10348, "name": "Macmillan", "key": "/publishers/Macmillan"}, {"count": 10055, "name": "Kessinger Publishing, LLC", "key": "/publishers/Kessinger_Publishing,_LLC"}, {"count": 6743, "name": "De l'Imprimerie nationale", "key": "/publishers/De_l'Imprimerie_nationale"}, {"count": 5849, "name": "U.S. G.P.O.", "key": "/publishers/U.S._G.P.O."}, {"count": 4867, "name": "Kessinger Publishing", "key": "/publishers/Kessinger_Publishing"}, {"count": 4085, "name": "Longmans, Green", "key": "/publishers/Longmans,_Green"}, {"count": 3873, "name": "J. Murray", "key": "/publishers/J._Murray"}, {"count": 3869, "name": "Govt. print. off.", "key": "/publishers/Govt._print._off."}, {"count": 3638, "name": "IndyPublish.com", "key": "/publishers/IndyPublish.com"}, {"count": 3565, "name": "United States Department of Agriculture, Office of Information, Radio Service", "key": "/publishers/United_States_Department_of_Agriculture,_Office_of_Information,_Radio_Service"}, {"count": 3397, "name": "Available from National Technical Information Service", "key": "/publishers/Available_from_National_Technical_Information_Service"}, {"count": 3365, "name": "The Macmillan company", "key": "/publishers/The_Macmillan_company"}, {"count": 3264, "name": "BiblioBazaar", "key": "/publishers/BiblioBazaar"}, {"count": 3122, "name": "Harper", "key": "/publishers/Harper"}, {"count": 2998, "name": "Harper & brothers", "key": "/publishers/Harper_&_brothers"}, {"count": 2950, "name": "For sale by the U.S. G.P.O., Supt. of Docs., Congressional Sales Office", "key": "/publishers/For_sale_by_the_U.S._G.P.O.,_Supt._of_Docs.,_Congressional_Sales_Office"}, {"count": 2746, "name": "Hachette", "key": "/publishers/Hachette"}, {"count": 2672, "name": "University Press", "key": "/publishers/University_Press"}, {"count": 2652, "name": "Govt. Print. Off.", "key": "/publishers/Govt._Print._Off."}, {"count": 2639, "name": "Harper & Brothers", "key": "/publishers/Harper_&_Brothers"}, {"count": 2603, "name": "AMS Press", "key": "/publishers/AMS_Press"}, {"count": 2558, "name": "Clarendon Press", "key": "/publishers/Clarendon_Press"}, {"count": 2503, "name": "Dodo Press", "key": "/publishers/Dodo_Press"}], "subject_type": "subject", "name": "dummy", "places": [{"count": 48095, "name": "United States", "key": "/subjects/place:united_states"}, {"count": 36783, "name": "France", "key": "/subjects/place:france"}, {"count": 14176, "name": "Great Britain", "key": "/subjects/place:great_britain"}, {"count": 13104, "name": "Canada", "key": "/subjects/place:canada"}, {"count": 10640, "name": "Massachusetts", "key": "/subjects/place:massachusetts"}, {"count": 7112, "name": "California", "key": "/subjects/place:california"}, {"count": 6262, "name": "England", "key": "/subjects/place:england"}, {"count": 5450, "name": "Italy", "key": "/subjects/place:italy"}, {"count": 5311, "name": "New York (State)", "key": "/subjects/place:new_york_(state)"}, {"count": 5221, "name": "Montana", "key": "/subjects/place:montana"}, {"count": 5126, "name": "Illinois", "key": "/subjects/place:illinois"}, {"count": 4997, "name": "Ontario", "key": "/subjects/place:ontario"}, {"count": 4847, "name": "Germany", "key": "/subjects/place:germany"}, {"count": 4616, "name": "Boston", "key": "/subjects/place:boston"}, {"count": 4381, "name": "North Carolina", "key": "/subjects/place:north_carolina"}, {"count": 4137, "name": "Qu\u00e9bec (Province)", "key": "/subjects/place:qu\u00e9bec_(province)"}, {"count": 3821, "name": "Quebec (Province)", "key": "/subjects/place:quebec_(province)"}, {"count": 3378, "name": "Pennsylvania", "key": "/subjects/place:pennsylvania"}, {"count": 3326, "name": "Alberta", "key": "/subjects/place:alberta"}, {"count": 3202, "name": "Europe", "key": "/subjects/place:europe"}, {"count": 3080, "name": "India", "key": "/subjects/place:india"}, {"count": 2791, "name": "Ohio", "key": "/subjects/place:ohio"}, {"count": 2583, "name": "Spain", "key": "/subjects/place:spain"}, {"count": 2578, "name": "Ireland", "key": "/subjects/place:ireland"}, {"count": 2475, "name": "Mexico", "key": "/subjects/place:mexico"}], "people": [{"count": 5223, "name": "Abraham Lincoln (1809-1865)", "key": "/subjects/person:abraham_lincoln_(1809-1865)"}, {"count": 2147, "name": "William Lloyd Garrison (1805-1879)", "key": "/subjects/person:william_lloyd_garrison_(1805-1879)"}, {"count": 1776, "name": "Jesus Christ", "key": "/subjects/person:jesus_christ"}, {"count": 1361, "name": "William Shakespeare (1564-1616)", "key": "/subjects/person:william_shakespeare_(1564-1616)"}, {"count": 1127, "name": "Louis XVI King of France (1754-1793)", "key": "/subjects/person:louis_xvi_king_of_france_(1754-1793)"}, {"count": 1122, "name": "Maria Weston Chapman (1806-1885)", "key": "/subjects/person:maria_weston_chapman_(1806-1885)"}, {"count": 939, "name": "Samuel May (1810-1899)", "key": "/subjects/person:samuel_may_(1810-1899)"}, {"count": 677, "name": "Napoleon I Emperor of the French (1769-1821)", "key": "/subjects/person:napoleon_i_emperor_of_the_french_(1769-1821)"}, {"count": 564, "name": "Johann Wolfgang von Goethe (1749-1832)", "key": "/subjects/person:johann_wolfgang_von_goethe_(1749-1832)"}, {"count": 560, "name": "Dante Alighieri (1265-1321)", "key": "/subjects/person:dante_alighieri_(1265-1321)"}, {"count": 558, "name": "Mary Blessed Virgin, Saint", "key": "/subjects/person:mary_blessed_virgin_saint"}, {"count": 502, "name": "Anne Warren Weston (1812-1890)", "key": "/subjects/person:anne_warren_weston_(1812-1890)"}, {"count": 467, "name": "George Washington (1732-1799)", "key": "/subjects/person:george_washington_(1732-1799)"}, {"count": 447, "name": "Deborah Weston (b. 1814)", "key": "/subjects/person:deborah_weston_(b._1814)"}, {"count": 443, "name": "Amos A. Phelps (1805-1847)", "key": "/subjects/person:amos_a._phelps_(1805-1847)"}, {"count": 410, "name": "George Engelmann (1809-1884)", "key": "/subjects/person:george_engelmann_(1809-1884)"}, {"count": 314, "name": "Homer", "key": "/subjects/person:homer"}, {"count": 310, "name": "Caroline Weston (1808-1882)", "key": "/subjects/person:caroline_weston_(1808-1882)"}, {"count": 292, "name": "Christopher Columbus", "key": "/subjects/person:christopher_columbus"}, {"count": 285, "name": "Richard Davis Webb (1805-1872)", "key": "/subjects/person:richard_davis_webb_(1805-1872)"}, {"count": 269, "name": "Plato", "key": "/subjects/person:plato"}, {"count": 268, "name": "Jean-Jacques Rousseau (1712-1778)", "key": "/subjects/person:jean-jacques_rousseau_(1712-1778)"}, {"count": 265, "name": "Thomas Aquinas, Saint (1225?-1274)", "key": "/subjects/person:thomas_aquinas_saint_(1225-1274)"}, {"count": 251, "name": "Wendell Phillips (1811-1884)", "key": "/subjects/person:wendell_phillips_(1811-1884)"}, {"count": 247, "name": "Samuel J. May (1797-1871)", "key": "/subjects/person:samuel_j._may_(1797-1871)"}], "publishing_history": [[1001, 1], [1002, 1], [1008, 1], [1012, 1], [1082, 1], [1100, 1], [1111, 1], [1182, 1], [1189, 2], [1195, 1], [1198, 1], [1200, 3], [1210, 1], [1223, 1], [1253, 2], [1273, 1], [1276, 1], [1282, 1], [1296, 2], [1300, 1], [1316, 10], [1322, 1], [1348, 1], [1355, 1], [1380, 2], [1387, 1], [1400, 3], [1418, 1], [1423, 1], [1425, 1], [1430, 1], [1440, 1], [1443, 1], [1450, 2], [1455, 1], [1456, 1], [1459, 1], [1460, 3], [1461, 1], [1463, 1], [1465, 2], [1466, 2], [1467, 1], [1468, 3], [1469, 2], [1470, 8], [1471, 7], [1472, 11], [1473, 9], [1474, 11], [1475, 18], [1476, 14], [1477, 11], [1478, 13], [1479, 12], [1480, 16], [1481, 27], [1482, 14], [1483, 19], [1484, 12], [1485, 17], [1486, 14], [1487, 9], [1488, 16], [1489, 8], [1490, 15], [1491, 15], [1492, 16], [1493, 19], [1494, 21], [1495, 12], [1496, 15], [1497, 20], [1498, 16], [1499, 16], [1500, 27], [1501, 15], [1502, 15], [1503, 15], [1504, 9], [1505, 16], [1506, 7], [1507, 17], [1508, 14], [1509, 13], [1510, 18], [1511, 13], [1512, 19], [1513, 15], [1514, 14], [1515, 12], [1516, 26], [1517, 19], [1518, 22], [1519, 25], [1520, 24], [1521, 25], [1522, 13], [1523, 21], [1524, 27], [1525, 31], [1526, 19], [1527, 14], [1528, 19], [1529, 23], [1530, 24], [1531, 30], [1532, 30], [1533, 26], [1534, 27], [1535, 32], [1536, 40], [1537, 37], [1538, 40], [1539, 32], [1540, 39], [1541, 31], [1542, 32], [1543, 35], [1544, 34], [1545, 48], [1546, 44], [1547, 46], [1548, 43], [1549, 53], [1550, 85], [1551, 63], [1552, 59], [1553, 61], [1554, 67], [1555, 50], [1556, 44], [1557, 62], [1558, 60], [1559, 73], [1560, 72], [1561, 76], [1562, 76], [1563, 64], [1564, 70], [1565, 68], [1566, 78], [1567, 69], [1568, 59], [1569, 57], [1570, 48], [1571, 46], [1572, 55], [1573, 66], [1574, 119], [1575, 65], [1576, 54], [1577, 34], [1578, 80], [1579, 69], [1580, 51], [1581, 58], [1582, 64], [1583, 67], [1584, 73], [1585, 87], [1586, 85], [1587, 98], [1588, 167], [1589, 210], [1590, 73], [1591, 81], [1592, 68], [1593, 74], [1594, 94], [1595, 70], [1596, 87], [1597, 76], [1598, 97], [1599, 85], [1600, 149], [1601, 83], [1602, 75], [1603, 89], [1604, 68], [1605, 110], [1606, 99], [1607, 82], [1608, 116], [1609, 114], [1610, 188], [1611, 139], [1612, 112], [1613, 94], [1614, 349], [1615, 456], [1616, 179], [1617, 241], [1618, 135], [1619, 155], [1620, 218], [1621, 158], [1622, 216], [1623, 148], [1624, 129], [1625, 132], [1626, 175], [1627, 110], [1628, 113], [1629, 123], [1630, 117], [1631, 174], [1632, 149], [1633, 124], [1634, 108], [1635, 106], [1636, 125], [1637, 89], [1638, 97], [1639, 110], [1640, 118], [1641, 126], [1642, 127], [1643, 136], [1644, 135], [1645, 100], [1646, 105], [1647, 96], [1648, 128], [1649, 272], [1650, 123], [1651, 114], [1652, 104], [1653, 103], [1654, 85], [1655, 120], [1656, 103], [1657, 89], [1658, 133], [1659, 132], [1660, 145], [1661, 108], [1662, 114], [1663, 115], [1664, 132], [1665, 111], [1666, 103], [1667, 105], [1668, 118], [1669, 146], [1670, 112], [1671, 148], [1672, 146], [1673, 106], [1674, 130], [1675, 166], [1676, 167], [1677, 136], [1678, 126], [1679, 146], [1680, 163], [1681, 152], [1682, 169], [1683, 160], [1684, 151], [1685, 152], [1686, 153], [1687, 169], [1688, 165], [1689, 152], [1690, 169], [1691, 145], [1692, 139], [1693, 162], [1694, 176], [1695, 161], [1696, 143], [1697, 163], [1698, 179], [1699, 171], [1700, 357], [1701, 225], [1702, 214], [1703, 180], [1704, 181], [1705, 226], [1706, 178], [1707, 210], [1708, 184], [1709, 242], [1710, 293], [1711, 224], [1712, 236], [1713, 234], [1714, 275], [1715, 264], [1716, 273], [1717, 280], [1718, 295], [1719, 239], [1720, 280], [1721, 250], [1722, 258], [1723, 305], [1724, 313], [1725, 317], [1726, 287], [1727, 290], [1728, 276], [1729, 301], [1730, 320], [1731, 302], [1732, 388], [1733, 334], [1734, 333], [1735, 361], [1736, 316], [1737, 292], [1738, 352], [1739, 445], [1740, 375], [1741, 367], [1742, 339], [1743, 332], [1744, 553], [1745, 551], [1746, 362], [1747, 379], [1748, 383], [1749, 415], [1750, 523], [1751, 488], [1752, 447], [1753, 594], [1754, 507], [1755, 620], [1756, 575], [1757, 567], [1758, 511], [1759, 568], [1760, 620], [1761, 568], [1762, 584], [1763, 634], [1764, 547], [1765, 618], [1766, 613], [1767, 735], [1768, 684], [1769, 642], [1770, 785], [1771, 706], [1772, 686], [1773, 699], [1774, 689], [1775, 967], [1776, 846], [1777, 848], [1778, 786], [1779, 808], [1780, 1115], [1781, 1066], [1782, 990], [1783, 1132], [1784, 1125], [1785, 1253], [1786, 1154], [1787, 1581], [1788, 2297], [1789, 4707], [1790, 5542], [1791, 4159], [1792, 3557], [1793, 3332], [1794, 2426], [1795, 2758], [1796, 2248], [1797, 2347], [1798, 2553], [1799, 2925], [1800, 5270], [1801, 1542], [1802, 1703], [1803, 1635], [1804, 1424], [1805, 1435], [1806, 1658], [1807, 1639], [1808, 1819], [1809, 1721], [1810, 1917], [1811, 1649], [1812, 1878], [1813, 1651], [1814, 1782], [1815, 1930], [1816, 2051], [1817, 2132], [1818, 2445], [1819, 2456], [1820, 2906], [1821, 2553], [1822, 2704], [1823, 2754], [1824, 3048], [1825, 3187], [1826, 2999], [1827, 2993], [1828, 3150], [1829, 3439], [1830, 3621], [1831, 3742], [1832, 3650], [1833, 3814], [1834, 3810], [1835, 4208], [1836, 4502], [1837, 4291], [1838, 4377], [1839, 4716], [1840, 5255], [1841, 5015], [1842, 4794], [1843, 4742], [1844, 5337], [1845, 5489], [1846, 5362], [1847, 5649], [1848, 5175], [1849, 4947], [1850, 6611], [1851, 5920], [1852, 6143], [1853, 6622], [1854, 6881], [1855, 6632], [1856, 6948], [1857, 6966], [1858, 6704], [1859, 7106], [1860, 8678], [1861, 7326], [1862, 7014], [1863, 7416], [1864, 8383], [1865, 8671], [1866, 7753], [1867, 8061], [1868, 8138], [1869, 8285], [1870, 8872], [1871, 7947], [1872, 8908], [1873, 8501], [1874, 8896], [1875, 9211], [1876, 9866], [1877, 9698], [1878, 9846], [1879, 10155], [1880, 12355], [1881, 10996], [1882, 11384], [1883, 12072], [1884, 11924], [1885, 11888], [1886, 11580], [1887, 12122], [1888, 12862], [1889, 13292], [1890, 15061], [1891, 13461], [1892, 14036], [1893, 13922], [1894, 13645], [1895, 14882], [1896, 15134], [1897, 14885], [1898, 15796], [1899, 16858], [1900, 27136], [1901, 16418], [1902, 16963], [1903, 17203], [1904, 17817], [1905, 18599], [1906, 18591], [1907, 19461], [1908, 20206], [1909, 17523], [1910, 19224], [1911, 18111], [1912, 18933], [1913, 18717], [1914, 17688], [1915, 15212], [1916, 15840], [1917, 15762], [1918, 14309], [1919, 16728], [1920, 20332], [1921, 17825], [1922, 19247], [1923, 6607], [1924, 4995], [1925, 5084], [1926, 4922], [1927, 5195], [1928, 4968], [1929, 5038], [1930, 5280], [1931, 3173], [1932, 2543], [1933, 2514], [1934, 2503], [1935, 2494], [1936, 2738], [1937, 2654], [1938, 2574], [1939, 2527], [1940, 2439], [1941, 2194], [1942, 2402], [1943, 2313], [1944, 2310], [1945, 2318], [1946, 2306], [1947, 2399], [1948, 2570], [1949, 2795], [1950, 2576], [1951, 2343], [1952, 2364], [1953, 2228], [1954, 2422], [1955, 2556], [1956, 2545], [1957, 2365], [1958, 2475], [1959, 2746], [1960, 3166], [1961, 3091], [1962, 3512], [1963, 3536], [1964, 3653], [1965, 4001], [1966, 4049], [1967, 4262], [1968, 5216], [1969, 6114], [1970, 9903], [1971, 5550], [1972, 5460], [1973, 5245], [1974, 4740], [1975, 4641], [1976, 4875], [1977, 5155], [1978, 4641], [1979, 4628], [1980, 8673], [1981, 8284], [1982, 6823], [1983, 6445], [1984, 6300], [1985, 6956], [1986, 11417], [1987, 8184], [1988, 4505], [1989, 4398], [1990, 3902], [1991, 4719], [1992, 4731], [1993, 6308], [1994, 6278], [1995, 5764], [1996, 5458], [1997, 6022], [1998, 3294], [1999, 3224], [2000, 3541], [2001, 4525], [2002, 3907], [2003, 4821], [2004, 6438], [2005, 5975], [2006, 7259], [2007, 14821], [2008, 1607], [2009, 1834], [2010, 903], [2011, 544], [2012, 503], [2013, 513], [2014, 497], [2015, 375], [2016, 480], [2017, 254], [2018, 90]], "times": [{"count": 12140, "name": "19th century", "key": "/subjects/time:19th_century"}, {"count": 10172, "name": "Revolution, 1789-1799", "key": "/subjects/time:revolution_1789-1799"}, {"count": 4452, "name": "Civil War, 1861-1865", "key": "/subjects/time:civil_war_1861-1865"}, {"count": 4234, "name": "18th century", "key": "/subjects/time:18th_century"}, {"count": 3023, "name": "1789-1799", "key": "/subjects/time:1789-1799"}, {"count": 2092, "name": "20th century", "key": "/subjects/time:20th_century"}, {"count": 1984, "name": "Directory, 1795-1799", "key": "/subjects/time:directory_1795-1799"}, {"count": 1669, "name": "Revolution, 1775-1783", "key": "/subjects/time:revolution_1775-1783"}, {"count": 1301, "name": "17th century", "key": "/subjects/time:17th_century"}, {"count": 1027, "name": "1861-1865", "key": "/subjects/time:1861-1865"}, {"count": 800, "name": "16th century", "key": "/subjects/time:16th_century"}, {"count": 793, "name": "1789-1815", "key": "/subjects/time:1789-1815"}, {"count": 792, "name": "1774-1793", "key": "/subjects/time:1774-1793"}, {"count": 787, "name": "Reign of Terror, 1793-1794", "key": "/subjects/time:reign_of_terror_1793-1794"}, {"count": 779, "name": "Colonial period, ca. 1600-1775", "key": "/subjects/time:colonial_period_ca._1600-1775"}, {"count": 634, "name": "19e si\u00e8cle", "key": "/subjects/time:19e_si\u00e8cle"}, {"count": 538, "name": "War of 1812", "key": "/subjects/time:war_of_1812"}, {"count": 488, "name": "Louis XVI, 1774-1793", "key": "/subjects/time:louis_xvi_1774-1793"}, {"count": 488, "name": "Primitive and early church, ca. 30-600", "key": "/subjects/time:primitive_and_early_church_ca._30-600"}, {"count": 451, "name": "To 1500", "key": "/subjects/time:to_1500"}, {"count": 419, "name": "Middle Ages, 600-1500", "key": "/subjects/time:middle_ages_600-1500"}, {"count": 418, "name": "Early modern, 1500-1700", "key": "/subjects/time:early_modern_1500-1700"}, {"count": 362, "name": "1775-1783", "key": "/subjects/time:1775-1783"}, {"count": 358, "name": "Early works to 1800", "key": "/subjects/time:early_works_to_1800"}, {"count": 336, "name": "Louis XIII, 1610-1643", "key": "/subjects/time:louis_xiii_1610-1643"}], "languages": [{"count": 699134, "name": "eng"}, {"count": 166793, "name": "fre"}, {"count": 68190, "name": "ger"}, {"count": 30857, "name": "spa"}, {"count": 28447, "name": "ita"}, {"count": 19310, "name": "lat"}, {"count": 8701, "name": "rus"}, {"count": 7495, "name": "yid"}, {"count": 7167, "name": "por"}, {"count": 6621, "name": "jpn"}, {"count": 4633, "name": "dut"}, {"count": 2911, "name": "dan"}, {"count": 2885, "name": "kor"}, {"count": 2382, "name": "pol"}, {"count": 2312, "name": "cze"}, {"count": 2274, "name": "swe"}, {"count": 2034, "name": "und"}, {"count": 1638, "name": "heb"}, {"count": 1609, "name": "hun"}, {"count": 1381, "name": "ota"}, {"count": 1370, "name": "ukr"}, {"count": 1204, "name": "grc"}, {"count": 1155, "name": "ara"}, {"count": 1069, "name": "chi"}, {"count": 1027, "name": "gae"}], "subjects": [{"count": 1275485, "name": "Accessible book", "key": "/subjects/accessible_book"}, {"count": 101349, "name": "History", "key": "/subjects/history"}, {"count": 31952, "name": "Catalogs", "key": "/subjects/catalogs"}, {"count": 27340, "name": "Early works to 1800", "key": "/subjects/early_works_to_1800"}, {"count": 24647, "name": "Description and travel", "key": "/subjects/description_and_travel"}, {"count": 24330, "name": "Politics and government", "key": "/subjects/politics_and_government"}, {"count": 22108, "name": "Nursery stock", "key": "/subjects/nursery_stock"}, {"count": 19304, "name": "Biography", "key": "/subjects/biography"}, {"count": 17707, "name": "Sources", "key": "/subjects/sources"}, {"count": 14953, "name": "Sanitation", "key": "/subjects/sanitation"}, {"count": 14802, "name": "Public Health", "key": "/subjects/public_health"}, {"count": 14401, "name": "Disease Outbreaks", "key": "/subjects/disease_outbreaks"}, {"count": 14382, "name": "Water Supply", "key": "/subjects/water_supply"}, {"count": 13647, "name": "Periodicals", "key": "/subjects/periodicals"}, {"count": 13307, "name": "Seeds", "key": "/subjects/seeds"}, {"count": 11588, "name": "Flowers", "key": "/subjects/flowers"}, {"count": 10770, "name": "Fiction", "key": "/subjects/fiction"}, {"count": 10720, "name": "Catholic Church", "key": "/subjects/catholic_church"}, {"count": 10448, "name": "Protected DAISY", "key": "/subjects/protected_daisy"}, {"count": 9945, "name": "Bible", "key": "/subjects/bible"}, {"count": 9614, "name": "Ornamental Plants", "key": "/subjects/ornamental_plants"}, {"count": 9353, "name": "Bibliography", "key": "/subjects/bibliography"}, {"count": 9032, "name": "History and criticism", "key": "/subjects/history_and_criticism"}, {"count": 8439, "name": "Seedlings", "key": "/subjects/seedlings"}, {"count": 8435, "name": "United States", "key": "/subjects/united_states"}], "key": "/read", "authors": [{"count": 3809, "name": "United States. Department of Agriculture. Radio Service", "key": "/authors/OL7215935A"}, {"count": 1323, "name": "Boston Redevelopment Authority", "key": "/authors/OL6846900A"}, {"count": 1194, "name": "Lincoln Financial Foundation Collection", "key": "/authors/OL7175800A"}, {"count": 953, "name": "United States. War Department", "key": "/authors/OL7215741A"}, {"count": 939, "name": "France. Sovereign (1774-1792 : Louis XVI)", "key": "/authors/OL1422878A"}, {"count": 908, "name": "William Shakespeare", "key": "/authors/OL9388A"}, {"count": 842, "name": "United States. Department of Agriculture", "key": "/authors/OL7195094A"}, {"count": 762, "name": "France", "key": "/authors/OL38373A"}, {"count": 755, "name": "France. Convention nationale", "key": "/authors/OL7361733A"}, {"count": 743, "name": "William Lloyd Garrison", "key": "/authors/OL518235A"}, {"count": 715, "name": "United States. Bureau of the Census", "key": "/authors/OL140127A"}, {"count": 608, "name": "France. Conseil d'Etat", "key": "/authors/OL256764A"}, {"count": 596, "name": "J.-P Migne", "key": "/authors/OL2098592A"}, {"count": 588, "name": "Samuel May", "key": "/authors/OL1271937A"}, {"count": 570, "name": "United States", "key": "/authors/OL18485A"}, {"count": 547, "name": "United States. Bureau of Land Management", "key": "/authors/OL7127652A"}, {"count": 481, "name": "American Art Association", "key": "/authors/OL5769334A"}, {"count": 474, "name": "Cicero", "key": "/authors/OL28743A"}, {"count": 472, "name": "United States. Immigration and Naturalization Service", "key": "/authors/OL4522839A"}, {"count": 468, "name": "France. Parlement (Paris)", "key": "/authors/OL518354A"}, {"count": 446, "name": "Alexandre Dumas", "key": "/authors/OL7093600A"}, {"count": 437, "name": "Honor\u00e9 de Balzac", "key": "/authors/OL29097A"}, {"count": 424, "name": "Alberta. Alberta Education", "key": "/authors/OL5507543A"}, {"count": 421, "name": "Abraham Lincoln", "key": "/authors/OL19804A"}, {"count": 411, "name": "Catholic Church", "key": "/authors/OL7447A"}], "ebook_count": 1275485, "works": [{"printdisabled": false, "cover_id": 6780798, "ia_collection": ["toronto", "pimslibrary"], "has_fulltext": true, "edition_count": 2, "checked_out": false, "title": "Le guide des \u00e9gar\u00e9s", "public_scan": true, "cover_edition_key": "OL24668439M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL15757120W", "authors": [{"name": "Moses Maimonides", "key": "/authors/OL45280A"}], "ia": "leguidedesgar01maim", "lending_identifier": "", "subject": ["Accessible book", "Judaism", "Medieval Philosophy", "Jewish Philosophy"]}, {"printdisabled": false, "cover_id": 6814539, "ia_collection": ["americana", "library_of_congress"], "has_fulltext": true, "edition_count": 2, "checked_out": false, "title": "The science of history", "public_scan": true, "cover_edition_key": "OL24760683M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL15650361W", "authors": [{"name": "G. G. Zerffi", "key": "/authors/OL6209171A"}], "ia": "scienceofhistory00zerf", "lending_identifier": "", "subject": ["Historiography", "Accessible book"]}, {"printdisabled": false, "cover_id": 8104784, "ia_collection": ["ukmhl", "medicalheritagelibrary", "europeanlibraries", "wellcomelibrary"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "A medical tour in Europe", "public_scan": true, "cover_edition_key": "OL26405142M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL17815906W", "authors": [{"name": "Fielding H. Garrison", "key": "/authors/OL1883592A"}], "ia": "b29825878", "lending_identifier": "", "subject": ["Travel", "Accessible book"]}, {"printdisabled": false, "cover_id": null, "ia_collection": ["biodiversity"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Proceedings and transactions of the Liverpool Biological Society", "public_scan": true, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL16824009W", "authors": [{"name": "Liverpool Biological Society", "key": "/authors/OL2538326A"}], "ia": "proceedingstr19190405live", "lending_identifier": "", "subject": ["Biology", "Periodicals", "Accessible book"]}, {"printdisabled": false, "cover_id": 7941036, "ia_collection": ["ukmhl", "medicalheritagelibrary", "europeanlibraries", "wellcomelibrary"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Dental surgery for medical practitioners and students of medicine", "public_scan": true, "cover_edition_key": "OL26272072M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL17667894W", "authors": [{"name": "Ashley William Barrett", "key": "/authors/OL5855267A"}], "ia": "b28110444", "lending_identifier": "", "subject": ["Accessible book"]}, {"printdisabled": false, "cover_id": null, "ia_collection": ["cmslibrary", "fedlink", "americana"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Fiscal year 1990 budget issues relating to payment for outpatient hospital surgery under part B of the Medicare program", "public_scan": true, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL588379W", "authors": [{"name": "United States. Congress. House. Committee on Ways and Means. Subcommittee on Health.", "key": "/authors/OL43157A"}], "ia": "fiscalyear1990bu00unit_3", "lending_identifier": "", "subject": ["Medicare", "Accessible book", "Prospective payment", "Hospitals", "Ambulatory surgery"]}, {"printdisabled": false, "cover_id": null, "ia_collection": ["nationalyiddishbookcenter"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Likh\u1e6d sh\u1e6draln", "public_scan": true, "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL16853004W", "authors": [{"name": "Elishev Cohen", "key": "/authors/OL6552119A"}], "ia": "nybc208111", "lending_identifier": "", "subject": ["Accessible book"]}, {"printdisabled": false, "cover_id": 5998152, "ia_collection": ["americana"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Ensayos po\u00e9ticos", "public_scan": true, "cover_edition_key": "OL20439048M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL13101141W", "authors": [{"name": "Jos\u00e9 S\u00e1nchez Arjona", "key": "/authors/OL5995198A"}], "ia": "ensayospoticos00arjogoog", "lending_identifier": "", "subject": ["Accessible book"]}, {"printdisabled": false, "cover_id": 6973805, "ia_collection": ["americana", "library_of_congress"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Heralds of the morning", "public_scan": true, "cover_edition_key": "OL25099562M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL16279481W", "authors": [{"name": "Tait, Asa Oscar", "key": "/authors/OL2583957A"}], "ia": "heraldsofmorning03tait", "lending_identifier": "", "subject": ["Accessible book", "End of the world. [from old catalog]"]}, {"printdisabled": false, "cover_id": 6867221, "ia_collection": ["americana", "library_of_congress"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Acts of the General assembly and ordinances of the trustees", "public_scan": true, "cover_edition_key": "OL24875032M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL15969217W", "authors": [{"name": "North Carolina. University. [from old catalog]", "key": "/authors/OL6951107A"}], "ia": "actsofgeneralass00nort", "lending_identifier": "", "subject": ["Accessible book"]}, {"printdisabled": false, "cover_id": 5886927, "ia_collection": ["cavenlibrary", "toronto"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "A book of prayers for students", "public_scan": true, "cover_edition_key": "OL7022185M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL16288118W", "authors": [], "ia": "prayersforstuden00unknuoft", "lending_identifier": "", "subject": ["Students", "Schools", "Accessible book", "Prayer-books and devotions", "Prayers"]}, {"printdisabled": false, "cover_id": 5999379, "ia_collection": ["europeanlibraries"], "has_fulltext": true, "edition_count": 1, "checked_out": false, "title": "Neue Novellen", "public_scan": true, "cover_edition_key": "OL20440979M", "lendinglibrary": false, "lending_edition": "", "first_publish_year": null, "key": "/works/OL13103442W", "authors": [{"name": "Paul henle", "key": "/authors/OL5996881A"}], "ia": "neuenovellen00henlgoog", "lending_identifier": "", "subject": ["Accessible book"]}], "work_count": 1275485}, {pagesize: 12});
+page.filter.rand = 4892;
+//-->
+</script>
+
+
+<script type="text/javascript">
+<!--
+page.displayCovers = function(pagenum) {
+    page.loadPage(pagenum, function(data) {
+        $("#coversCarousel").empty().html(page.renderCovers(data));
+    });
+};
+
+function loadCoverCarousels(carousel, state) {
+    if (!page.coverCarousel) {
+        page.coverCarousel = carousel;
+        page.coverCarousel.size(page.getPageCount());
+    }
+    var index = carousel.first;
+    page.pos = (index-1)*12;
+
+    if (window.set_hash) {
+         var _p = (index == 1) ? null : index;
+        set_hash({"page": _p});
+    }
+
+    if (carousel.has(index)) {
+        return;
+    }
+    carousel.add(index, "<h3>Loading books...</h3>");
+    page.loadPage(index-1, function(data) {
+        carousel.add(index, page.renderCovers(data));
+        updateBookAvailability('#coversCarousel li ');
+    });
+}
+
+$().ready(function() {
+    page.renderCovers = render_page;
+    page.displayCovers(0);
+});
+
+$().ready(carousels);
+$().ready(function() {
+    carouselSetup(loadCoverCarousels);
+    $('.jcarousel-next').attr('title','View the next editions').append('<h4 class="shift"><a href="#" onclick="return false;">View the next editions</a></h4>');
+    $('.jcarousel-prev').attr('title','View the previous editions').append('<h4 class="shift"><a href="#" onclick="return false;">View the previous editions</a></h4>');
+});
+//-->
+</script>
+
+<script type="text/javascript">
+<!--
+function get_authors(work) {
+        var authors = [];
+        for (var i=0; i < work.authors.length; i++) {
+                authors.push(work.authors[i].name);
+        }
+        return authors.join(", ");
+}
+//-->
+</script>
+
+<script> var inlibrary = true; </script>
+
+<script> var all_borrow = false; </script>
+
+<script type="text/javascript">
+    function contains(array, value) {
+        return $.inArray(value, array) >= 0;
+    }
+</script>
+
+<script type="text/javascript"><!--
+function render_page(page){
+    var self = [], loop;
+    foreach(page.works, loop, function(loop, w) {
+        self.push("<div class=\"coverMagic\">\n");
+        if (w.cover_id) {
+            self.push("<div class=\"SRPCover\">\n");
+            self.push("    <a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\">\n");
+            self.push("      <img src=\"//covers.openlibrary.org/b/id/"); self.push(websafe(w.cover_id)); self.push("-M.jpg\" alt=\""); self.push(websafe(w.title)); self.push(" by "); self.push(websafe(get_authors(w))); self.push("\" class=\"cover\"/>\n");
+            self.push("    </a>\n");
+            self.push("</div>\n");
+        }
+        else if (w.ia) {
+            self.push("<div class=\"SRPCover\">\n");
+            self.push("    <a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\"><img src=\"//covers.openlibrary.org/b/ia/"); self.push(websafe(w.ia)); self.push("-M.jpg?default=https://openlibrary.org/images/icons/avatar_book.png\" alt=\""); self.push(websafe(w.title)); self.push(" by "); self.push(websafe(get_authors(w))); self.push("\" class=\"cover\"/></a>\n");
+            self.push("</div>\n");
+        }
+        else  {
+            self.push("<a href=\""); self.push(websafe(w.key)); self.push("\" title=\""); self.push(websafe(truncate(w.title, 40))); self.push(" by "); self.push(websafe(truncate(get_authors(w), 40))); self.push(", "); self.push(websafe(w.edition_count)); self.push(" editions\">\n");
+            self.push("    <div class=\"SRPCoverBlank\" style=\"display:block;\">\n");
+            self.push("        <div class=\"innerBorder\">\n");
+            self.push("            <div class=\"BookTitle\">"); self.push(websafe(truncate(w.title, 40))); self.push("\n");
+            self.push("                <div class=\"Author\">"); self.push(websafe(truncate(get_authors(w), 40))); self.push("</div>\n");
+            self.push("            </div>\n");
+            self.push("        </div>\n");
+            self.push("    </div>\n");
+            self.push("</a>\n");
+            self.push("\n");
+        }
+        var borrowable = all_borrow || contains(w.subject, 'Lending library') || (inlibrary && contains(w.subject, 'In library'));
+        if (! all_borrow && w.ia && w.public_scan) {
+            self.push("<div class=\"coverEbook\">\n");
+            self.push("  <a href=\"//archive.org/stream/"); self.push(websafe(w.ia)); self.push("?ref=ol\" title=\""); self.push(websafe(_('Read online'))); self.push("\" class=\"borrow_available cta-btn\">\n");
+            self.push("    Read\n");
+            self.push("  </a>\n");
+            self.push("</div>\n");
+        }
+        else  {
+            self.push("<div class=\"coverEbook\">\n");
+            self.push("  <a href=\"/books/"); self.push(websafe(w.lending_edition)); self.push("/x/borrow\" class=\"borrow-link\"\n");
+            self.push("     title=\"Borrow this book\" data-key=\""); self.push(websafe((w.key))); self.push("\" data-ocaid=\""); self.push(websafe((w.ia))); self.push("\">\n");
+            self.push("    <span class=\"borrow\"></span>\n");
+            self.push("  </a>\n");
+            self.push("</div>\n");
+        }
+        self.push("</div>\n");
+        self.push("\n");
+    });
+    return self.join("");
+}
+//--></script>
+<div id="contentLists" class="results">
+    <div class="covers" id="resultsCovers">
+        <ul id="coversCarousel" class="jcarousel-skin-OL">
+            <li><div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL15757120W" title="Le guide des égarés by Moses Maimonides, 2 editions">
+          <img src="https://covers.openlibrary.org/b/id/6780798-M.jpg" alt="Le guide des égarés by Moses Maimonides" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/leguidedesgar01maim?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL15650361W" title="The science of history by G. G. Zerffi, 2 editions">
+          <img src="https://covers.openlibrary.org/b/id/6814539-M.jpg" alt="The science of history by G. G. Zerffi" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/scienceofhistory00zerf?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL17815906W" title="A medical tour in Europe by Fielding H. Garrison, 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/8104784-M.jpg" alt="A medical tour in Europe by Fielding H. Garrison" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/b29825878?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL16824009W" title="Proceedings and transactions of the Live... by Liverpool Biological Society, 1 editions"><img src="https://covers.openlibrary.org/b/ia/proceedingstr19190405live-M.jpg?default=https://openlibrary.org/images/icons/avatar_book.png" alt="Proceedings and transactions of the Liverpool Biological Society by Liverpool Biological Society" class="cover"/></a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/proceedingstr19190405live?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL17667894W" title="Dental surgery for medical practitioners... by Ashley William Barrett, 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/7941036-M.jpg" alt="Dental surgery for medical practitioners and students of medicine by Ashley William Barrett" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/b28110444?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL588379W" title="Fiscal year 1990 budget issues relating ... by United States. Congress. House. Committe..., 1 editions"><img src="https://covers.openlibrary.org/b/ia/fiscalyear1990bu00unit_3-M.jpg?default=https://openlibrary.org/images/icons/avatar_book.png" alt="Fiscal year 1990 budget issues relating to payment for outpatient hospital surgery under part B of the Medicare program by United States. Congress. House. Committee on Ways and Means. Subcommittee on Health." class="cover"/></a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/fiscalyear1990bu00unit_3?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL16853004W" title="Likhṭ shṭraln by Elishev Cohen, 1 editions"><img src="https://covers.openlibrary.org/b/ia/nybc208111-M.jpg?default=https://openlibrary.org/images/icons/avatar_book.png" alt="Likhṭ shṭraln by Elishev Cohen" class="cover"/></a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/nybc208111?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL13101141W" title="Ensayos poéticos by José Sánchez Arjona, 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/5998152-M.jpg" alt="Ensayos poéticos by José Sánchez Arjona" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/ensayospoticos00arjogoog?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL16279481W" title="Heralds of the morning by Tait, Asa Oscar, 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/6973805-M.jpg" alt="Heralds of the morning by Tait, Asa Oscar" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/heraldsofmorning03tait?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL15969217W" title="Acts of the General assembly and ordinan... by North Carolina. University. [from old ca..., 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/6867221-M.jpg" alt="Acts of the General assembly and ordinances of the trustees by North Carolina. University. [from old catalog]" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/actsofgeneralass00nort?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL16288118W" title="A book of prayers for students by , 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/5886927-M.jpg" alt="A book of prayers for students by " class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/prayersforstuden00unknuoft?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+<div class="coverMagic">
+    <div class="SRPCover">
+        <a href="https://openlibrary.org/works/OL13103442W" title="Neue Novellen by Paul henle, 1 editions">
+          <img src="https://covers.openlibrary.org/b/id/5999379-M.jpg" alt="Neue Novellen by Paul henle" class="cover"/>
+        </a>
+    </div>
+    <div class="coverEbook">
+      <a href="https://archive.org/stream/neuenovellen00henlgoog?ref=ol" title="Read online" class="borrow_available cta-btn">
+        Read
+      </a>
+    </div>
+</div>
+
+</li>
+        </ul>
+        <div id="coversLoading" class="hidden"><h3>Loading books...</h3></div>
+        <div id="coversNone" class="hidden"><h2>Open Library is unaware of any <span class="bookType">editions</span> about <span class="bookSubject">this subject</span> <span class="clickdata"></span> <a href="javascript:;" class="resetSelection">Zoom out again</a>?</h2></div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<script type="text/javascript">
+function resetCounts() {
+    var hash = {};
+    var counts = $("<span></span>");
+
+    var x = sprintf(ungettext("%s book", "%s books", page.work_count), commify(page.work_count));
+    var y = sprintf(ungettext("%s ebook", "%s ebooks", page.ebook_count), commify(page.ebook_count));
+
+    counts.append('<strong></strong>').find("strong:last").text(x);
+    hash.ebooks = null;
+
+    counts.append("&nbsp;");
+    counts.append('<span class="clickdata"></span>');
+
+        $("#coversCount").html(counts.html());
+
+        var yearFrom, yearTo;
+        if (page.filter.published_in) {
+                var y = "" + page.filter.published_in;
+                if (y.indexOf("-") > 0) {
+                        var tokens = y.split("-");
+                        yearFrom = tokens[0];
+                        yearTo = tokens[1];
+                        page._published_in = page.filter.published_in;
+                }
+                else {
+                        yearFrom = yearTo = y;
+                }
+
+                hash.published_in = y;
+        }
+        else {
+            page._published_in = null;
+
+                yearFrom = page.publishing_history[0][0];
+                yearTo = page.publishing_history[page.publishing_history.length-1][0];
+
+        hash.published_in = null;
+        }
+
+        if (yearFrom == yearTo) {
+        $(".clickdata").text(sprintf(_("published in %s."), yearFrom));
+        }
+        else {
+        $(".clickdata").text(sprintf(_("published between %s & %s."), yearFrom, yearTo));
+        }
+}
+
+$(function() {
+        resetCounts();
+});
+</script>
+
+
+
+          <div class="clearfix"></div>
+        </div>
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=940.392971039;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+

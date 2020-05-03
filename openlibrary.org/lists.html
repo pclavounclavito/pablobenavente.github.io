@@ -1,0 +1,879 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="lists.html" />
+
+    <link href="static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css"/>
+
+    <link href="static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script src="https://openlibrary.org/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="https://openlibrary.org/static/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+    
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Lists | Open Library</title>
+
+</head>
+
+
+
+
+
+<body id="user">
+  <div id="background">
+    <span id="top"></span>
+
+    <p class="shift">
+      <a href="#content" title="Click to skip!">Click here to skip to this page's main content.</a>
+    </p>
+                
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="account/login.html">Log in</a></li>
+        <li><a href="account/create.html">Sign up</a></li>
+        
+        <li><a href="books/add.html">Add a Book</a></li>
+        <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="advancedsearch.html">Advanced Search</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+        <li><a href="help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="subjects/science.html">Science</a></li>
+          <li><a href="subjects/biographies.html">Biographies</a></li>
+          <li><a href="subjects/textbooks.html">Textbooks</a></li>
+          <li><a href="subjects/science_fiction.html">Sci-Fi</a></li>
+          <li><a href="subjects/romance.html">Romance</a></li>
+          <li><a href="subjects/fantasy.html">Fantasy</a></li>
+          <li><a href="subjects.html">More Subjects</a></li>
+          <li><a href="lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="account/login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="account/login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="account/login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="books/add.html">Add a Book</a></li>
+          <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="advancedsearch.html">Advanced Search</a></li>
+          <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+          <li><a href="help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="account/login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="account/create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+    
+    <div id="placement">
+      <div id="position">
+        <div id="content">
+          <div class="flash-messages">
+          </div>
+          <div id="contentMsg">
+            <div class="alert attn"><span></span></div>
+          </div>
+
+          <div class="page-banner page-banner-body">
+            <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+          </div>
+          
+          
+
+<div id="contentHead">
+    <h1>Lists</h1>
+</div>
+
+<script type="text/javascript">
+<!--
+$().ready(function(){
+    $('.listEntry:nth-child(3n)').after('<div class="clearfix"></div>').css('margin-right','0');
+});
+//-->
+</script>
+
+<div id="contentBody">
+
+    <div id="description">
+        <h2>Create a list of any Subjects, Authors, Works or specific Editions.</h2>
+        <p>Once you've made a list, you can <strong>watch for updates</strong> or <strong>export</strong> all the editions in a list as HTML, <a href="http://www.bibtex.org/">BibTeX</a> or JSON. See all your lists and any activity using the "Lists" link on your Account page. <strong><em>Enjoy!</em></strong></p>
+        <p>For the <strong>top 2000+ most requested print disabled eBooks in California</strong>, <a href="https://openlibrary.org/people/sionnac/lists/OL25152L/Top_1000_Most_Requested_Print_Disabled_eBooks_for_California">click here</a>.</p>
+    </div>
+    <div class="head">
+        <h2>Active Lists</h2>
+    </div>
+    <div id="lists">
+    <!-- FOR EACH LIST -->
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/florencia1/lists/OL98447L"><img src="https://covers.openlibrary.org/b/id/112078-S.jpg" alt="Cover of: Florence&#39;s list" title="Cover of: /people/florencia1/lists/OL98447L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/florencia1/lists/OL98447L" class="title results">Florence&#39;s list</a> from <a href="https://openlibrary.org/people/florencia1">flor</a>
+            </div>
+            <div class="meta">
+                29 seeds
+                | Last modified 15 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/squashpop/lists/OL116862L"><img src="https://covers.openlibrary.org/b/id/7368441-S.jpg" alt="Cover of: looking for" title="Cover of: /people/squashpop/lists/OL116862L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/squashpop/lists/OL116862L" class="title results">looking for</a> from <a href="https://openlibrary.org/people/squashpop">squashpop</a>
+            </div>
+            <div class="meta">
+                13 seeds
+                | Last modified 7 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Beeble65/lists/OL112236L"><img src="https://covers.openlibrary.org/b/id/3870971-S.jpg" alt="Cover of: Non-Fiction" title="Cover of: /people/Beeble65/lists/OL112236L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Beeble65/lists/OL112236L" class="title results">Non-Fiction</a> from <a href="https://openlibrary.org/people/Beeble65">Rebecca Bye</a>
+            </div>
+            <div class="meta">
+                46 seeds
+                | Last modified 16 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/precetla/lists/OL124076L"><img src="https://covers.openlibrary.org/b/id/7155573-S.jpg" alt="Cover of: likes" title="Cover of: /people/precetla/lists/OL124076L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/precetla/lists/OL124076L" class="title results">likes</a> from <a href="https://openlibrary.org/people/precetla">precetla</a>
+            </div>
+            <div class="meta">
+                12 seeds
+                | Last modified 19 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Katerinaki/lists/OL103339L"><img src="https://covers.openlibrary.org/b/id/6620722-S.jpg" alt="Cover of: love these books 2016 2" title="Cover of: /people/Katerinaki/lists/OL103339L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Katerinaki/lists/OL103339L" class="title results">love these books 2016 2</a> from <a href="https://openlibrary.org/people/Katerinaki">Nikols Katerina</a>
+            </div>
+            <div class="meta">
+                192 seeds
+                | Last modified 6 hours ago
+            </div>
+            <div class="description no-img">
+            
+<p>love these books
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/shychef30/lists/OL115031L"><img src="https://covers.openlibrary.org/b/id/6457645-S.jpg" alt="Cover of: writers i might want to read" title="Cover of: /people/shychef30/lists/OL115031L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/shychef30/lists/OL115031L" class="title results">writers i might want to read</a> from <a href="https://openlibrary.org/people/shychef30">Jeanette Ryder</a>
+            </div>
+            <div class="meta">
+                15 seeds
+                | Last modified 15 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Katessi/lists/OL124306L"><img src="https://covers.openlibrary.org/b/id/152651-S.jpg" alt="Cover of: Linguistics" title="Cover of: /people/Katessi/lists/OL124306L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Katessi/lists/OL124306L" class="title results">Linguistics</a> from <a href="https://openlibrary.org/people/Katessi">Amy Mays</a>
+            </div>
+            <div class="meta">
+                6 seeds
+                | Last modified 5 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/qeff/lists/OL122720L"><img src="https://covers.openlibrary.org/b/id/7012381-S.jpg" alt="Cover of: Check" title="Cover of: /people/qeff/lists/OL122720L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/qeff/lists/OL122720L" class="title results">Check</a> from <a href="https://openlibrary.org/people/qeff">qeff</a>
+            </div>
+            <div class="meta">
+                1241 seeds
+                | Last modified 21 minutes ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Snorlax/lists/OL60607L"><img src="https://covers.openlibrary.org/b/id/3808483-S.jpg" alt="Cover of: ZZ - Wishlist (Pictbooks)" title="Cover of: /people/Snorlax/lists/OL60607L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Snorlax/lists/OL60607L" class="title results">ZZ - Wishlist (Pictbooks)</a> from <a href="https://openlibrary.org/people/Snorlax">Pageling</a>
+            </div>
+            <div class="meta">
+                126 seeds
+                | Last modified 9 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/homeminister/lists/OL65490L"><img src="https://covers.openlibrary.org/b/id/6599377-S.jpg" alt="Cover of: to read" title="Cover of: /people/homeminister/lists/OL65490L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/homeminister/lists/OL65490L" class="title results">to read</a> from <a href="https://openlibrary.org/people/homeminister">nandita saxena</a>
+            </div>
+            <div class="meta">
+                1475 seeds
+                | Last modified 13 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Djs9993/lists/OL116825L"><img src="https://covers.openlibrary.org/b/id/6801695-S.jpg" alt="Cover of: Kids" title="Cover of: /people/Djs9993/lists/OL116825L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Djs9993/lists/OL116825L" class="title results">Kids</a> from <a href="https://openlibrary.org/people/Djs9993">Djanalyst</a>
+            </div>
+            <div class="meta">
+                1472 seeds
+                | Last modified 7 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/bathilda/lists/OL62188L"><img src="https://covers.openlibrary.org/b/id/7448206-S.jpg" alt="Cover of: film history &amp; criticism" title="Cover of: /people/bathilda/lists/OL62188L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/bathilda/lists/OL62188L" class="title results">film history &amp; criticism</a> from <a href="https://openlibrary.org/people/bathilda">Dawn</a>
+            </div>
+            <div class="meta">
+                418 seeds
+                | Last modified 15 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Katessi/lists/OL124299L"><img src="https://covers.openlibrary.org/b/id/5642384-S.jpg" alt="Cover of: Russian" title="Cover of: /people/Katessi/lists/OL124299L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Katessi/lists/OL124299L" class="title results">Russian</a> from <a href="https://openlibrary.org/people/Katessi">Amy Mays</a>
+            </div>
+            <div class="meta">
+                12 seeds
+                | Last modified 5 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Djs9993/lists/OL122519L"><img src="https://covers.openlibrary.org/b/id/6533506-S.jpg" alt="Cover of: Both of u can read" title="Cover of: /people/Djs9993/lists/OL122519L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Djs9993/lists/OL122519L" class="title results">Both of u can read</a> from <a href="https://openlibrary.org/people/Djs9993">Djanalyst</a>
+            </div>
+            <div class="meta">
+                32 seeds
+                | Last modified 14 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/bathilda/lists/OL110401L"><img src="https://covers.openlibrary.org/b/id/240078-S.jpg" alt="Cover of: Film Catalogs" title="Cover of: /people/bathilda/lists/OL110401L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/bathilda/lists/OL110401L" class="title results">Film Catalogs</a> from <a href="https://openlibrary.org/people/bathilda">Dawn</a>
+            </div>
+            <div class="meta">
+                140 seeds
+                | Last modified 1 hour ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/lfpalson/lists/OL123677L"><img src="https://covers.openlibrary.org/b/id/6857607-S.jpg" alt="Cover of: Linda&#39;s Have to Read" title="Cover of: /people/lfpalson/lists/OL123677L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/lfpalson/lists/OL123677L" class="title results">Linda&#39;s Have to Read</a> from <a href="https://openlibrary.org/people/lfpalson">lfpalson</a>
+            </div>
+            <div class="meta">
+                23 seeds
+                | Last modified 6 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/seabelis/lists/OL119576L"><img src="https://covers.openlibrary.org/b/id/8069668-S.jpg" alt="Cover of: ok" title="Cover of: /people/seabelis/lists/OL119576L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/seabelis/lists/OL119576L" class="title results">ok</a> from <a href="https://openlibrary.org/people/seabelis">Lisa</a>
+            </div>
+            <div class="meta">
+                2763 seeds
+                | Last modified 1 minute ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/Barin/lists/OL101156L"><img src="https://covers.openlibrary.org/b/id/7026921-S.jpg" alt="Cover of: Mikalai" title="Cover of: /people/Barin/lists/OL101156L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/Barin/lists/OL101156L" class="title results">Mikalai</a> from <a href="https://openlibrary.org/people/Barin">Nicolai</a>
+            </div>
+            <div class="meta">
+                279 seeds
+                | Last modified 9 hours ago
+            </div>
+            <div class="description no-img">
+            
+<p>I am looking for these books<br/>
+   I am able to read
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/violet_frost/lists/OL112935L"><img src="https://covers.openlibrary.org/b/id/7027948-S.jpg" alt="Cover of: Nonfiction to read" title="Cover of: /people/violet_frost/lists/OL112935L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/violet_frost/lists/OL112935L" class="title results">Nonfiction to read</a> from <a href="https://openlibrary.org/people/violet_frost">VioletFrost</a>
+            </div>
+            <div class="meta">
+                68 seeds
+                | Last modified 17 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/seabelis/lists/OL119930L"><img src="https://covers.openlibrary.org/b/id/8129019-S.jpg" alt="Cover of: stuck" title="Cover of: /people/seabelis/lists/OL119930L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/seabelis/lists/OL119930L" class="title results">stuck</a> from <a href="https://openlibrary.org/people/seabelis">Lisa</a>
+            </div>
+            <div class="meta">
+                161 seeds
+                | Last modified 2 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/bathilda/lists/OL96377L"><img src="https://covers.openlibrary.org/b/id/4616440-S.jpg" alt="Cover of: Self" title="Cover of: /people/bathilda/lists/OL96377L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/bathilda/lists/OL96377L" class="title results">Self</a> from <a href="https://openlibrary.org/people/bathilda">Dawn</a>
+            </div>
+            <div class="meta">
+                224 seeds
+                | Last modified 17 hours ago
+            </div>
+            <div class="description no-img">
+            
+<p>care of mind and body, domestic concerns, gender issues
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/BVopen/lists/OL122406L"><img src="https://covers.openlibrary.org/b/id/8167201-S.jpg" alt="Cover of: Biblioteca Valenciana Nicolau Primitiu - Dipòsit Legal Alacant 2016" title="Cover of: /people/BVopen/lists/OL122406L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/BVopen/lists/OL122406L" class="title results">Biblioteca Valenciana Nicolau Primitiu - Dipòsit Legal Alacant 2016</a> from <a href="https://openlibrary.org/people/BVopen">Biblioteca Valenciana Nicolau Primitiu</a>
+            </div>
+            <div class="meta">
+                113 seeds
+                | Last modified 9 hours ago
+            </div>
+            <div class="description no-img">
+            
+<p>Biblioteca Valenciana Nicolau Primitiu - Dipòsit Legal Alacant 2016
+</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/SergioPavanMargarido/lists/OL65444L"><img src="https://covers.openlibrary.org/b/id/4466363-S.jpg" alt="Cover of: Waiting" title="Cover of: /people/SergioPavanMargarido/lists/OL65444L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/SergioPavanMargarido/lists/OL65444L" class="title results">Waiting</a> from <a href="https://openlibrary.org/people/SergioPavanMargarido">Sergio Pavan Margarido</a>
+            </div>
+            <div class="meta">
+                3162 seeds
+                | Last modified 17 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    <div class="listEntry">
+        <div class="cover">
+            <a href="https://openlibrary.org/people/gmam50/lists/OL95387L"><img src="https://covers.openlibrary.org/b/id/6561877-S.jpg" alt="Cover of: Mystery" title="Cover of: /people/gmam50/lists/OL95387L"/></a>
+        </div>
+        <div class="data">
+            <div class="name">
+                <a href="https://openlibrary.org/people/gmam50/lists/OL95387L" class="title results">Mystery</a> from <a href="https://openlibrary.org/people/gmam50">Deborah Buchanan</a>
+            </div>
+            <div class="meta">
+                18 seeds
+                | Last modified 17 hours ago
+            </div>
+            <div class="description no-img">
+            <p><em class="grey">No description.</em></p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2>
+        Recent Activity
+        <span class="tools"><a href="https://openlibrary.org/recentchanges/lists">See all</a></span>
+    </h2>
+    
+
+
+
+
+<style type="text/css">a.blocked-ip {
+    color: red;
+}
+</style>
+
+<table class="changeHistory">
+    <thead>
+        <tr>
+            <th>When</th>
+            <th>What</th>
+            <th>Who</th>
+            <th>&#191;Qu&#233;?</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="time">1 second ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5577" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL2608629W/Our_radicals">Our radicals</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">30 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5576" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL505947W/Of_Human_Bondage">Of Human Bondage</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">48 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/pradhipa/lists/OL117759L" class="datalink" title="/people/pradhipa/lists/OL117759L">Nice n different (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/pradhipa/lists/OL117759L?m=diff&amp;b=53" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/pradhipa" title="Pradhipa Ramanathan">Pradhipa Ramanathan</a></td>
+        <td class="comment">
+
+Added <a href="https://openlibrary.org/books/OL25976362M/His_Daughter_Their_Child">His Daughter Their Child</a> to the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">57 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5575" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL3559957W/Celebrated_trials_connected_with_the_upper_classes_of_society_in_the_relations_of_private_life">Celebrated trials connected with the upper classes of society, in the relations of private life</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5574" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL1176829W/Nature_near_London">Nature near London</a> from the list.
+
+
+</td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+
+
+</div>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=8776.44586563;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+

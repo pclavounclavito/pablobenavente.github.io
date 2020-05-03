@@ -1,0 +1,2873 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="index.html" />
+
+    <link href="static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css"/>
+
+    <link href="static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script type="text/javascript" src="static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="static/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="static/js/slick-1.6.0.min.js"></script>
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Welcome to Open Library | Open Library</title>
+
+</head>
+
+
+
+
+
+<body>
+  <span id="top"></span>
+              
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="account/login.html">Log in</a></li>
+        <li><a href="account/create.html">Sign up</a></li>
+        
+        <li><a href="books/add.html">Add a Book</a></li>
+        <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="advancedsearch.html">Advanced Search</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+        <li><a href="help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="subjects/science.html">Science</a></li>
+          <li><a href="subjects/biographies.html">Biographies</a></li>
+          <li><a href="subjects/textbooks.html">Textbooks</a></li>
+          <li><a href="subjects/science_fiction.html">Sci-Fi</a></li>
+          <li><a href="subjects/romance.html">Romance</a></li>
+          <li><a href="subjects/fantasy.html">Fantasy</a></li>
+          <li><a href="subjects.html">More Subjects</a></li>
+          <li><a href="lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="account/login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="account/login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="account/login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="books/add.html">Add a Book</a></li>
+          <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="advancedsearch.html">Advanced Search</a></li>
+          <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+          <li><a href="help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="account/login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="account/create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+  <div id="test-body-mobile">
+    <div class="page-banner page-banner-body">
+      <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+    </div>
+    
+
+<div id="contentBody">
+  
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="subjects.html">Browse by Subject</a></h2>
+  </div>
+  <hr>
+  <div class="carousel-container">
+    <div class="carousel" id="categories_carousel">
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/art.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/art.svg"
+                 alt="browse Art books"/>
+          </div>
+          <p class="category-title">Art</p>
+          <p class="category-count" name="">37.635 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/fantasy.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/fantasy.svg"
+                 alt="browse Fantasy books"/>
+          </div>
+          <p class="category-title">Fantasy</p>
+          <p class="category-count" name="">8.835 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/biographies.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/biographies.svg"
+                 alt="browse Biographies books"/>
+          </div>
+          <p class="category-title">Biographies</p>
+          <p class="category-count" name="">5.536 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/science.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/science.svg"
+                 alt="browse Science books"/>
+          </div>
+          <p class="category-title">Science</p>
+          <p class="category-count" name="">45.267 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/recipes.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/recipes.svg"
+                 alt="browse Recipes books"/>
+          </div>
+          <p class="category-title">Recipes</p>
+          <p class="category-count" name="">4.270 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/romance.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/romance.svg"
+                 alt="browse Romance books"/>
+          </div>
+          <p class="category-title">Romance</p>
+          <p class="category-count" name="">15.332 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/religion.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/religion.svg"
+                 alt="browse Religion books"/>
+          </div>
+          <p class="category-title">Religion</p>
+          <p class="category-count" name="">40.763 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/mystery_and_detective_stories.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/mystery_and_detective_stories.svg"
+                 alt="browse Mystery And Detective Stories books"/>
+          </div>
+          <p class="category-title">Mystery And Detective Stories</p>
+          <p class="category-count" name="">6.784 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/music.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/music.svg"
+                 alt="browse Music books"/>
+          </div>
+          <p class="category-title">Music</p>
+          <p class="category-count" name="">36.571 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/medicine.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/medicine.svg"
+                 alt="browse Medicine books"/>
+          </div>
+          <p class="category-title">Medicine</p>
+          <p class="category-count" name="">21.124 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/plays.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/plays.svg"
+                 alt="browse Plays books"/>
+          </div>
+          <p class="category-title">Plays</p>
+          <p class="category-count" name="">1.485 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/history.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/history.svg"
+                 alt="browse History books"/>
+          </div>
+          <p class="category-title">History</p>
+          <p class="category-count" name="">936.758 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/children.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/children.svg"
+                 alt="browse Children books"/>
+          </div>
+          <p class="category-title">Children</p>
+          <p class="category-count" name="">22.743 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/science_fiction.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/science_fiction.svg"
+                 alt="browse Science Fiction books"/>
+          </div>
+          <p class="category-title">Science Fiction</p>
+          <p class="category-count" name="">9.519 Books</p>
+        </a>
+      </div>
+      <div class="category-item">
+        <a class="category-nostyle" data-ol-link-track="CarouselCategories"
+           href="subjects/textbooks.html#sort=date_published&amp;ebooks=true">
+          <div class="category-icon">
+            <img class="category-img" src="static/images/categories/textbooks.svg"
+                 alt="browse Textbooks books"/>
+          </div>
+          <p class="category-title">Textbooks</p>
+          <p class="category-count" name="">14.162 Books</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$().ready(function() {
+  Carousel.add('#categories_carousel', 6, 5, 4, 3, 2);
+});
+</script>
+
+
+  
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="read.html">Classic Books</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-public_domain">
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15052390W/Poems.html">
+            <img class="bookcover" title="Poems by Gerard Manley Hopkins" src="https://covers.openlibrary.org/b/olid/OL21556618M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/dummyinserter008book" data-ol-link-track="public_domain" title="Read Poems">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL313329W/Camino_de_perfecci%C3%B3n.html">
+            <img class="bookcover" title="Camino de perfección by Teresa of Avila" src="https://covers.openlibrary.org/b/olid/OL8251700M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/wayofperfection00tereuoft" data-ol-link-track="public_domain" title="Read Camino de perfección">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL43369W/Zapiski_okhotnika.html">
+            <img class="bookcover" title="Zapiski okhotnika by Ivan Sergeevich Turgenev" src="https://covers.openlibrary.org/b/olid/OL1605840M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/memoirsofsportsm00turg" data-ol-link-track="public_domain" title="Read Zapiski okhotnika">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL86343W/A_Portrait_of_the_Artist_as_a_Young_Man.html">
+            <img class="bookcover" title="A Portrait of the Artist as a Young Man by James Joyce" src="https://covers.openlibrary.org/b/olid/OL8456510M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cu31924060276882" data-ol-link-track="public_domain" title="Read A Portrait of the Artist as a Young Man">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15087757W/Briefe.html">
+            <img class="bookcover" title="Briefe by Johann Wolfgang von Goethe" src="https://covers.openlibrary.org/b/olid/OL23364476M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/goethebriefe02goetuoft" data-ol-link-track="public_domain" title="Read Briefe">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL43367W/Nov%CA%B9.html">
+            <img class="bookcover" title="Novʹ by Ivan Sergeevich Turgenev" src="https://covers.openlibrary.org/b/olid/OL6776280M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/virginsoilturgen00turg" data-ol-link-track="public_domain" title="Read Novʹ">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15342308W/The_Temple.html">
+            <img class="bookcover" title="The Temple by George Herbert" src="https://covers.openlibrary.org/b/olid/OL7250575M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/templesacredpoem00herbuoft" data-ol-link-track="public_domain" title="Read The Temple">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL810987W/Paradise_Regained.html">
+            <img class="bookcover" title="Paradise Regained by John Milton" src="https://covers.openlibrary.org/b/olid/OL7227773M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/paradiserega00milt" data-ol-link-track="public_domain" title="Read Paradise Regained">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL109882W/The_Warden.html">
+            <img class="bookcover" title="The Warden by Anthony Trollope" src="https://covers.openlibrary.org/b/olid/OL24198901M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/warden00trol" data-ol-link-track="public_domain" title="Read The Warden">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL2540345W/Tom_Brown&apos;s_School_Days.html">
+            <img class="bookcover" title="Tom Brown&#39;s School Days by Thomas Hughes" src="https://covers.openlibrary.org/b/olid/OL23348796M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/tombrownsschoold00hughiala" data-ol-link-track="public_domain" title="Read Tom Brown&#39;s School Days">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL137835W/De_civitate_Dei.html">
+            <img class="bookcover" title="De civitate Dei by Augustine of Hippo" src="https://covers.openlibrary.org/b/olid/OL6783137M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cityofgodtransla01auguuoft" data-ol-link-track="public_domain" title="Read De civitate Dei">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL810986W/Areopagitica.html">
+            <img class="bookcover" title="Areopagitica by John Milton" src="https://covers.openlibrary.org/b/olid/OL2745302M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/areopagitica00miltuoft" data-ol-link-track="public_domain" title="Read Areopagitica">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL1502418W/Tenures.html">
+            <img class="bookcover" title="Tenures by Thomas de Littleton" src="https://covers.openlibrary.org/b/olid/OL7215301M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/littletonstenure00litt" data-ol-link-track="public_domain" title="Read Tenures">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL109881W/Doctor_Thorne.html">
+            <img class="bookcover" title="Doctor Thorne by Anthony Trollope" src="https://covers.openlibrary.org/b/olid/OL1394602M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/doctorthornenove00trol" data-ol-link-track="public_domain" title="Read Doctor Thorne">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL44995W/Far_From_the_Madding_Crowd.html">
+            <img class="bookcover" title="Far From the Madding Crowd by Thomas Hardy" src="https://covers.openlibrary.org/b/olid/OL3962817M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cu31924013477421" data-ol-link-track="public_domain" title="Read Far From the Madding Crowd">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL741412W/Be%CC%81re%CC%81nice.html">
+            <img class="bookcover" title="Bérénice by Jean Racine" src="https://covers.openlibrary.org/b/olid/OL13995919M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/berenice00raciuoft" data-ol-link-track="public_domain" title="Read Bérénice">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL814632W/Adventures_of_Roderick_Random.html">
+            <img class="bookcover" title="Adventures of Roderick Random by Tobias Smollett" src="https://covers.openlibrary.org/b/olid/OL3699808M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cu31924014156370" data-ol-link-track="public_domain" title="Read Adventures of Roderick Random">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15681184W/The_Gilded_Age.html">
+            <img class="bookcover" title="The Gilded Age by Mark Twain" src="https://covers.openlibrary.org/b/olid/OL24178074M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/gildedagetaleoft01twaiiala" data-ol-link-track="public_domain" title="Read The Gilded Age">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL262505W/The_valley_of_fear.html">
+            <img class="bookcover" title="The valley of fear by Sir Arthur Conan Doyle" src="https://covers.openlibrary.org/b/olid/OL7993394M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cihm_76775" data-ol-link-track="public_domain" title="Read The valley of fear">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL99840W/Zum_ewigen_Frieden.html">
+            <img class="bookcover" title="Zum ewigen Frieden by Immanuel Kant" src="https://covers.openlibrary.org/b/olid/OL19185702M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/perpetualpeaceph00kant" data-ol-link-track="public_domain" title="Read Zum ewigen Frieden">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL634478W/Poems.html">
+            <img class="bookcover" title="Poems by Robert Browning" src="https://covers.openlibrary.org/b/olid/OL13446247M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/poemsbro01browuoft" data-ol-link-track="public_domain" title="Read Poems">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL14862662W/A_dictionary_of_the_English_language.html">
+            <img class="bookcover" title="A dictionary of the English language by Samuel Johnson" src="https://covers.openlibrary.org/b/olid/OL19370907M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/dictionaryofengl01johnuoft" data-ol-link-track="public_domain" title="Read A dictionary of the English language">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL38766W/Victory.html">
+            <img class="bookcover" title="Victory by Joseph Conrad" src="https://covers.openlibrary.org/b/olid/OL3566529M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/victoryislandtal00conrrich" data-ol-link-track="public_domain" title="Read Victory">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL20170W/Soldiers_three.html">
+            <img class="bookcover" title="Soldiers three by Rudyard Kipling" src="https://covers.openlibrary.org/b/olid/OL24657215M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/phantomrickshawc00kipl" data-ol-link-track="public_domain" title="Read Soldiers three">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL262757W/The_Two_Towers.html">
+            <img class="bookcover" title="The Two Towers by J. R. R. Tolkien" src="https://covers.openlibrary.org/b/olid/OL26446260M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/lordofrings21tolk" data-ol-link-track="public_domain" title="Read The Two Towers">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL541942W/Treaties_etc.html">
+            <img class="bookcover" title="Treaties, etc by France" src="https://covers.openlibrary.org/b/olid/OL19374156M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/traitdamitie00fran" data-ol-link-track="public_domain" title="Read Treaties, etc">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL362697W/The_comedies_histories_tragedies_of_William_Shakespeare.html">
+            <img class="bookcover" title="The comedies histories &amp; tragedies of William Shakespeare by William Shakespeare" src="https://covers.openlibrary.org/b/olid/OL3542812M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/secondpartofhenr00shakrich" data-ol-link-track="public_domain" title="Read The comedies histories &amp; tragedies of William Shakespeare">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL144803W/The_Cruise_of_the_Snark.html">
+            <img class="bookcover" title="The Cruise of the Snark by Jack London" src="https://covers.openlibrary.org/b/olid/OL8843738M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cruiseofsnark00londrich" data-ol-link-track="public_domain" title="Read The Cruise of the Snark">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15241078W/Androcles_and_the_lion.html">
+            <img class="bookcover" title="Androcles and the lion by George Bernard Shaw" src="https://covers.openlibrary.org/b/olid/OL23277014M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/androcleslionove16shaw" data-ol-link-track="public_domain" title="Read Androcles and the lion">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL3715685W/Domestic_medicine.html">
+            <img class="bookcover" title="Domestic medicine by William Buchan" src="https://covers.openlibrary.org/b/olid/OL7199349M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/domesticmedicine00buchuoft" data-ol-link-track="public_domain" title="Read Domestic medicine">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL8300174W/Barnaby_Rudge.html">
+            <img class="bookcover" title="Barnaby Rudge by Charles Dickens" src="https://covers.openlibrary.org/b/olid/OL13520785M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/barnabyrudgetale01dick" data-ol-link-track="public_domain" title="Read Barnaby Rudge">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL17773293W/The_Atlantic.html">
+            <img class="bookcover" title="The Atlantic" src="https://covers.openlibrary.org/b/olid/OL7037024M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/atlantic117bostuoft" data-ol-link-track="public_domain" title="Read The Atlantic">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL39081W/The_rescue.html">
+            <img class="bookcover" title="The rescue by Joseph Conrad" src="https://covers.openlibrary.org/b/olid/OL8536632M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/rescueromanceofs00conruoft" data-ol-link-track="public_domain" title="Read The rescue">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL20936W/Romola.html">
+            <img class="bookcover" title="Romola by George Eliot" src="https://covers.openlibrary.org/b/olid/OL7592742M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/romolael02elio" data-ol-link-track="public_domain" title="Read Romola">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL4840678W/Reliques_of_ancient_English_poetry.html">
+            <img class="bookcover" title="Reliques of ancient English poetry by Thomas Percy" src="https://covers.openlibrary.org/b/olid/OL7062504M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/reliquesofancien03perciala" data-ol-link-track="public_domain" title="Read Reliques of ancient English poetry">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL52660W/Torquato_Tasso.html">
+            <img class="bookcover" title="Torquato Tasso by John Leonard Greenberg" src="https://covers.openlibrary.org/b/olid/OL17981936M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/torquatotasso00goetuoft" data-ol-link-track="public_domain" title="Read Torquato Tasso">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL1329890W/Causeries_du_lundi.html">
+            <img class="bookcover" title="Causeries du lundi by Charles Augustin Sainte-Beuve" src="https://covers.openlibrary.org/b/olid/OL23285177M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/causeriesdulun00sain" data-ol-link-track="public_domain" title="Read Causeries du lundi">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL788067W/In_a_German_Pension.html">
+            <img class="bookcover" title="In a German Pension by Katherine Mansfield" src="https://covers.openlibrary.org/b/olid/OL7349901M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/ingermanpension00mansrich" data-ol-link-track="public_domain" title="Read In a German Pension">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL93835W/Fort_comme_la_mort.html">
+            <img class="bookcover" title="Fort comme la mort by Guy de Maupassant" src="https://covers.openlibrary.org/b/olid/OL9464911M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/fortcommelamort00maupuoft" data-ol-link-track="public_domain" title="Read Fort comme la mort">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL622972W/The_writings_of_Thomas_Jefferson.html">
+            <img class="bookcover" title="The writings of Thomas Jefferson by Thomas Jefferson" src="https://covers.openlibrary.org/b/olid/OL23362506M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/writingsoft09jeffiala" data-ol-link-track="public_domain" title="Read The writings of Thomas Jefferson">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL863808W/Ivanhoe.html">
+            <img class="bookcover" title="Ivanhoe by Sir Walter Scott" src="https://covers.openlibrary.org/b/olid/OL24949393M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/ivanhoeabridgede00scotuoft" data-ol-link-track="public_domain" title="Read Ivanhoe">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL1068327W/Considerations_on_representative_government.html">
+            <img class="bookcover" title="Considerations on representative government by John Stuart Mill" src="https://covers.openlibrary.org/b/olid/OL14001765M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cu31924014292829" data-ol-link-track="public_domain" title="Read Considerations on representative government">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL93569W/A_treatise_of_human_nature.html">
+            <img class="bookcover" title="A treatise of human nature by David Hume" src="https://covers.openlibrary.org/b/olid/OL3688622M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/treatiseofhumann02humeuoft" data-ol-link-track="public_domain" title="Read A treatise of human nature">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL2999336W/The_laws_of_the_state_of_New-Hampshire.html">
+            <img class="bookcover" title="The laws of the state of New-Hampshire by New Hampshire." src="https://covers.openlibrary.org/b/olid/OL17874252M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/lawsofstateofnew00newh" data-ol-link-track="public_domain" title="Read The laws of the state of New-Hampshire">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15464873W/Agamemnon.html">
+            <img class="bookcover" title="Agamemnon by Aeschylus" src="https://covers.openlibrary.org/b/olid/OL4574265M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/agamemnonaftergr00aesciala" data-ol-link-track="public_domain" title="Read Agamemnon">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15420303W/Poems.html">
+            <img class="bookcover" title="Poems by John Donne" src="https://covers.openlibrary.org/b/olid/OL783640M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/poemsofjohndonne02donniala" data-ol-link-track="public_domain" title="Read Poems">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL24154W/In_the_South_Seas.html">
+            <img class="bookcover" title="In the South Seas by Robert Louis Stevenson" src="https://covers.openlibrary.org/b/olid/OL22434921M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/southseasbeing00stev" data-ol-link-track="public_domain" title="Read In the South Seas">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL23869W/Contes_des_f%C3%A9es.html">
+            <img class="bookcover" title="Contes des fées by Charles Perrault" src="https://covers.openlibrary.org/b/olid/OL5298816M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/contesdeperrault00perr" data-ol-link-track="public_domain" title="Read Contes des fées">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL4095484W/Familiar_Quotations.html">
+            <img class="bookcover" title="Familiar Quotations by John Bartlett" src="https://covers.openlibrary.org/b/olid/OL6903504M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/familiarquotatio00bartrich" data-ol-link-track="public_domain" title="Read Familiar Quotations">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL24151W/The_ebb-tide.html">
+            <img class="bookcover" title="The  ebb-tide by Robert Louis Stevenson" src="https://covers.openlibrary.org/b/olid/OL7592729M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/ebbtidetrioandqu00stevuoft" data-ol-link-track="public_domain" title="Read The  ebb-tide">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="works/OL15336690W/Old_Mortality.html">
+            <img class="bookcover" title="Old Mortality by Sir Walter Scott" src="https://covers.openlibrary.org/b/olid/OL7145049M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/oldmortality00scotuoft" data-ol-link-track="public_domain" title="Read Old Mortality">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL61101W">
+            <img class="bookcover" title="Renaissance in Italy by John Addington Symonds" src="https://covers.openlibrary.org/b/olid/OL7204057M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/renaissanceinita01symouoft" data-ol-link-track="public_domain" title="Read Renaissance in Italy">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL1795445W">
+            <img class="bookcover" title="Main-travelled roads by Hamlin Garland" src="https://covers.openlibrary.org/b/olid/OL798655M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cu31924014392231" data-ol-link-track="public_domain" title="Read Main-travelled roads">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL99386W">
+            <img class="bookcover" title="Diario by Christopher Columbus" src="https://covers.openlibrary.org/b/olid/OL4578030M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/personalnarrativ00colu" data-ol-link-track="public_domain" title="Read Diario">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL108775W">
+            <img class="bookcover" title="The tale of Squirrel Nutkin by Beatrix Potter" src="https://covers.openlibrary.org/b/olid/OL7244289M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/taleofsquirrelnu00pottuoft" data-ol-link-track="public_domain" title="Read The tale of Squirrel Nutkin">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL531767W">
+            <img class="bookcover" title="The Canterbury tales by Geoffrey Chaucer" src="https://covers.openlibrary.org/b/olid/OL24786092M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/prologueknightes00chauuoft" data-ol-link-track="public_domain" title="Read The Canterbury tales">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL93230W">
+            <img class="bookcover" title="Paradiso by Dante Alighieri" src="https://covers.openlibrary.org/b/olid/OL24280564M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/ladivinacommedia02dantuoft" data-ol-link-track="public_domain" title="Read Paradiso">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL63995W">
+            <img class="bookcover" title="Rip Van Winkle by Washington Irving" src="https://covers.openlibrary.org/b/olid/OL6646798M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cihm_94806" data-ol-link-track="public_domain" title="Read Rip Van Winkle">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL144815W">
+            <img class="bookcover" title="The People of the Abyss by Jack London" src="https://covers.openlibrary.org/b/olid/OL24186399M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/cihm_74963" data-ol-link-track="public_domain" title="Read The People of the Abyss">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/works/OL729826W">
+            <img class="bookcover" title="Paul Gauguin by Paul Gauguin" src="https://covers.openlibrary.org/b/olid/OL3498048M-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://archive.org/stream/paulgauguin00rewa" data-ol-link-track="public_domain" title="Read Paul Gauguin">Read</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-public_domain', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20(collection:(inlibrary)%20OR%20(!collection:(printdisabled)))%20AND%20loans__status__status:AVAILABLE%20AND%20languageSorter:(%22English%22)%20AND%20openlibrary_subject:openlibrary_staff_picks&amp;sort=-loans__status__last_loan_date">Books We Love</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-staff_picks">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23159821M">
+            <img class="bookcover" title="Physics by Aristotle" src="https://covers.openlibrary.org/w/id/119340-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/physics00aris_0" data-ol-link-track="staff_picks" title="Borrow Physics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24658622M">
+            <img class="bookcover" title="Measuring the world by Daniel Kehlmann" src="https://covers.openlibrary.org/w/id/6775001-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/measuringworld00kehl" data-ol-link-track="staff_picks" title="Borrow Measuring the world">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7589501M">
+            <img class="bookcover" title="The Prince (Mentor) by Niccolò Machiavelli" src="https://covers.openlibrary.org/w/id/295935-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/princementor000nicc" data-ol-link-track="staff_picks" title="Borrow The Prince (Mentor)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23971731M">
+            <img class="bookcover" title="Autobiography of Mark Twain by Mark Twain" src="https://covers.openlibrary.org/w/id/41907-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/autobiographyofm00twai_0" data-ol-link-track="staff_picks" title="Borrow Autobiography of Mark Twain">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5820147M">
+            <img class="bookcover" title="The atoms within us. by Ernest Borek" src="https://covers.openlibrary.org/w/id/4361329-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/atomswithinus00bore" data-ol-link-track="staff_picks" title="Borrow The atoms within us.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1089713M">
+            <img class="bookcover" title="The Name of the Rose by Umberto Eco" src="https://covers.openlibrary.org/b/id/7083299-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/nameofrose00ecoux" data-ol-link-track="staff_picks" title="Borrow The Name of the Rose">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL17063250M">
+            <img class="bookcover" title="The Two Towers by J. R. R. Tolkien" src="https://covers.openlibrary.org/w/id/8167232-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/twotowersbeingse1970tolk" data-ol-link-track="staff_picks" title="Borrow The Two Towers">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24238996M">
+            <img class="bookcover" title="Alice&#39;s adventures in Wonderland and through the looking-glass by Lewis Carroll" src="https://covers.openlibrary.org/w/id/575546-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/alicesadventur1970carr" data-ol-link-track="staff_picks" title="Borrow Alice&#39;s adventures in Wonderland and through the looking-glass">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-staff_picks', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20collection:(inlibrary)%20AND%20loans__status__status:AVAILABLE&amp;sort=-loans__status__last_loan_date">Recently Returned</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-recently_returned">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2229302M">
+            <img class="bookcover" title="Sports conditioning and weight training by Stone, William J." src="https://covers.openlibrary.org/w/id/4143318-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/sportsconditioni00ston" data-ol-link-track="recently_returned" title="Borrow Sports conditioning and weight training">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2196230M">
+            <img class="bookcover" title="The Columbia University College of Physicians and Surgeons complete guide to early child care by Nicholas Cunningham, Donald F. Tapley" src="https://covers.openlibrary.org/b/id/6747903-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/columbiauniversi00cunn" data-ol-link-track="recently_returned" title="Borrow The Columbia University College of Physicians and Surgeons complete guide to early child care">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4114205M">
+            <img class="bookcover" title="A savage place by Robert B. Parker" src="https://covers.openlibrary.org/w/id/4364575-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/savageplacespens00park" data-ol-link-track="recently_returned" title="Borrow A savage place">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL12197275M">
+            <img class="bookcover" title="Butterflies by Jean Warren" src="https://archive.org/services/img/butterflies00jean"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/butterflies00jean" data-ol-link-track="recently_returned" title="Borrow Butterflies">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10736050M">
+            <img class="bookcover" title="A Mother by Nature (Medical Romance, #3) by Caroline Anderson" src="https://archive.org/services/img/isbn_9780373063031"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_9780373063031" data-ol-link-track="recently_returned" title="Borrow A Mother by Nature (Medical Romance, #3)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24358896M">
+            <img class="bookcover" title="Ready-to-use old-fashioned romantic cuts by Carol Belanger Grafton" src="https://covers.openlibrary.org/b/id/6586107-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/readytouseoldfas00graf" data-ol-link-track="recently_returned" title="Borrow Ready-to-use old-fashioned romantic cuts">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24217147M">
+            <img class="bookcover" title="Practically perfect. by Caroline Anderson" src="https://covers.openlibrary.org/b/id/6553122-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/practicallyperfe00ande" data-ol-link-track="recently_returned" title="Borrow Practically perfect.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2050669M">
+            <img class="bookcover" title="Valuing a business by Shannon P. Pratt" src="https://covers.openlibrary.org/w/id/56861-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/valuingbusinessa00prat" data-ol-link-track="recently_returned" title="Borrow Valuing a business">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL20698064M">
+            <img class="bookcover" title="Lucid dreaming by Stephen LaBerge" src="https://covers.openlibrary.org/w/id/4981039-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/luciddreaming00labe" data-ol-link-track="recently_returned" title="Borrow Lucid dreaming">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2726137M">
+            <img class="bookcover" title="Getting stronger by Bill Pearl" src="https://covers.openlibrary.org/w/id/714470-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/gettingstrongerw00pear" data-ol-link-track="recently_returned" title="Borrow Getting stronger">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8117177M">
+            <img class="bookcover" title="The Sexualized Child in Foster Care by Sally G. Hoyle" src="https://covers.openlibrary.org/w/id/673427-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/sexualizedchildi00sall" data-ol-link-track="recently_returned" title="Borrow The Sexualized Child in Foster Care">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8552991M">
+            <img class="bookcover" title="Midnight Rainbow by Linda Howard" src="https://covers.openlibrary.org/w/id/1470529-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/midnightrainbow00lind" data-ol-link-track="recently_returned" title="Borrow Midnight Rainbow">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10265785M">
+            <img class="bookcover" title="HEATHCLIFF RIDES AGAIN by George Gately" src="https://covers.openlibrary.org/w/id/6703450-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/heathcliffridesa00gate" data-ol-link-track="recently_returned" title="Borrow HEATHCLIFF RIDES AGAIN">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1009412M">
+            <img class="bookcover" title="A busy guy" src="https://covers.openlibrary.org/b/id/3860603-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_9780516203966" data-ol-link-track="recently_returned" title="Borrow A busy guy">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7720495M">
+            <img class="bookcover" title="Keepers of the Keys by Sir Nicolas Cheetham" src="https://covers.openlibrary.org/w/id/4656015-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/keepersofkeys00sirn" data-ol-link-track="recently_returned" title="Borrow Keepers of the Keys">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL22859282M">
+            <img class="bookcover" title="The legend of the Indian paintbrush by Tomie dePaola" src="https://archive.org/services/img/legendofindian00depa"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/legendofindian00depa" data-ol-link-track="recently_returned" title="Borrow The legend of the Indian paintbrush">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26403338M">
+            <img class="bookcover" title="Marriage and family 90/91" src="https://covers.openlibrary.org/w/id/8102360-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/marriagefamily9000olli" data-ol-link-track="recently_returned" title="Borrow Marriage and family 90/91">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24946495M">
+            <img class="bookcover" title="Cathedral by Nelson DeMille" src="https://covers.openlibrary.org/w/id/6905179-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/cathedralnovel00demi" data-ol-link-track="recently_returned" title="Borrow Cathedral">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2194335M">
+            <img class="bookcover" title="FOB and other plays by David Henry Hwang" src="https://covers.openlibrary.org/b/id/6643264-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/fobotherplays00hwan" data-ol-link-track="recently_returned" title="Borrow FOB and other plays">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3494183M">
+            <img class="bookcover" title="The Parents&#39; guide to baby &amp; child care medical" src="https://covers.openlibrary.org/w/id/6980358-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/parentsguidetoba00hart" data-ol-link-track="recently_returned" title="Borrow The Parents&#39; guide to baby &amp; child care medical">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26333289M">
+            <img class="bookcover" title="Bambi by Walt Disney" src="https://covers.openlibrary.org/w/id/8012026-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_3439820386" data-ol-link-track="recently_returned" title="Borrow Bambi">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9646229M">
+            <img class="bookcover" title="Walt Disney&#39;s Bambi (Junior Novel Series) by Joanne Ryder" src="https://covers.openlibrary.org/w/id/6920930-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/waltdisneysbambi00ryde" data-ol-link-track="recently_returned" title="Borrow Walt Disney&#39;s Bambi (Junior Novel Series)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7874405M">
+            <img class="bookcover" title="The Book of the Penis" src="https://covers.openlibrary.org/b/id/6649258-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/bookofpenis00pale" data-ol-link-track="recently_returned" title="Borrow The Book of the Penis">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1703315M">
+            <img class="bookcover" title="Mind power." src="https://covers.openlibrary.org/w/id/6693089-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/mindpower00read" data-ol-link-track="recently_returned" title="Borrow Mind power.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2879038M">
+            <img class="bookcover" title="Marriage &amp; family by Stephen R. Covey" src="https://covers.openlibrary.org/b/id/6536864-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/marriagefamilygo00cove" data-ol-link-track="recently_returned" title="Borrow Marriage &amp; family">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5951886M">
+            <img class="bookcover" title="Memoirs of capitalism, communism, and nazism by Calvin Bryce Hoover" src="https://covers.openlibrary.org/w/id/7986967-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/memoirsofcapital00hoov" data-ol-link-track="recently_returned" title="Borrow Memoirs of capitalism, communism, and nazism">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5867684M">
+            <img class="bookcover" title="The Macmillan science-life series by J. Darrell Barnard" src="https://covers.openlibrary.org/w/id/6905289-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/macmillanscience01barn" data-ol-link-track="recently_returned" title="Borrow The Macmillan science-life series">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9422121M">
+            <img class="bookcover" title="White Fire by Cassie Edwards" src="https://covers.openlibrary.org/w/id/1237124-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/whitefire00cass" data-ol-link-track="recently_returned" title="Borrow White Fire">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL11069733M">
+            <img class="bookcover" title="Summer Vacation (Kenan and Kel) by Steve Holland" src="https://covers.openlibrary.org/w/id/2547335-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/summervacation00holl" data-ol-link-track="recently_returned" title="Borrow Summer Vacation (Kenan and Kel)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL11465724M">
+            <img class="bookcover" title="Weight Lifting and Bodybuilding Total Fitness for Men and Women by Donald Dean MacChia" src="https://covers.openlibrary.org/w/id/8062658-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/weightliftingbod00dona" data-ol-link-track="recently_returned" title="Borrow Weight Lifting and Bodybuilding Total Fitness for Men and Women">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3021010M">
+            <img class="bookcover" title="Movers and shakers by Mabel Dodge Luhan" src="https://covers.openlibrary.org/b/id/4209975-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/moversshakers00luha" data-ol-link-track="recently_returned" title="Borrow Movers and shakers">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5078374M">
+            <img class="bookcover" title="Myself among others. by Gordon, Ruth" src="https://covers.openlibrary.org/b/id/6542574-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/myselfamongother00gord" data-ol-link-track="recently_returned" title="Borrow Myself among others.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3186907M">
+            <img class="bookcover" title="The child care encyclopedia by Penelope Leach" src="https://covers.openlibrary.org/w/id/4233312-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/childcareencyclo00leac" data-ol-link-track="recently_returned" title="Borrow The child care encyclopedia">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL14952554M">
+            <img class="bookcover" title="Study guide and unit mastery program by John G. Carlson" src="https://covers.openlibrary.org/w/id/7109942-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/studyguideunitma00carl" data-ol-link-track="recently_returned" title="Borrow Study guide and unit mastery program">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26249181M">
+            <img class="bookcover" title="Awake in the world : teachings from yoga &amp; Buddhism for living an engaged life" src="https://covers.openlibrary.org/w/id/7916249-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/awakeinworldteac00ston" data-ol-link-track="recently_returned" title="Borrow Awake in the world : teachings from yoga &amp; Buddhism for living an engaged life">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL541933M">
+            <img class="bookcover" title="C/C++ programmer&#39;s guide by Chris H. Pappas, Chris H Pappas" src="https://covers.openlibrary.org/w/id/3763652-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/ccplusplusprogra00papp" data-ol-link-track="recently_returned" title="Borrow C/C++ programmer&#39;s guide">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9598666M">
+            <img class="bookcover" title="Speed Dating (Harlequin NASCAR #2) by Nancy Warren" src="https://covers.openlibrary.org/w/id/2344199-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/italiandukeswife00" data-ol-link-track="recently_returned" title="Borrow Speed Dating (Harlequin NASCAR #2)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8146621M">
+            <img class="bookcover" title="Twentieth-Century Literary Criticism by Janet Witalec" src="https://covers.openlibrary.org/w/id/4737546-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_9780787659400" data-ol-link-track="recently_returned" title="Borrow Twentieth-Century Literary Criticism">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1275501M">
+            <img class="bookcover" title="Soft paths by Bruce Hampton" src="https://covers.openlibrary.org/w/id/599136-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/softpathshowtoen00hamp" data-ol-link-track="recently_returned" title="Borrow Soft paths">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8465780M">
+            <img class="bookcover" title="101 Great Answers to the Toughest Interview Questions by Ron Fry" src="https://covers.openlibrary.org/w/id/762632-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/101greatanswerst00ronf" data-ol-link-track="recently_returned" title="Borrow 101 Great Answers to the Toughest Interview Questions">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3949365M">
+            <img class="bookcover" title="In the shape of a boar by Lawrence Norfolk" src="https://covers.openlibrary.org/w/id/568364-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/inshapeofboar00norf" data-ol-link-track="recently_returned" title="Borrow In the shape of a boar">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24937216M">
+            <img class="bookcover" title="Reader&#39;s Digest condensed books by Robin Cook" src="https://covers.openlibrary.org/w/id/6928702-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/readersdigestcon05cook" data-ol-link-track="recently_returned" title="Borrow Reader&#39;s Digest condensed books">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-recently_returned', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20collection:(inlibrary)%20AND%20loans__status__status:AVAILABLE%20AND%20subject:(romance)&amp;sort=-loans__status__last_loan_date">Romance</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-romance">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9868915M">
+            <img class="bookcover" title="Anything Goes by Vicki Lewis Thompson" src="https://archive.org/services/img/anythinggoes00vick"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/anythinggoes00vick" data-ol-link-track="romance" title="Borrow Anything Goes">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10239910M">
+            <img class="bookcover" title="Colours of Love by Rosalie Henaghan" src="https://archive.org/services/img/coloursoflove00rosa"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/coloursoflove00rosa" data-ol-link-track="romance" title="Borrow Colours of Love">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9752365M">
+            <img class="bookcover" title="Knight&#39;s Ransom (The Sommerville Brothers) (Harlequin Historical, No 335) by Suzanne Barclay" src="https://covers.openlibrary.org/w/id/5010281-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/knightsransomthe00suza" data-ol-link-track="romance" title="Borrow Knight&#39;s Ransom (The Sommerville Brothers) (Harlequin Historical, No 335)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10691591M">
+            <img class="bookcover" title="Game Is Love by Jeanne Allan" src="https://covers.openlibrary.org/w/id/5071763-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/gameislove00jean_n8n" data-ol-link-track="romance" title="Borrow Game Is Love">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26373076M">
+            <img class="bookcover" title="On baby patrol" src="https://covers.openlibrary.org/w/id/8061723-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/onbabypatrolbund00devi_0" data-ol-link-track="romance" title="Borrow On baby patrol">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10691994M">
+            <img class="bookcover" title="Moving In With Adam  (Holding Out For A Hero) by Jeanne Allan" src="https://archive.org/services/img/movinginwithadam00alla"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/movinginwithadam00alla" data-ol-link-track="romance" title="Borrow Moving In With Adam  (Holding Out For A Hero)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10736618M">
+            <img class="bookcover" title="Time And Again (Silhouette Intimate Moments Extra #685) by Kathryn Jensen" src="https://covers.openlibrary.org/w/id/5073248-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/timeagainsilhoue00kath" data-ol-link-track="romance" title="Borrow Time And Again (Silhouette Intimate Moments Extra #685)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9719054M">
+            <img class="bookcover" title="Game Of Chance by Linda Howard" src="https://covers.openlibrary.org/w/id/1470359-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/gameofchance00lind" data-ol-link-track="romance" title="Borrow Game Of Chance">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10743721M">
+            <img class="bookcover" title="Best-Laid Plans by Mary Tate Engels" src="https://archive.org/services/img/bestlaidplanstem00enge"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/bestlaidplanstem00enge" data-ol-link-track="romance" title="Borrow Best-Laid Plans">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10240978M">
+            <img class="bookcover" title="The Divorcee Said Yes! by Sandra Marton" src="https://covers.openlibrary.org/w/id/5046421-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/divorceesaidyes00sand" data-ol-link-track="romance" title="Borrow The Divorcee Said Yes!">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8552991M">
+            <img class="bookcover" title="Midnight Rainbow by Linda Howard" src="https://covers.openlibrary.org/w/id/1470529-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/midnightrainbow00lind" data-ol-link-track="romance" title="Borrow Midnight Rainbow">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26005657M">
+            <img class="bookcover" title="A Summer Reunion by Teresa Southwick" src="https://covers.openlibrary.org/w/id/7548463-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/summerreunionall00kase" data-ol-link-track="romance" title="Borrow A Summer Reunion">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10216512M">
+            <img class="bookcover" title="Fast  &amp;  Loose by Elizabeth Bevarly" src="https://covers.openlibrary.org/w/id/2416211-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/fastloose00beva" data-ol-link-track="romance" title="Borrow Fast  &amp;  Loose">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7665332M">
+            <img class="bookcover" title="A Masquerade in the Moonlight by Kasey Michaels" src="https://covers.openlibrary.org/w/id/4650282-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/masqueradeinmoon00kase" data-ol-link-track="romance" title="Borrow A Masquerade in the Moonlight">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26266969M">
+            <img class="bookcover" title="Wickedly ever after" src="https://covers.openlibrary.org/w/id/7935455-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/wickedlyeverafte00mich" data-ol-link-track="romance" title="Borrow Wickedly ever after">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8455366M">
+            <img class="bookcover" title="The Negotiator (The O&#39;Malley Series #1) by Dee Henderson" src="https://covers.openlibrary.org/w/id/759152-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/negotiatortheoma00deeh" data-ol-link-track="romance" title="Borrow The Negotiator (The O&#39;Malley Series #1)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10737760M">
+            <img class="bookcover" title="Up Close by Bevarly" src="https://covers.openlibrary.org/w/id/5073555-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/upclose00beva" data-ol-link-track="romance" title="Borrow Up Close">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10352810M">
+            <img class="bookcover" title="Murder Most" src="https://covers.openlibrary.org/w/id/8025719-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/murdermost00" data-ol-link-track="romance" title="Borrow Murder Most">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8241183M">
+            <img class="bookcover" title="Love Forevermore by Madeline Baker" src="https://covers.openlibrary.org/w/id/4970031-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/loveforevermore00made" data-ol-link-track="romance" title="Borrow Love Forevermore">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8553023M">
+            <img class="bookcover" title="Impulse by Candace Camp" src="https://covers.openlibrary.org/w/id/771422-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/impulse00cand_0" data-ol-link-track="romance" title="Borrow Impulse">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9422121M">
+            <img class="bookcover" title="White Fire by Cassie Edwards" src="https://covers.openlibrary.org/w/id/1237124-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/whitefire00cass" data-ol-link-track="romance" title="Borrow White Fire">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7649472M">
+            <img class="bookcover" title="Under a Texas Moon by Adams" src="https://covers.openlibrary.org/w/id/406010-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/undertexasmoon00adam" data-ol-link-track="romance" title="Borrow Under a Texas Moon">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9740241M">
+            <img class="bookcover" title="A Man Like Morgan Kane by Beverly Barton" src="https://covers.openlibrary.org/w/id/5008437-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/manlikemorgankan00beve_1" data-ol-link-track="romance" title="Borrow A Man Like Morgan Kane">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9534503M">
+            <img class="bookcover" title="Savage Sunrise by Cassie Edwards" src="https://covers.openlibrary.org/w/id/8097228-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/savagesunrise00cass_0" data-ol-link-track="romance" title="Borrow Savage Sunrise">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9460520M">
+            <img class="bookcover" title="Megan by Linda Lael Miller" src="https://covers.openlibrary.org/w/id/405124-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/megan00lind" data-ol-link-track="romance" title="Borrow Megan">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9447379M">
+            <img class="bookcover" title="The Endless Sky by Shirl Henke" src="https://covers.openlibrary.org/w/id/4976831-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/endlesssky00shir" data-ol-link-track="romance" title="Borrow The Endless Sky">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10743434M">
+            <img class="bookcover" title="Princess Dottie (Silhouette Special Edition) by Lucy Gordon" src="https://covers.openlibrary.org/w/id/2409143-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/princessdottiesi00lucy" data-ol-link-track="romance" title="Borrow Princess Dottie (Silhouette Special Edition)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9740932M">
+            <img class="bookcover" title="Taming The Lion by Suzanne Barclay" src="https://covers.openlibrary.org/w/id/218100-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/taminglionthesut00suza" data-ol-link-track="romance" title="Borrow Taming The Lion">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8484747M">
+            <img class="bookcover" title="Dark Rider (Zebra Debut) by Kathrynn Dennis" src="https://covers.openlibrary.org/w/id/1806362-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/darkrider00denn" data-ol-link-track="romance" title="Borrow Dark Rider (Zebra Debut)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10241198M">
+            <img class="bookcover" title="Fiance for Christmas by Catherine George" src="https://covers.openlibrary.org/w/id/5046603-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/fianceforchristm00cath" data-ol-link-track="romance" title="Borrow Fiance for Christmas">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10737689M">
+            <img class="bookcover" title="Courage To Love by Carole Halston" src="https://covers.openlibrary.org/w/id/5073889-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/couragetolove00caro" data-ol-link-track="romance" title="Borrow Courage To Love">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10737922M">
+            <img class="bookcover" title="Jenni Finds A Father by Brittany Young" src="https://archive.org/services/img/jennifindsfather00brit"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/jennifindsfather00brit" data-ol-link-track="romance" title="Borrow Jenni Finds A Father">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10749416M">
+            <img class="bookcover" title="Baby Makes Three (The Mitchells of Riverview Inn, Book 1) (Harlequin Superromance, No 1460) by Molly O&#39;Keefe" src="https://covers.openlibrary.org/w/id/2410954-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/babymakesthree00okee" data-ol-link-track="romance" title="Borrow Baby Makes Three (The Mitchells of Riverview Inn, Book 1) (Harlequin Superromance, No 1460)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9710357M">
+            <img class="bookcover" title="The Valentine Bride by Liz Fielding" src="https://covers.openlibrary.org/b/id/1185860-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/valentinebrideha00lizf" data-ol-link-track="romance" title="Borrow The Valentine Bride">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10744089M">
+            <img class="bookcover" title="It Takes A Hero  (Bachelor Auction) by Gina Wilkins" src="https://covers.openlibrary.org/w/id/2409356-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/ittakesherobache00gina" data-ol-link-track="romance" title="Borrow It Takes A Hero  (Bachelor Auction)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7663759M">
+            <img class="bookcover" title="Angelfire by Linda Lael Miller" src="https://covers.openlibrary.org/w/id/408024-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/angelfire00lind" data-ol-link-track="romance" title="Borrow Angelfire">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10739096M">
+            <img class="bookcover" title="Hot November (Dangerous Liaisons) by Ann Charlton" src="https://archive.org/services/img/hotnovemberdange00annc"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/hotnovemberdange00annc" data-ol-link-track="romance" title="Borrow Hot November (Dangerous Liaisons)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10749010M">
+            <img class="bookcover" title="Under His Skin (Harlequin Intrigue Series) by Rita Herron" src="https://covers.openlibrary.org/w/id/2410895-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/underhisskinharl00rita" data-ol-link-track="romance" title="Borrow Under His Skin (Harlequin Intrigue Series)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24086422M">
+            <img class="bookcover" title="A Creed Country Christmas (Hqn) by Linda Lael Miller" src="https://covers.openlibrary.org/w/id/6303321-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/creedcountrychri00lind" data-ol-link-track="romance" title="Borrow A Creed Country Christmas (Hqn)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL11233078M">
+            <img class="bookcover" title="The Turning Point by Jan Tempest" src="https://covers.openlibrary.org/w/id/8100263-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/turningpoint00jant" data-ol-link-track="romance" title="Borrow The Turning Point">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL11900335M">
+            <img class="bookcover" title="Song Cycle by Mary Burchell" src="https://covers.openlibrary.org/w/id/8000582-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/songcycle00mary" data-ol-link-track="romance" title="Borrow Song Cycle">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10735837M">
+            <img class="bookcover" title="Mystery Lady by Jackie Merritt" src="https://covers.openlibrary.org/w/id/7326719-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/mysterylady00jack_0" data-ol-link-track="romance" title="Borrow Mystery Lady">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-romance', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20collection:(inlibrary)%20AND%20loans__status__status:AVAILABLE%20AND%20(creator:%22Clancy,%20Tom%22%20OR%20creator:%22King,%20Stephen%22%20OR%20creator:%22Clive%20Cussler%22%20OR%20creator:(%22Cussler,%20Clive%22)%20OR%20creator:(%22Dean%20Koontz%22)%20OR%20creator:(%22Koontz,%20Dean%22)%20OR%20creator:(%22Higgins,%20Jack%22))%20AND%20!publisher:%22Pleasantville,%20N.Y.%20:%20Reader&apos;s%20Digest%20Association%22%20AND%20languageSorter:%22English%22&amp;sort=-downloads">Thrillers</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-thrillers">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8456870M">
+            <img class="bookcover" title="Sahara by Clive Cussler" src="https://covers.openlibrary.org/b/id/759779-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/saharaadirkpitta00cliv" data-ol-link-track="thrillers" title="Borrow Sahara">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26291672M">
+            <img class="bookcover" title="Faithful : two diehard Boston Red Sox fans chronicle the historic 2004 season" src="https://covers.openlibrary.org/w/id/7962537-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/faithful00stew_0" data-ol-link-track="thrillers" title="Borrow Faithful : two diehard Boston Red Sox fans chronicle the historic 2004 season">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24085191M">
+            <img class="bookcover" title="Velocity by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/227461-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/velocity00dean" data-ol-link-track="thrillers" title="Borrow Velocity">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL18301752M">
+            <img class="bookcover" title="The complete guide to training delivery by Stephen B. King" src="https://archive.org/services/img/completeguidetot00king"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/completeguidetot00king" data-ol-link-track="thrillers" title="Borrow The complete guide to training delivery">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23269362M">
+            <img class="bookcover" title="Thunder point by Jack Higgins" src="https://covers.openlibrary.org/w/id/3932336-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/thunderpointhigg00higg" data-ol-link-track="thrillers" title="Borrow Thunder point">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24940802M">
+            <img class="bookcover" title="The sum of all fears by Tom Clancy" src="https://covers.openlibrary.org/w/id/6952581-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/sumofallfearscla00clan" data-ol-link-track="thrillers" title="Borrow The sum of all fears">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3282019M">
+            <img class="bookcover" title="Divide and conquer by Tom Clancy" src="https://covers.openlibrary.org/w/id/271672-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/divideconquer00clan" data-ol-link-track="thrillers" title="Borrow Divide and conquer">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7949594M">
+            <img class="bookcover" title="Blue Gold by Clive Cussler, Paul Kemprecos" src="https://covers.openlibrary.org/b/id/6640265-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/bluegold00cliv" data-ol-link-track="thrillers" title="Borrow Blue Gold">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24767122M">
+            <img class="bookcover" title="Needful things by Stephen King" src="https://covers.openlibrary.org/w/id/3975983-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/needfulthi00king" data-ol-link-track="thrillers" title="Borrow Needful things">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24931168M">
+            <img class="bookcover" title="Tom Clancy&#39;s power plays by Tom Clancy" src="https://covers.openlibrary.org/w/id/6874815-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/tomclancyspo00clan" data-ol-link-track="thrillers" title="Borrow Tom Clancy&#39;s power plays">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26332066M">
+            <img class="bookcover" title="The darkest evening of the year by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/8010199-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/darkesteveningof00dean" data-ol-link-track="thrillers" title="Borrow The darkest evening of the year">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24205784M">
+            <img class="bookcover" title="The eagle has landed by Jack Higgins" src="https://covers.openlibrary.org/b/id/6494359-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/eaglehaslanded00higg" data-ol-link-track="thrillers" title="Borrow The eagle has landed">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24766659M">
+            <img class="bookcover" title="The Voice of the night by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/6820513-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/voiceofnight00koon" data-ol-link-track="thrillers" title="Borrow The Voice of the night">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24222128M">
+            <img class="bookcover" title="State of siege by Jeff Rovin" src="https://covers.openlibrary.org/b/id/6570363-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/tomclancysopcentclan" data-ol-link-track="thrillers" title="Borrow State of siege">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26404601M">
+            <img class="bookcover" title="The dead town : a novel" src="https://covers.openlibrary.org/w/id/8104028-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/deankoontzsfrank00" data-ol-link-track="thrillers" title="Borrow The dead town : a novel">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24220474M">
+            <img class="bookcover" title="Starblood by Dean Ray Koontz" src="https://covers.openlibrary.org/b/id/6565210-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/starblood00koon" data-ol-link-track="thrillers" title="Borrow Starblood">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24937692M">
+            <img class="bookcover" title="The great race by Tom Clancy" src="https://covers.openlibrary.org/w/id/6917876-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/greatrace00clan" data-ol-link-track="thrillers" title="Borrow The great race">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7649298M">
+            <img class="bookcover" title="Inca Gold by Clive Cussler" src="https://covers.openlibrary.org/b/id/6611433-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/incagoldcuss00cuss" data-ol-link-track="thrillers" title="Borrow Inca Gold">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL9712860M">
+            <img class="bookcover" title="The Chase (Wheeler Large Print Book Series) by Clive Cussler" src="https://covers.openlibrary.org/w/id/1199304-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/chase00cuss_0" data-ol-link-track="thrillers" title="Borrow The Chase (Wheeler Large Print Book Series)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3687379M">
+            <img class="bookcover" title="Golden Buddha by Clive Cussler" src="https://covers.openlibrary.org/b/id/4310132-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/goldenbuddha00cuss_0" data-ol-link-track="thrillers" title="Borrow Golden Buddha">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24938310M">
+            <img class="bookcover" title="Patriot games by Tom Clancy" src="https://covers.openlibrary.org/w/id/6943736-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/patriotgamesclan00clan" data-ol-link-track="thrillers" title="Borrow Patriot games">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL8892924M">
+            <img class="bookcover" title="Skeleton Coast by Clive Cussler" src="https://covers.openlibrary.org/b/id/273676-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/skeletoncoast00cuss_0" data-ol-link-track="thrillers" title="Borrow Skeleton Coast">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24204668M">
+            <img class="bookcover" title="Darkfall by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/5257121-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/darkfall00koon" data-ol-link-track="thrillers" title="Borrow Darkfall">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24085949M">
+            <img class="bookcover" title="The Key to Midnight by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/1318349-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/keytomidnight00dean" data-ol-link-track="thrillers" title="Borrow The Key to Midnight">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24957625M">
+            <img class="bookcover" title="Cold fire by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/6995452-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/coldfirekoon00koon" data-ol-link-track="thrillers" title="Borrow Cold fire">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24222588M">
+            <img class="bookcover" title="Twilight eyes by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/270334-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/twilighteyes00koon" data-ol-link-track="thrillers" title="Borrow Twilight eyes">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24957768M">
+            <img class="bookcover" title="Executive orders by Tom Clancy" src="https://covers.openlibrary.org/w/id/6921106-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/executiveorders19970clan" data-ol-link-track="thrillers" title="Borrow Executive orders">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26154463M">
+            <img class="bookcover" title="Lost Empire by Grant Blackwood" src="https://covers.openlibrary.org/w/id/7829359-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/lostempireafargo00cliv" data-ol-link-track="thrillers" title="Borrow Lost Empire">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24222441M">
+            <img class="bookcover" title="Trojan odyssey by Clive Cussler" src="https://covers.openlibrary.org/w/id/259071-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/trojanodyssey00cuss" data-ol-link-track="thrillers" title="Borrow Trojan odyssey">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24369610M">
+            <img class="bookcover" title="The funhouse by Dean Ray Koontz" src="https://covers.openlibrary.org/b/id/6602811-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/funhousenovelkoon00koon" data-ol-link-track="thrillers" title="Borrow The funhouse">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26328079M">
+            <img class="bookcover" title="More good old stuff by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/8004291-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/moregoodoldstuff00john" data-ol-link-track="thrillers" title="Borrow More good old stuff">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24222125M">
+            <img class="bookcover" title="Mirror image by Jeff Rovin" src="https://covers.openlibrary.org/w/id/7440934-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/tomclancysopcent00clanrich" data-ol-link-track="thrillers" title="Borrow Mirror image">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24742991M">
+            <img class="bookcover" title="Tom Clancy&#39;s Net force by Tom Clancy" src="https://covers.openlibrary.org/w/id/6796668-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/pointofimpact00clan" data-ol-link-track="thrillers" title="Borrow Tom Clancy&#39;s Net force">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL371691M">
+            <img class="bookcover" title="Henry and Amy (right-way-round and upside down) by Stephen Michael King" src="https://covers.openlibrary.org/w/id/4683864-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_9780802786876" data-ol-link-track="thrillers" title="Borrow Henry and Amy (right-way-round and upside down)">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL22665127M">
+            <img class="bookcover" title="Bliss to you by Dean Ray Koontz" src="https://covers.openlibrary.org/w/id/6911753-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/blisstoyou00koon" data-ol-link-track="thrillers" title="Borrow Bliss to you">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24941511M">
+            <img class="bookcover" title="A season in hell by Jack Higgins" src="https://covers.openlibrary.org/w/id/6942955-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/seasoninhell19900higg" data-ol-link-track="thrillers" title="Borrow A season in hell">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3424912M">
+            <img class="bookcover" title="The Tom Clancy companion" src="https://covers.openlibrary.org/b/id/272273-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/isbn_9780425186220" data-ol-link-track="thrillers" title="Borrow The Tom Clancy companion">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23034055M">
+            <img class="bookcover" title="Polar shift by Clive Cussler" src="https://covers.openlibrary.org/w/id/259231-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/polarshiftanovel00cuss" data-ol-link-track="thrillers" title="Borrow Polar shift">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-thrillers', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20(collection:(inlibrary)%20OR%20(!collection:(printdisabled)))%20AND%20loans__status__status:AVAILABLE%20AND%20openlibrary_subject:textbooks&amp;sort=-loans__status__last_loan_date">Textbooks</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-textbooks">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2051495M">
+            <img class="bookcover" title="Principles of physics by Frank J. Blatt" src="https://covers.openlibrary.org/w/id/7157960-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/principlesofphys00blat" data-ol-link-track="textbooks" title="Borrow Principles of physics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL6133640M">
+            <img class="bookcover" title="Mathematics and plausible reasoning. by George Pólya" src="https://archive.org/services/img/mathematicsplaus02pl"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/mathematicsplaus02pl" data-ol-link-track="textbooks" title="Borrow Mathematics and plausible reasoning.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2728465M">
+            <img class="bookcover" title="Chemistry and the living organism by Molly M. Bloomfield" src="https://covers.openlibrary.org/w/id/4171451-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/chemistrylivingo00bloo" data-ol-link-track="textbooks" title="Borrow Chemistry and the living organism">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3317113M">
+            <img class="bookcover" title="Horizons by Michael A. Seeds" src="https://covers.openlibrary.org/w/id/363965-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/foundationsofast00seed_0" data-ol-link-track="textbooks" title="Borrow Horizons">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1350740M">
+            <img class="bookcover" title="Constitutional law of Canada by Peter W. Hogg" src="https://covers.openlibrary.org/w/id/4544903-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/constitutionalla00hogg_0" data-ol-link-track="textbooks" title="Borrow Constitutional law of Canada">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL785207M">
+            <img class="bookcover" title="Elementary algebra for college students by Allen R. Angel" src="https://covers.openlibrary.org/w/id/1104418-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/elementaryalgebr4th00ange" data-ol-link-track="textbooks" title="Borrow Elementary algebra for college students">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3491167M">
+            <img class="bookcover" title="Physics by Joseph W. Kane" src="https://covers.openlibrary.org/w/id/6689306-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/physics00kane" data-ol-link-track="textbooks" title="Borrow Physics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24217299M">
+            <img class="bookcover" title="A primer of Freudian psychology by Calvin S. Hall, Calvin S. Hall" src="https://covers.openlibrary.org/w/id/296145-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/primeroffreudian00hall" data-ol-link-track="textbooks" title="Borrow A primer of Freudian psychology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1859778M">
+            <img class="bookcover" title="Astronomy by William K. Hartmann" src="https://covers.openlibrary.org/w/id/4665870-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/astronomycosmicj00hart_0" data-ol-link-track="textbooks" title="Borrow Astronomy">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL17005778M">
+            <img class="bookcover" title="Evolution Lab by Michael A. Palladino" src="https://covers.openlibrary.org/w/id/1072781-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/ecologyfieldbio000smit" data-ol-link-track="textbooks" title="Borrow Evolution Lab">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23140418M">
+            <img class="bookcover" title="Psychology by David G. Myers" src="https://covers.openlibrary.org/w/id/6601727-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/psychology8thedit00myer" data-ol-link-track="textbooks" title="Borrow Psychology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5797812M">
+            <img class="bookcover" title="Physical geography. by Arthur Newell Strahler" src="https://covers.openlibrary.org/w/id/6944909-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/physicalgeograph00stra" data-ol-link-track="textbooks" title="Borrow Physical geography.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2053344M">
+            <img class="bookcover" title="Fundamentals of college algebra by Earl William Swokowski" src="https://covers.openlibrary.org/w/id/1273971-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/fundamentalsofco00swok" data-ol-link-track="textbooks" title="Borrow Fundamentals of college algebra">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5871886M">
+            <img class="bookcover" title="Astronomy. by Fred Hoyle" src="https://covers.openlibrary.org/b/id/6379942-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/astronom00hoyl" data-ol-link-track="textbooks" title="Borrow Astronomy.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL24214219M">
+            <img class="bookcover" title="Modern chemistry by H. Clark Metcalfe" src="https://covers.openlibrary.org/w/id/4939471-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/modernchemistry00metc" data-ol-link-track="textbooks" title="Borrow Modern chemistry">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2061690M">
+            <img class="bookcover" title="College physics by Raymond A. Serway" src="https://covers.openlibrary.org/w/id/1063883-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/collegephysics00serw" data-ol-link-track="textbooks" title="Borrow College physics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2213549M">
+            <img class="bookcover" title="Probability and statistics for modern engineering by Lawrence L. Lapin" src="https://covers.openlibrary.org/w/id/4280417-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/probabilitystati00lapi" data-ol-link-track="textbooks" title="Borrow Probability and statistics for modern engineering">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2395704M">
+            <img class="bookcover" title="Foundations of astronomy by Michael A. Seeds" src="https://covers.openlibrary.org/w/id/4526874-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/foundationsofast02seed" data-ol-link-track="textbooks" title="Borrow Foundations of astronomy">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3781310M">
+            <img class="bookcover" title="Physical anthropology and archeology by Clifford J. Jolly" src="https://covers.openlibrary.org/w/id/6984932-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/physicalanthropo00joll" data-ol-link-track="textbooks" title="Borrow Physical anthropology and archeology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL33526M">
+            <img class="bookcover" title="Psychology by James S. Nairne" src="https://covers.openlibrary.org/w/id/363953-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/psychologyadapti00nair" data-ol-link-track="textbooks" title="Borrow Psychology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5655391M">
+            <img class="bookcover" title="Physics applied to anaesthesia by Dennis Walter Hill" src="https://covers.openlibrary.org/w/id/4476059-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/physicsappliedto00hill" data-ol-link-track="textbooks" title="Borrow Physics applied to anaesthesia">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1750035M">
+            <img class="bookcover" title="College algebra by Richard N. Aufmann" src="https://covers.openlibrary.org/w/id/3864206-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/collegealgebra00aufm" data-ol-link-track="textbooks" title="Borrow College algebra">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL358803M">
+            <img class="bookcover" title="College algebra by Michael Sullivan" src="https://covers.openlibrary.org/w/id/3810600-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/collegealgebra00sull_0" data-ol-link-track="textbooks" title="Borrow College algebra">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1574976M">
+            <img class="bookcover" title="Applied finite mathematics by Howard Anton" src="https://covers.openlibrary.org/w/id/4325840-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/appliedfinitemat00anto" data-ol-link-track="textbooks" title="Borrow Applied finite mathematics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3170871M">
+            <img class="bookcover" title="Looking out/looking in by Ronald B. Adler" src="https://covers.openlibrary.org/w/id/6917291-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/lookingoutlookinadler00adle" data-ol-link-track="textbooks" title="Borrow Looking out/looking in">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5210683M">
+            <img class="bookcover" title="How to solve general chemistry problems by C. H. Sorum" src="https://covers.openlibrary.org/w/id/6283072-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/howtosolvegenera00soru" data-ol-link-track="textbooks" title="Borrow How to solve general chemistry problems">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL23039519M">
+            <img class="bookcover" title="Conceptos de física by Paul G. Hewitt" src="https://covers.openlibrary.org/w/id/3861178-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/conceptosdefisic00hewi" data-ol-link-track="textbooks" title="Borrow Conceptos de física">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5849548M">
+            <img class="bookcover" title="Mathematical statistics by John E. Freund" src="https://covers.openlibrary.org/w/id/7124961-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/mathematicalstat00freu" data-ol-link-track="textbooks" title="Borrow Mathematical statistics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL7651543M">
+            <img class="bookcover" title="Biology by Cecie Starr" src="https://covers.openlibrary.org/w/id/1274112-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/biology00ceci" data-ol-link-track="textbooks" title="Borrow Biology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL6227041M">
+            <img class="bookcover" title="World geography by John Hodgdon Bradley" src="https://covers.openlibrary.org/w/id/6286377-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/worldgeography00brad" data-ol-link-track="textbooks" title="Borrow World geography">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL802113M">
+            <img class="bookcover" title="Management information systems by James A. O&#39;Brien" src="https://covers.openlibrary.org/w/id/65041-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/managementinfor000obri" data-ol-link-track="textbooks" title="Borrow Management information systems">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1418151M">
+            <img class="bookcover" title="Psychology by Lester A. Lefton" src="https://covers.openlibrary.org/w/id/136921-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/psychology00left_0" data-ol-link-track="textbooks" title="Borrow Psychology">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL22122196M">
+            <img class="bookcover" title="Elementary school mathematics by John A. Van de Walle" src="https://covers.openlibrary.org/w/id/6893680-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/elementaryschool00vand" data-ol-link-track="textbooks" title="Borrow Elementary school mathematics">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3195734M">
+            <img class="bookcover" title="Modern elementary mathematics by Malcolm Graham" src="https://covers.openlibrary.org/w/id/7002060-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/modernelementary00grah" data-ol-link-track="textbooks" title="Borrow Modern elementary mathematics">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-textbooks', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  
+
+
+<div class="carousel-section">
+  <div class="carousel-section-header">
+    <h2 class="home-h2"><a href="https://archive.org/search.php?query=openlibrary_work:(*)%20AND%20(collection:(inlibrary)%20OR%20(!collection:(printdisabled)))%20AND%20(openlibrary_subject:(authorsalliance)%20OR%20collection:(mitpress)%20OR%20publisher:(MIT%20Press)%20OR%20openlibrary_subject:(mitpress))%20AND%20(!loans__status__status:UNAVAILABLE)">Authors Alliance &amp; MIT Press</a></h2>
+  </div>
+  <div class="carousel-container carousel-container-decorated">
+    <div class="carousel carousel-authorsalliance_mit_press">
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3182422M">
+            <img class="bookcover" title="The measurement of visual motion by Ellen Catherine Hildreth" src="https://covers.openlibrary.org/w/id/4231438-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/TheMeasure_00_Hild" data-ol-link-track="authorsalliance_mit_press" title="Borrow The measurement of visual motion">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10236835M">
+            <img class="bookcover" title="Essays in Honor of Edmond Malinvaud by Paul Champsaur" src="https://covers.openlibrary.org/w/id/5046039-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/EssaysinHo_00_Cham" data-ol-link-track="authorsalliance_mit_press" title="Borrow Essays in Honor of Edmond Malinvaud">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237082M">
+            <img class="bookcover" title="Thermionic energy conversion by George Nickolas Hatsopoulos, Elias P. Gyftopoulos" src="https://covers.openlibrary.org/b/id/5046066-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Thermionic_00_Hats" data-ol-link-track="authorsalliance_mit_press" title="Borrow Thermionic energy conversion">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1860275M">
+            <img class="bookcover" title="The perception of multiple objects by Michael C. Mozer" src="https://archive.org/services/img/ThePercept_00_Moze"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/ThePercept_00_Moze" data-ol-link-track="authorsalliance_mit_press" title="Borrow The perception of multiple objects">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237344M">
+            <img class="bookcover" title="Psycholinguistics 2" src="https://covers.openlibrary.org/b/id/5046243-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Psycholing_00_Mort" data-ol-link-track="authorsalliance_mit_press" title="Borrow Psycholinguistics 2">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2037385M">
+            <img class="bookcover" title="Limiting exchange rate flexibility by Francesco Giavazzi" src="https://covers.openlibrary.org/w/id/8035547-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/limitingexchange00giav" data-ol-link-track="authorsalliance_mit_press" title="Borrow Limiting exchange rate flexibility">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4882125M">
+            <img class="bookcover" title="Federal port policy in the United States" src="https://covers.openlibrary.org/w/id/8126176-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/FederalPor_00_Marc" data-ol-link-track="authorsalliance_mit_press" title="Borrow Federal port policy in the United States">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5708740M">
+            <img class="bookcover" title="The theory and design of cycloconverters. by McMurray, William" src="https://covers.openlibrary.org/w/id/4521641-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/TheTheorya_00_Mcmu" data-ol-link-track="authorsalliance_mit_press" title="Borrow The theory and design of cycloconverters.">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237451M">
+            <img class="bookcover" title="Fish Protein Concentrate" src="https://covers.openlibrary.org/b/id/5046108-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/FishProtei_00_Pari" data-ol-link-track="authorsalliance_mit_press" title="Borrow Fish Protein Concentrate">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237206M">
+            <img class="bookcover" title="Regions and Resources by Oliver Goldsmith" src="https://covers.openlibrary.org/w/id/5046205-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Regionsand_00_Kres" data-ol-link-track="authorsalliance_mit_press" title="Borrow Regions and Resources">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL19132784M">
+            <img class="bookcover" title="Democratizing innovation by Eric von Hippel" src="https://covers.openlibrary.org/w/id/149322-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/books/OL19132784M/Democratizing_innovation/borrow" data-ol-link-track="authorsalliance_mit_press" title="Read Democratizing innovation">Read</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10238067M">
+            <img class="bookcover" title="Disease and Social Behavior by Horacio Fábrega Jr." src="https://covers.openlibrary.org/w/id/4509156-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Diseaseand_00_Fabr" data-ol-link-track="authorsalliance_mit_press" title="Borrow Disease and Social Behavior">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3030371M">
+            <img class="bookcover" title="Vascular aphasia by I. M. Tonkonogiĭ" src="https://covers.openlibrary.org/w/id/4213899-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/VascularAp_00_Tonk" data-ol-link-track="authorsalliance_mit_press" title="Borrow Vascular aphasia">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237554M">
+            <img class="bookcover" title="Air Transportation 1975 and Beyond" src="https://covers.openlibrary.org/w/id/8126109-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/AirTranspo_00_Schr" data-ol-link-track="authorsalliance_mit_press" title="Borrow Air Transportation 1975 and Beyond">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4557039M">
+            <img class="bookcover" title="Speech and language in the laboratory, school, and clinic" src="https://covers.openlibrary.org/w/id/8052543-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/speechlanguagein00kava" data-ol-link-track="authorsalliance_mit_press" title="Borrow Speech and language in the laboratory, school, and clinic">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26420424M">
+            <img class="bookcover" title="The Muses at work; arts, crafts, and professions in ancient Greece and Rome" src="https://archive.org/services/img/MusesatWor_00_Roeb"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/MusesatWor_00_Roeb" data-ol-link-track="authorsalliance_mit_press" title="Borrow The Muses at work; arts, crafts, and professions in ancient Greece and Rome">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4415530M">
+            <img class="bookcover" title="Building tomorrow by Arthur D. Bernhardt" src="https://covers.openlibrary.org/w/id/8053319-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/buildingtomorrow00arth" data-ol-link-track="authorsalliance_mit_press" title="Borrow Building tomorrow">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4879053M">
+            <img class="bookcover" title="Geothermal energy as a source of electric power by Stanley L. Milora" src="https://covers.openlibrary.org/w/id/4449317-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Geothermal_00_Milo" data-ol-link-track="authorsalliance_mit_press" title="Borrow Geothermal energy as a source of electric power">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10236657M">
+            <img class="bookcover" title="Stability of Adaptive Systems" src="https://covers.openlibrary.org/w/id/8052869-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/stabilityofadapt00ande" data-ol-link-track="authorsalliance_mit_press" title="Borrow Stability of Adaptive Systems">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5427431M">
+            <img class="bookcover" title="Scientists and public affairs by Albert H. Teich" src="https://covers.openlibrary.org/w/id/4511025-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Scientists_00_Teic" data-ol-link-track="authorsalliance_mit_press" title="Borrow Scientists and public affairs">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2542397M">
+            <img class="bookcover" title="Two issues in public key cryptography by Ben-Zion Chor" src="https://covers.openlibrary.org/w/id/4147444-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/twoissuesinpubli00chor" data-ol-link-track="authorsalliance_mit_press" title="Borrow Two issues in public key cryptography">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2714371M">
+            <img class="bookcover" title="Scientific and technical information sources by Ching-chih Chen" src="https://archive.org/services/img/Scientific_00_Chen"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Scientific_00_Chen" data-ol-link-track="authorsalliance_mit_press" title="Borrow Scientific and technical information sources">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL1565838M">
+            <img class="bookcover" title="Unstructured scientific computation on scalable multiprocessors" src="https://archive.org/services/img/Unstructur_00_Mehr"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Unstructur_00_Mehr" data-ol-link-track="authorsalliance_mit_press" title="Borrow Unstructured scientific computation on scalable multiprocessors">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4424657M">
+            <img class="bookcover" title="National science information systems by David H. Kraus" src="https://archive.org/services/img/NationalSc_00_Krau"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/NationalSc_00_Krau" data-ol-link-track="authorsalliance_mit_press" title="Borrow National science information systems">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL5425749M">
+            <img class="bookcover" title="Citizen groups and the nuclear power controversy: uses of scientific and technological information by Steven Ebbin" src="https://covers.openlibrary.org/w/id/4510458-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/CitizenGro_00_Ebbi" data-ol-link-track="authorsalliance_mit_press" title="Borrow Citizen groups and the nuclear power controversy: uses of scientific and technological information">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL2060426M">
+            <img class="bookcover" title="Constraint satisfaction in logic programming by Pascal Van Hentenryck" src="https://covers.openlibrary.org/w/id/8126042-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Constraint_00_VanH" data-ol-link-track="authorsalliance_mit_press" title="Borrow Constraint satisfaction in logic programming">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4729173M">
+            <img class="bookcover" title="MHD instabilities by Glenn Bateman" src="https://covers.openlibrary.org/w/id/8088637-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/mhdinstabilities00bate" data-ol-link-track="authorsalliance_mit_press" title="Borrow MHD instabilities">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4110650M">
+            <img class="bookcover" title="Cities by contract by Gary J. Miller" src="https://covers.openlibrary.org/w/id/8035346-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/citiesbycontract00gary" data-ol-link-track="authorsalliance_mit_press" title="Borrow Cities by contract">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4719366M">
+            <img class="bookcover" title="Rat hepatic neoplasia by Workshop on Rat Liver Neoplasia Woods Hole, Mass. 1974." src="https://covers.openlibrary.org/w/id/4432155-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/RatHepatic_00_Newb" data-ol-link-track="authorsalliance_mit_press" title="Borrow Rat hepatic neoplasia">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237407M">
+            <img class="bookcover" title="The General Circulation of the Tropical Atmosphere and Interactions with Extratropical Latitudes - Vol. 1" src="https://archive.org/services/img/TheGeneral_00_Newe"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/TheGeneral_00_Newe" data-ol-link-track="authorsalliance_mit_press" title="Borrow The General Circulation of the Tropical Atmosphere and Interactions with Extratropical Latitudes - Vol. 1">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL4101494M">
+            <img class="bookcover" title="Designing for aging by Sandra C. Howell" src="https://covers.openlibrary.org/w/id/8038057-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/designingforagin00sand" data-ol-link-track="authorsalliance_mit_press" title="Borrow Designing for aging">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3480736M">
+            <img class="bookcover" title="Prohibitive policy by Steven Lewis Yaffee" src="https://covers.openlibrary.org/w/id/8053601-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/prohibitivepolic00stev" data-ol-link-track="authorsalliance_mit_press" title="Borrow Prohibitive policy">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL26420407M">
+            <img class="bookcover" title="Affording defense by Jacques S. Gansler" src="https://covers.openlibrary.org/w/id/8126055-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/AffordingD_00_Gans" data-ol-link-track="authorsalliance_mit_press" title="Borrow Affording defense">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL10237276M">
+            <img class="bookcover" title="The Fight Against Unemployment" src="https://covers.openlibrary.org/b/id/5046248-M.jpg"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/TheFightAg_00_Laya" data-ol-link-track="authorsalliance_mit_press" title="Borrow The Fight Against Unemployment">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3029175M">
+            <img class="bookcover" title="Political values and health care" src="https://archive.org/services/img/PoliticalV_00_Ligh"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/PoliticalV_00_Ligh" data-ol-link-track="authorsalliance_mit_press" title="Borrow Political values and health care">Borrow</a></div>
+      </div>
+      <div class="book">
+        <div class="book-cover">
+          <a href="https://openlibrary.org/books/OL3780744M">
+            <img class="bookcover" title="Strategies for change by Michel Crozier" src="https://archive.org/services/img/Strategies_00_Croz"/>
+          </a>
+        </div>
+        <div class="book-cta"><a href="https://openlibrary.org/borrow/ia/Strategies_00_Croz" data-ol-link-track="authorsalliance_mit_press" title="Borrow Strategies for change">Borrow</a></div>
+      </div>
+    </div>
+    <script type="text/javascript">
+          $().ready(function() {
+            Carousel.add('.carousel-authorsalliance_mit_press', 6, 5, 4, 3, 2, 1);
+          });
+    </script>
+  </div>
+</div>
+
+
+
+  <div id="home-stats">
+  <div class="head">
+    <h2 class="inline">Around the Library</h2>
+    <p class="inline sansserif large collapse">&nbsp;Here's what's happened over the last 28 days. More <a href="recentchanges.html">recent changes</a>.</p>
+  </div>
+
+  <div id="home-stats-charts">
+    <div class="statschart">
+      <div class="chartShow" onClick="window.location.href='//archive.org/stats';" title="See all visitors to OpenLibrary.org">
+        <div id="visitors" style="width:150px;height:60px;"></div>
+        <a href="https://archive.org/stats" title="See all visitors to OpenLibrary.org"><span class="ticks">1.748.940</span><span class="label">Unique Visitors</span></a>
+      </div>
+    </div>
+
+    <div class="statschart">
+      <div class="chartShow" onClick="window.location.href='/recentchanges';" title="How many new Open Library members have we welcomed?">
+        <div id="members" style="width:150px;height:60px;"></div>
+        <a href="recentchanges.html" title="How many new Open Library members have we welcomed?"><span class="ticks">29.141</span><span class="label">New Members</span></a>
+      </div>
+    </div>
+    <div class="statschart">
+      <div class="chartShow" onClick="window.location.href='/recentchanges';" title="People are constantly updating the catalog">
+        <div id="edits" style="width:150px;height:60px;"></div>
+        <a href="recentchanges.html" title="People are constantly updating the catalog"><span class="ticks">57.055</span><span class="label">Catalog Edits</span></a>
+      </div>
+    </div>
+
+    <div class="statschart">
+      <div class="chartShow" onClick="window.location.href='/lists';" title="Members can create Lists">
+        <div id="lists" style="width:150px;height:60px;"></div>
+        <a href="lists.html" title="Members can create Lists"><span class="ticks">654</span><span class="label">Lists Created</span></a>
+      </div>
+    </div>
+
+    <div class="statschart">
+      <div class="chartShow" onClick="window.location.href='/borrow';" title="We're a library, so we lend books, too">
+        <div id="ebooks" style="width:150px;height:60px;"></div>
+        <a href="https://openlibrary.org/borrow" title="We're a library, so we lend books, too"><span class="ticks">104.048</span><span class="label">eBooks Borrowed</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+$(function () {
+     plot_data("#visitors", [[1529366400000, 184802], [1529452800000, 190896], [1529539200000, 186258], [1529625600000, 178427], [1529712000000, 169495], [1529798400000, 152287], [1529884800000, 156497], [1529971200000, 183290], [1530057600000, 0], [1530144000000, 0], [1530230400000, 0], [1530316800000, 0], [1530403200000, 0], [1530489600000, 0], [1530576000000, 0], [1530662400000, 0], [1530748800000, 0], [1530835200000, 0], [1530921600000, 0], [1531008000000, 0], [1531094400000, 162238], [1531180800000, 184750], [1531267200000, 0], [1531353600000, 0], [1531440000000, 0], [1531526400000, 0], [1531612800000, 0], [1531699200000, 0]], "#e44028", "unique visitors on");
+     plot_data("#members", [[1529366400000, 1147], [1529452800000, 1109], [1529539200000, 1002], [1529625600000, 943], [1529712000000, 945], [1529798400000, 922], [1529884800000, 1072], [1529971200000, 1107], [1530057600000, 1008], [1530144000000, 1025], [1530230400000, 947], [1530316800000, 952], [1530403200000, 948], [1530489600000, 1057], [1530576000000, 1079], [1530662400000, 1070], [1530748800000, 1083], [1530835200000, 982], [1530921600000, 1024], [1531008000000, 1093], [1531094400000, 1221], [1531180800000, 1201], [1531267200000, 1216], [1531353600000, 1121], [1531440000000, 1066], [1531526400000, 976], [1531612800000, 1017], [1531699200000, 808]], "#748d36", "new members on");
+     plot_data("#edits", [[1529366400000, 2000], [1529452800000, 1883], [1529539200000, 1925], [1529625600000, 1995], [1529712000000, 1705], [1529798400000, 1763], [1529884800000, 2172], [1529971200000, 2153], [1530057600000, 1962], [1530144000000, 2209], [1530230400000, 2562], [1530316800000, 1717], [1530403200000, 1747], [1530489600000, 2141], [1530576000000, 2477], [1530662400000, 2503], [1530748800000, 2184], [1530835200000, 2231], [1530921600000, 2060], [1531008000000, 1858], [1531094400000, 2072], [1531180800000, 1926], [1531267200000, 2057], [1531353600000, 2364], [1531440000000, 2500], [1531526400000, 1569], [1531612800000, 1674], [1531699200000, 1646]], "#00636a","catalog edits on");
+     plot_data("#lists", [[1529366400000, 25], [1529452800000, 18], [1529539200000, 25], [1529625600000, 15], [1529712000000, 17], [1529798400000, 19], [1529884800000, 27], [1529971200000, 26], [1530057600000, 21], [1530144000000, 17], [1530230400000, 26], [1530316800000, 16], [1530403200000, 28], [1530489600000, 16], [1530576000000, 36], [1530662400000, 30], [1530748800000, 26], [1530835200000, 25], [1530921600000, 24], [1531008000000, 23], [1531094400000, 30], [1531180800000, 19], [1531267200000, 26], [1531353600000, 20], [1531440000000, 24], [1531526400000, 29], [1531612800000, 19], [1531699200000, 27]], "#ffa337","lists created on");
+     plot_data("#ebooks", [[1529366400000, 3866], [1529452800000, 3784], [1529539200000, 3448], [1529625600000, 3699], [1529712000000, 3759], [1529798400000, 3795], [1529884800000, 3673], [1529971200000, 3608], [1530057600000, 3609], [1530144000000, 3509], [1530230400000, 3391], [1530316800000, 3509], [1530403200000, 3787], [1530489600000, 3928], [1530576000000, 3816], [1530662400000, 3784], [1530748800000, 3677], [1530835200000, 3780], [1530921600000, 3865], [1531008000000, 3837], [1531094400000, 3978], [1531180800000, 3903], [1531267200000, 3649], [1531353600000, 3696], [1531440000000, 3876], [1531526400000, 4117], [1531612800000, 4101], [1531699200000, 2604]], "#35672e","ebooks borrowed on");
+});
+
+function commify(num) {
+    var newNum = "";
+    var ret = "";
+    var count = 0;
+
+    for (var k = num.length-1; k >= 0; k--){
+      var oneChar = num.charAt(k);
+      if (count == 3) {
+        newNum += ",";
+        newNum += oneChar;
+        count = 1;
+        continue;
+      }
+      else {
+        newNum += oneChar;
+        count ++;
+      }
+   }  //but now the string is reversed!
+
+  //re-reverse the string
+  for (var k = newNum.length-1; k >= 0; k--){
+      var oneChar = newNum.charAt(k);
+      ret += oneChar;
+  }
+  return ret;
+}
+
+function plot_data(selector, data, color, tooltip_message) {
+    for (var i = 0; i < data.length; ++i)
+    data[i][0] += 60 * 60 * 1000;
+
+    var options = {
+       series: {
+            bars: {
+                show: true,
+                fill: 1,
+                fillColor: color,
+                color: color,
+                align: "left",
+                barWidth: 24 * 60 * 60 * 1000
+            },
+            points: {
+                show: false
+            },
+            color: color
+        },
+        grid: {
+            hoverable: true,
+            show: false
+        },
+        xaxis: {
+            mode: "time"
+        }
+    };
+  var plot = $.plot($(selector), [data], options);
+
+  function showTooltip(x, y, contents) {
+    $('<div id="chartLabelA">' + contents + '</div>').css( {
+            position: 'absolute',
+            display: 'none',
+            top: y + 12,
+            left: x + 12,
+            border: '1px solid #ccc',
+            padding: '2px',
+            backgroundColor: '#efefef',
+            color: '#454545',
+            fontSize: '11px',
+            webkitBoxShadow: '1px 1px 3px #333',
+            mozBoxShadow: '1px 1px 1px #000',
+            boxShadow: '1px 1px 1px #000'
+        }).appendTo("body").fadeIn(200);
+    };
+    var previousPoint = null;
+  $(selector).bind("plothover", function (event, pos, item) {
+        $("#x").text(pos.x);
+        $("#y").text(pos.y.toFixed(0));
+        if (item) {
+            $("#chartLabelA").remove();
+            var milli = item.datapoint[0];
+            var date = new Date(milli);
+            var x = date.toDateString(),
+            y = item.datapoint[1].toFixed(0);
+          showTooltip(item.pageX, item.pageY, commify(y) + " "+ tooltip_message +" " + x);
+        } else {
+            $("#chartLabelA").remove();
+        };
+    });
+    }
+
+</script>
+
+
+  
+<div id="home-resources">
+  <div class="head">
+    <h2>About the Project</h2>
+  </div>
+
+  <div id="home-about">
+    <div id="home-about-mission">
+      <h3 id="home-about-mission-tldr">
+        Open Library is an open, editable library catalog, building towards a web page for every book ever published.
+        <a href="https://openlibrary.org/about" class="small sansserif">More</a>
+      </h3>
+      <p id="home-about-mission-desc">
+        Just like Wikipedia, you can contribute new information or corrections to the catalog.
+        You can browse by <a href="subjects.html">subjects</a>, <a href="https://openlibrary.org/authors">authors</a> or
+        <a href="lists.html">lists</a> members have created. If you love books, why not help build a library?
+      </p>
+    </div>
+    <div class="home-resource-section">
+      <h3 class="collapse"><a href="http://blog.openlibrary.org/" class="header">Latest Blog Posts</a></h3>
+      <ul id="olBlog">
+        <li><a href="http://blog.openlibrary.org/2018/07/14/search-full-text-within-4m-books/">Search Full-Text within 4M+ Books</a> - <em>2 days ago</em></li>
+        <li><a href="http://blog.openlibrary.org/2018/06/28/star-ratings-are-here/">Star Ratings are Here!</a> - <em>28 de junio de 2018</em></li>
+        <li><a href="http://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/">Turn Your Website into a Library</a> - <em>6 de mayo de 2018</em></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+ </div>
+
+  </div>
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=731.133937836;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+

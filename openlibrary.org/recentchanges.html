@@ -1,0 +1,2933 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="recentchanges.html" />
+
+    <link href="static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/font-awesome.min.css"/>
+
+    <link href="static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script src="https://openlibrary.org/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="https://openlibrary.org/static/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+    
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Recent Changes | Open Library</title>
+
+</head>
+
+
+
+
+
+<body id="user">
+  <div id="background">
+    <span id="top"></span>
+
+    <p class="shift">
+      <a href="#content" title="Click to skip!">Click here to skip to this page's main content.</a>
+    </p>
+                
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="account/login.html">Log in</a></li>
+        <li><a href="account/create.html">Sign up</a></li>
+        
+        <li><a href="books/add.html">Add a Book</a></li>
+        <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="advancedsearch.html">Advanced Search</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+        <li><a href="help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="subjects/science.html">Science</a></li>
+          <li><a href="subjects/biographies.html">Biographies</a></li>
+          <li><a href="subjects/textbooks.html">Textbooks</a></li>
+          <li><a href="subjects/science_fiction.html">Sci-Fi</a></li>
+          <li><a href="subjects/romance.html">Romance</a></li>
+          <li><a href="subjects/fantasy.html">Fantasy</a></li>
+          <li><a href="subjects.html">More Subjects</a></li>
+          <li><a href="lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="account/login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="account/login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="account/login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="books/add.html">Add a Book</a></li>
+          <li><a href="books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="advancedsearch.html">Advanced Search</a></li>
+          <li><a href="recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="developers.html">Developer Center</a></li>
+          <li><a href="help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="account/login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="account/create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+    
+    <div id="placement">
+      <div id="position">
+        <div id="content">
+          <div class="flash-messages">
+          </div>
+          <div id="contentMsg">
+            <div class="alert attn"><span></span></div>
+          </div>
+
+          <div class="page-banner page-banner-body">
+            <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+          </div>
+          
+          
+
+<div id="contentHead">
+    <h1>Recent Changes
+</h1>
+    <div class="subNav">
+
+
+
+
+
+
+<ul class="collapse">
+    <li>
+        <a href="https://openlibrary.org/recentchanges/merge-authors">Author Merges</a>
+        <span>|</span>
+    </li>
+    <li>
+        <a href="https://openlibrary.org/recentchanges/add-book">Books Added</a>
+        <span>|</span>
+    </li>
+    <li>
+        <a href="https://openlibrary.org/recentchanges/add-cover">Covers Added</a>
+        <span>|</span>
+    </li>
+    <li>
+        <a href="https://openlibrary.org/recentchanges/lists">Lists</a>
+    </li>
+</ul>
+
+
+</div>
+</div>
+
+<div id="contentBody">
+    <div id="tabsHistory" class="tabs autohash">
+        <ul>
+            <li><a href="#humans">By Humans</a></li>
+            <li><a href="#bots">By Bots</a></li>
+            <li><a href="#all">Everything</a></li>
+        </ul>
+        <div id="humans">
+
+<style type="text/css">a.blocked-ip {
+    color: red;
+}
+</style>
+
+<table class="changeHistory">
+    <thead>
+        <tr>
+            <th>When</th>
+            <th>What</th>
+            <th>Who</th>
+            <th>&#191;Qu&#233;?</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="time">4 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471319M" class="datalink" title="/books/OL26471319M">Guardianes de la galaxia : vidas pasadas</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471319M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">13 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5576" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL505947W/Of_Human_Bondage">Of Human Bondage</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">20 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471319M/Guardianes_de_la_galaxia_vidas_pasadas">Guardianes de la galaxia : vidas pasadas</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031040" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471319M/Guardianes_de_la_galaxia_vidas_pasadas">2014 Panini</a> edition of <a href="https://openlibrary.org/works/OL17893587W/Guardianes_de_la_galaxia_vidas_pasadas">Guardianes de la galaxia : vidas pasadas</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">31 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/pradhipa/lists/OL117759L" class="datalink" title="/people/pradhipa/lists/OL117759L">Nice n different (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/pradhipa/lists/OL117759L?m=diff&amp;b=53" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/pradhipa" title="Pradhipa Ramanathan">Pradhipa Ramanathan</a></td>
+        <td class="comment">
+
+Added <a href="https://openlibrary.org/books/OL25976362M/His_Daughter_Their_Child">His Daughter Their Child</a> to the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">40 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5575" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL3559957W/Celebrated_trials_connected_with_the_upper_classes_of_society_in_the_relations_of_private_life">Celebrated trials connected with the upper classes of society, in the relations of private life</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">40 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471318M" class="datalink" title="/books/OL26471318M">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471318M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">48 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5574" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL1176829W/Nature_near_London">Nature near London</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/ashy1234" class="datalink" title="/people/ashy1234">/people/ashy1234</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ashy1234" title="ashy1234">ashy1234</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471318M/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031034" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471318M/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">2008 Instituto para el de...</a> edition of <a href="https://openlibrary.org/works/OL17893586W/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/seabelis/lists/OL119576L" class="datalink" title="/people/seabelis/lists/OL119576L">ok (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/seabelis/lists/OL119576L?m=diff&amp;b=2806" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+Added <a href="https://openlibrary.org/books/OL6898408M/The_Tempest">The Tempest</a> to the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471317M" class="datalink" title="/books/OL26471317M">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471317M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL6898408M" class="datalink" title="/books/OL6898408M">The Tempest</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL6898408M?m=diff&amp;b=7" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471317M/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031030" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471317M/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">1996 Atelier National de ...</a> edition of <a href="https://openlibrary.org/works/OL17893585W/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/arunhyde" class="datalink" title="/people/arunhyde">/people/arunhyde</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/arunhyde" title="ArunHyde">ArunHyde</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sullivanfloyd" class="datalink" title="/people/sullivanfloyd">/people/sullivanfloyd</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sullivanfloyd" title="SullivanFloyd">SullivanFloyd</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/teravolt" class="datalink" title="/people/teravolt">/people/teravolt</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/teravolt" title="Teravolt">Teravolt</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">4 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471316M" class="datalink" title="/books/OL26471316M">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471316M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">4 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471316M/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031025" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471316M/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">1996 Universidad Nacional...</a> edition of <a href="https://openlibrary.org/works/OL17893584W/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/greenfieldeagle" class="datalink" title="/people/greenfieldeagle">/people/greenfieldeagle</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/greenfieldeagle" title="GreenfieldEagle">GreenfieldEagle</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/johniedavies" class="datalink" title="/people/johniedavies">/people/johniedavies</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/johniedavies" title="johniedavies">johniedavies</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sabs17" class="datalink" title="/people/sabs17">/people/sabs17</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sabs17" title="sabs17">sabs17</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/janict" class="datalink" title="/people/janict">/people/janict</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/janict" title="JaniCT">JaniCT</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471315M" class="datalink" title="/books/OL26471315M">En voz alta</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471315M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL6862721M" class="datalink" title="/books/OL6862721M">Kürt-Türk ilişkileri üzerine barış ve demokrasi konuşmaları, 1988-1998</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL6862721M?m=diff&amp;b=6" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471315M/En_voz_alta">En voz alta</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031018" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471315M/En_voz_alta">2007 Universidad Autónoma...</a> edition of <a href="https://openlibrary.org/works/OL17893583W/En_voz_alta">En voz alta</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471312M" class="datalink" title="/books/OL26471312M">Not 84 Charing Cross Road</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471312M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/andymcr" title="Andy Carpenter">Andy Carpenter</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/need2read4free" class="datalink" title="/people/need2read4free">/people/need2read4free</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/need2read4free" title="need2read4free">need2read4free</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471314M" class="datalink" title="/books/OL26471314M">Geografía y antiglobalización: la prensa como fuente historiográfica</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471314M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/evesdrop08" class="datalink" title="/people/evesdrop08">/people/evesdrop08</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/evesdrop08" title="evesdrop08">evesdrop08</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sufinoumanriaz" class="datalink" title="/people/sufinoumanriaz">/people/sufinoumanriaz</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sufinoumanriaz" title="sufinoumanriaz">sufinoumanriaz</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471314M/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">Geografía y antiglobalización: la prensa como fuente historiográfica</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031012" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471314M/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">2008 Universidad Central ...</a> edition of <a href="https://openlibrary.org/works/OL17893582W/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">Geografía y antiglobalización: la prensa como fuente historiográfica</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/w_ganczarek" class="datalink" title="/people/w_ganczarek">/people/w_ganczarek</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/w_ganczarek" title="w.ganczarek">w.ganczarek</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/jgburley" class="datalink" title="/people/jgburley">/people/jgburley</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/jgburley" title="jgburley">jgburley</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471312M/Not_84_Charing_Cross_Road">Not 84 Charing Cross Road</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031009" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/andymcr" title="Andy Carpenter">Andy Carpenter</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471312M/Not_84_Charing_Cross_Road">1994 drif field guides</a> edition of <a href="https://openlibrary.org/works/OL17893581W/Not_84_Charing_Cross_Road">Not 84 Charing Cross Road</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/izzygeffner" class="datalink" title="/people/izzygeffner">/people/izzygeffner</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/izzygeffner" title="izzygeffner">izzygeffner</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471311M" class="datalink" title="/books/OL26471311M">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471311M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">9 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471311M/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031006" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471311M/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">2008 Instituto para el de...</a> edition of <a href="https://openlibrary.org/works/OL17893580W/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">9 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL525931M/Ji_sedsala_19._heya_%C3%AEro_rastiya_Kurdistan_%C3%BB_tevgera_PKK">Ji sedsala 19. heya îro rastiya Kurdistan û tevgera PKK</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54031005" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">10 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54031004" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">10 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471310M" class="datalink" title="/books/OL26471310M">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471310M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">11 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031002" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">2015 Panini</a> edition of <a href="https://openlibrary.org/works/OL17893578W/Ms._Marvel">Ms. Marvel</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">11 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL3980037M" class="datalink" title="/books/OL3980037M">Mānify̌stǒ-y chārasar-i Dimukrātiyāna bǒ ky̌sha-y gal-i Kurd</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL3980037M?m=diff&amp;b=5" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">13 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/nagcinema" class="datalink" title="/people/nagcinema">/people/nagcinema</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/nagcinema" title="Nagcinema">Nagcinema</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471309M" class="datalink" title="/books/OL26471309M">Democratic Nation</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471309M?m=diff&amp;b=3" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL355611M/The_Tempest">The Tempest</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54030998" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sibi99999" class="datalink" title="/people/sibi99999">/people/sibi99999</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sibi99999" title="sibi99999">sibi99999</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/clarinevermore" class="datalink" title="/people/clarinevermore">/people/clarinevermore</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/clarinevermore" title="clarinevermore">clarinevermore</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471309M" class="datalink" title="/books/OL26471309M">Democratic Nation</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471309M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sneha0012200" class="datalink" title="/people/sneha0012200">/people/sneha0012200</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sneha0012200" title="Sneha0012200">Sneha0012200</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/tudsa" class="datalink" title="/people/tudsa">/people/tudsa</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/tudsa" title="TUDSa">TUDSa</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="historyPager small sansserif gray">
+    <a href="https://openlibrary.org/recentchanges?page=2#humans" rel="nofollow">&larr; Older</a>
+</div>
+</div>
+        <div id="bots">
+
+<style type="text/css">a.blocked-ip {
+    color: red;
+}
+</style>
+
+<table class="changeHistory">
+    <thead>
+        <tr>
+            <th>When</th>
+            <th>What</th>
+            <th>Who</th>
+            <th>&#191;Qu&#233;?</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="time">10 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029735" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/horncBot" title="Clean Up Bot">Clean Up Bot</a></td>
+        <td class="comment">associate 2 editions with work OL3180513W
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">12 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029642" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">12 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029641" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">12 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029640" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">12 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029639" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">12 hours ago</td>
+        <td class="path">
+<div class="truncatepath">
+    3 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/bulk_update/54029592" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/horncBot" title="Clean Up Bot">Clean Up Bot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027795" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027794" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027793" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027792" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027791" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027790" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027789" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    3 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027788" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027787" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027785" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027784" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027783" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027782" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027781" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    3 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027780" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027779" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027778" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027777" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027776" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027775" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027774" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027773" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027772" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL6776350M" class="datalink" title="/books/OL6776350M">Storms and the earth</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL6776350M?m=diff&amp;b=7" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL915236M" class="datalink" title="/books/OL915236M">Great Lakes, great national forests</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL915236M?m=diff&amp;b=6" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027769" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027768" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027767" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL11643780M" class="datalink" title="/books/OL11643780M">Earth and Its Moon (Earth and Space)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL11643780M?m=diff&amp;b=6" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL8759370M" class="datalink" title="/books/OL8759370M">The Complete Book of Garden Seating</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL8759370M?m=diff&amp;b=7" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027764" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027763" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027762" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027761" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027760" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027759" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027758" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027757" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL3413136M" class="datalink" title="/books/OL3413136M">Apartheid in South Africa</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL3413136M?m=diff&amp;b=8" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027755" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027754" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027753" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027752" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 day ago</td>
+        <td class="path">
+<div class="truncatepath">
+    2 records
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/15/bulk_update/54027751" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ImportBot" title="ImportBot">ImportBot</a></td>
+        <td class="comment">import new book
+
+
+</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="historyPager small sansserif gray">
+    <a href="https://openlibrary.org/recentchanges?page=2#bots" rel="nofollow">&larr; Older</a>
+</div>
+</div>
+        <div id="all">
+
+<style type="text/css">a.blocked-ip {
+    color: red;
+}
+</style>
+
+<table class="changeHistory">
+    <thead>
+        <tr>
+            <th>When</th>
+            <th>What</th>
+            <th>Who</th>
+            <th>&#191;Qu&#233;?</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="time">5 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471319M" class="datalink" title="/books/OL26471319M">Guardianes de la galaxia : vidas pasadas</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471319M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5576" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL505947W/Of_Human_Bondage">Of Human Bondage</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">22 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471319M/Guardianes_de_la_galaxia_vidas_pasadas">Guardianes de la galaxia : vidas pasadas</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031040" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471319M/Guardianes_de_la_galaxia_vidas_pasadas">2014 Panini</a> edition of <a href="https://openlibrary.org/works/OL17893587W/Guardianes_de_la_galaxia_vidas_pasadas">Guardianes de la galaxia : vidas pasadas</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">32 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/pradhipa/lists/OL117759L" class="datalink" title="/people/pradhipa/lists/OL117759L">Nice n different (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/pradhipa/lists/OL117759L?m=diff&amp;b=53" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/pradhipa" title="Pradhipa Ramanathan">Pradhipa Ramanathan</a></td>
+        <td class="comment">
+
+Added <a href="https://openlibrary.org/books/OL25976362M/His_Daughter_Their_Child">His Daughter Their Child</a> to the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">41 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5575" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL3559957W/Celebrated_trials_connected_with_the_upper_classes_of_society_in_the_relations_of_private_life">Celebrated trials connected with the upper classes of society, in the relations of private life</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">41 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471318M" class="datalink" title="/books/OL26471318M">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471318M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">49 seconds ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L" class="datalink" title="/people/JDCarrr99/lists/OL122284L">My Books (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/JDCarrr99/lists/OL122284L?m=diff&amp;b=5574" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/JDCarrr99" title="Flora Menzies">Flora Menzies</a></td>
+        <td class="comment">
+
+Removed <a href="https://openlibrary.org/works/OL1176829W/Nature_near_London">Nature near London</a> from the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/ashy1234" class="datalink" title="/people/ashy1234">/people/ashy1234</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/ashy1234" title="ashy1234">ashy1234</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471318M/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031034" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471318M/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">2008 Instituto para el de...</a> edition of <a href="https://openlibrary.org/works/OL17893586W/Formaci%C3%B3n_de_docentes_en_educaci%C3%B3n_b%C3%A1sica_de_personas_j%C3%B3venes_y_adultas_procesos_en_curso_y_proyecci">Formación de docentes en educación básica de personas jóvenes y adultas : procesos en curso y proyecciones</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">1 minute ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/people/seabelis/lists/OL119576L" class="datalink" title="/people/seabelis/lists/OL119576L">ok (list)</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/people/seabelis/lists/OL119576L?m=diff&amp;b=2806" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+Added <a href="https://openlibrary.org/books/OL6898408M/The_Tempest">The Tempest</a> to the list.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471317M" class="datalink" title="/books/OL26471317M">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471317M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL6898408M" class="datalink" title="/books/OL6898408M">The Tempest</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL6898408M?m=diff&amp;b=7" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">2 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471317M/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031030" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471317M/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">1996 Atelier National de ...</a> edition of <a href="https://openlibrary.org/works/OL17893585W/Le_plurilinguisme_spontan%C3%A9_des_habitants_de_Belleville_et_de_la_Goutte_d&apos;or_(Paris)_Aspects_sociolin">Le plurilinguisme spontané des habitants de Belleville et de la Goutte d&#39;or (Paris): Aspects sociolinguistiques et action sociale</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/arunhyde" class="datalink" title="/people/arunhyde">/people/arunhyde</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/arunhyde" title="ArunHyde">ArunHyde</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sullivanfloyd" class="datalink" title="/people/sullivanfloyd">/people/sullivanfloyd</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sullivanfloyd" title="SullivanFloyd">SullivanFloyd</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">3 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/teravolt" class="datalink" title="/people/teravolt">/people/teravolt</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/teravolt" title="Teravolt">Teravolt</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">4 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471316M" class="datalink" title="/books/OL26471316M">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471316M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">4 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471316M/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031025" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471316M/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">1996 Universidad Nacional...</a> edition of <a href="https://openlibrary.org/works/OL17893584W/Desaf%C3%ADos_de_la_universidad_contempor%C3%A1nea_los_casos_de_Alemania_Estados_Unidos_y_Am%C3%A9rica_Latina">Desafíos de la universidad contemporánea: los casos de Alemania, Estados Unidos y América Latina</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/greenfieldeagle" class="datalink" title="/people/greenfieldeagle">/people/greenfieldeagle</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/greenfieldeagle" title="GreenfieldEagle">GreenfieldEagle</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/johniedavies" class="datalink" title="/people/johniedavies">/people/johniedavies</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/johniedavies" title="johniedavies">johniedavies</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sabs17" class="datalink" title="/people/sabs17">/people/sabs17</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sabs17" title="sabs17">sabs17</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/janict" class="datalink" title="/people/janict">/people/janict</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/janict" title="JaniCT">JaniCT</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">5 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471315M" class="datalink" title="/books/OL26471315M">En voz alta</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471315M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL6862721M" class="datalink" title="/books/OL6862721M">Kürt-Türk ilişkileri üzerine barış ve demokrasi konuşmaları, 1988-1998</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL6862721M?m=diff&amp;b=6" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471315M/En_voz_alta">En voz alta</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031018" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471315M/En_voz_alta">2007 Universidad Autónoma...</a> edition of <a href="https://openlibrary.org/works/OL17893583W/En_voz_alta">En voz alta</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471312M" class="datalink" title="/books/OL26471312M">Not 84 Charing Cross Road</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471312M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/andymcr" title="Andy Carpenter">Andy Carpenter</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">6 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/need2read4free" class="datalink" title="/people/need2read4free">/people/need2read4free</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/need2read4free" title="need2read4free">need2read4free</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471314M" class="datalink" title="/books/OL26471314M">Geografía y antiglobalización: la prensa como fuente historiográfica</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471314M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/evesdrop08" class="datalink" title="/people/evesdrop08">/people/evesdrop08</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/evesdrop08" title="evesdrop08">evesdrop08</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sufinoumanriaz" class="datalink" title="/people/sufinoumanriaz">/people/sufinoumanriaz</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sufinoumanriaz" title="sufinoumanriaz">sufinoumanriaz</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">7 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471314M/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">Geografía y antiglobalización: la prensa como fuente historiográfica</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031012" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471314M/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">2008 Universidad Central ...</a> edition of <a href="https://openlibrary.org/works/OL17893582W/Geograf%C3%ADa_y_antiglobalizaci%C3%B3n_la_prensa_como_fuente_historiogr%C3%A1fica">Geografía y antiglobalización: la prensa como fuente historiográfica</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/w_ganczarek" class="datalink" title="/people/w_ganczarek">/people/w_ganczarek</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/w_ganczarek" title="w.ganczarek">w.ganczarek</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/jgburley" class="datalink" title="/people/jgburley">/people/jgburley</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/jgburley" title="jgburley">jgburley</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471312M/Not_84_Charing_Cross_Road">Not 84 Charing Cross Road</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031009" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/andymcr" title="Andy Carpenter">Andy Carpenter</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471312M/Not_84_Charing_Cross_Road">1994 drif field guides</a> edition of <a href="https://openlibrary.org/works/OL17893581W/Not_84_Charing_Cross_Road">Not 84 Charing Cross Road</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/izzygeffner" class="datalink" title="/people/izzygeffner">/people/izzygeffner</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/izzygeffner" title="izzygeffner">izzygeffner</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">8 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471311M" class="datalink" title="/books/OL26471311M">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471311M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">9 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471311M/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031006" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/cindyarango" title="cindy natalia arango galeano">cindy natalia arango galeano</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471311M/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">2008 Instituto para el de...</a> edition of <a href="https://openlibrary.org/works/OL17893580W/Paradojas_en_la_formaci%C3%B3n_docente_elementos_para_avanzar_en_su_reflexi%C3%B3n_y_planteamiento_de_propuest">Paradojas en la formación docente : elementos para avanzar en su reflexión y planteamiento de propuestas</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">9 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL525931M/Ji_sedsala_19._heya_%C3%AEro_rastiya_Kurdistan_%C3%BB_tevgera_PKK">Ji sedsala 19. heya îro rastiya Kurdistan û tevgera PKK</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54031005" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">10 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54031004" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">10 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471310M" class="datalink" title="/books/OL26471310M">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471310M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">11 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">Ms. Marvel : Generación ¿por qué?</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/add-book/54031002" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/acbelluga" title="Andres Carmona">Andres Carmona</a></td>
+        <td class="comment">
+
+
+Added <a href="https://openlibrary.org/books/OL26471310M/Ms._Marvel_Generaci%C3%B3n_%C2%BFpor_qu%C3%A9">2015 Panini</a> edition of <a href="https://openlibrary.org/works/OL17893578W/Ms._Marvel">Ms. Marvel</a>.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">11 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL3980037M" class="datalink" title="/books/OL3980037M">Mānify̌stǒ-y chārasar-i Dimukrātiyāna bǒ ky̌sha-y gal-i Kurd</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL3980037M?m=diff&amp;b=5" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">13 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/nagcinema" class="datalink" title="/people/nagcinema">/people/nagcinema</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/nagcinema" title="Nagcinema">Nagcinema</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471309M" class="datalink" title="/books/OL26471309M">Democratic Nation</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471309M?m=diff&amp;b=3" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">Added new cover
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a class="datalink" href="https://openlibrary.org/books/OL355611M/The_Tempest">The Tempest</a>
+    <span class="smallest sansserif"> - <a href="https://openlibrary.org/recentchanges/2018/07/16/edit-book/54030998" style="text-decoration: none;">expand</a></span>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/seabelis" title="Lisa">Lisa</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sibi99999" class="datalink" title="/people/sibi99999">/people/sibi99999</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sibi99999" title="sibi99999">sibi99999</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">14 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/clarinevermore" class="datalink" title="/people/clarinevermore">/people/clarinevermore</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/clarinevermore" title="clarinevermore">clarinevermore</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+
+<div class="truncatepath">
+    
+    <a href="https://openlibrary.org/books/OL26471309M" class="datalink" title="/books/OL26471309M">Democratic Nation</a>
+    <span class="smallest sansserif"> - <a style="text-decoration: none;" href="https://openlibrary.org/books/OL26471309M?m=diff&amp;b=2" title="Review what's changed in from the previous revision">diff</a></span>
+</div>
+
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/erdalronahi" title="Erdal Ronahi">Erdal Ronahi</a></td>
+        <td class="comment">
+
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/sneha0012200" class="datalink" title="/people/sneha0012200">/people/sneha0012200</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/sneha0012200" title="Sneha0012200">Sneha0012200</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    <tr>
+        <td class="time">15 minutes ago</td>
+        <td class="path">
+<div class="truncatepath">
+    <a href="https://openlibrary.org/people/tudsa" class="datalink" title="/people/tudsa">/people/tudsa</a>
+</div>
+
+
+</td>
+        <td class="displayname"><a rel="nofollow" href="https://openlibrary.org/people/tudsa" title="TUDSa">TUDSa</a></td>
+        <td class="comment">Created new account.
+
+
+</td>
+    </tr>
+    </tbody>
+</table>
+
+<div class="historyPager small sansserif gray">
+    <a href="https://openlibrary.org/recentchanges?page=2#all" rel="nofollow">&larr; Older</a>
+</div>
+</div>
+    </div>
+</div>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=1515.26093483;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+

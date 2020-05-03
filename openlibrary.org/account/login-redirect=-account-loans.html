@@ -1,0 +1,366 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="title" content="" />
+
+    <meta name="author" content="OpenLibrary.org" />
+    <meta name="creator" content="OpenLibrary.org" />
+    <meta name="copyright" content="Original content copyright; 2007-2015" />
+    <meta name="distribution" content="Global" />
+
+    <link rel="canonical" href="login-redirect=-account-loans.html" />
+
+    <link href="../static/images/openlibrary-120x120.png.html" rel="apple-touch-icon" />
+    <link href="../static/images/openlibrary-152x152.png" rel="apple-touch-icon" sizes="152x152" />
+    <link href="../static/images/openlibrary-167x167.png" rel="apple-touch-icon" sizes="167x167" />
+    <link href="../static/images/openlibrary-180x180.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="../static/images/openlibrary-192x192.png" rel="icon" sizes="192x192" />
+    <link href="../static/images/openlibrary-128x128.png" rel="icon" sizes="128x128" />
+
+    <link rel="stylesheet" type="text/css" href="../static/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="../static/css/font-awesome.min.css"/>
+
+    <link href="../static/build/all-v=0e6f349479b67ecaef5b9849d89aaa03.css" rel="stylesheet" type="text/css" />
+
+    <meta name="google-site-verification" content="KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74" />
+    <meta name="google-site-verification" content="vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" /> <!-- Enable Chrome Frame for IE -->
+    <meta name="alexaVerifyID" content="wJKlTRj1Z1OI4G-J0w9R-cWhJjw" /> <!-- Necessary for Alexa -->
+
+    <script src="https://openlibrary.org/static/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+    <script src="https://openlibrary.org/static/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+    
+    <!-- Must be loaded after jquery -->
+    <script src="https://archive.org/includes/analytics.js?v=0c15bbe" type="text/javascript"></script>
+    <script> <!-- anonymized analytics -->
+      window.addEventListener('DOMContentLoaded', function send_analytics_pageview() {
+        archive_analytics.send_pageview({});
+      });
+    </script>
+
+    <script src="../static/build/vendor-v=ff7cebf007ff8ee86dd32ffbe4bb66b7.js" type="text/javascript"></script>
+    <script src="../static/build/all-v=526f4c611fce126e222e53cb1f374dc5.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+    <title>Log In | Open Library</title>
+
+</head>
+
+
+
+
+
+<body id="user">
+  <div id="background">
+    <span id="top"></span>
+
+    <p class="shift">
+      <a href="#content" title="Click to skip!">Click here to skip to this page's main content.</a>
+    </p>
+                
+
+<div id="topNotice">
+  <div class="page-banner page-banner-black page-banner-center">
+    <div class="iaBar">
+      <div class="iaBarLogo">
+        <a href="https://archive.org"><img alt="Internet Archive logo" src="../static/images/ia-logo.png"></a>
+      </div>
+      <div class="iaBarMessage">
+        <a class="ghost-btn" style="text-underline" href="https://archive.org/donate?platform=ol" data-ol-link-track="IABar|DonateButton">Donate <span class="heart" aria-hidden="true">♥</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+    
+<header id="header-bar">
+  <div class="hamburger-component">
+    <button type="button" class="hamburger-button"><img src="../static/images/menu.png" alt="additional options menu"/></button>
+    <div class="hamburger-dropdown-component">
+      <ul class="dropdown-menu hamburger-dropdown-menu">
+        <li><a href="login.html">Log in</a></li>
+        <li><a href="create.html">Sign up</a></li>
+        
+        <li><a href="../books/add.html">Add a Book</a></li>
+        <li><a href="../books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+        <li><a href="../recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="../advancedsearch.html">Advanced Search</a></li>
+        <li><a href="../developers.html">Developer Center</a></li>
+        <li><a href="../help.html">Help &amp; Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="logo-component">
+    <a href="../index.html" title="The Internet Archive's Open Library: One page for every book">
+      <div class="logo-txt">
+        <img class="logo-icon" src="../static/images/openlibrary-logo-tighter.svg" alt="Open Library logo"/>
+      </div>
+    </a>
+  </div>
+
+  <div class="search-component">
+    <div class="search-bar-component">
+      <div class="search-bar">
+        <div class="search-facet">
+          <label class="search-facet-selector">
+            <span aria-hidden="true" class="search-facet-value"></span>
+            <select aria-label="Search by">
+              <option value='all'>All</option>
+              <option value='title'>Title</option>
+              <option value='author'>Author</option>
+              <option value='subject'>Subject</option>
+              <option value='advanced'>Advanced</option>
+              <option value='text'>Text</option>
+            </select>
+          </label>
+        </div>
+        <form class="search-bar-input" action="https://openlibrary.org/search" method="get">
+          <input type="text" name="q" placeholder="Search" autocomplete="off">
+          <input name="mode" type="checkbox" aria-hidden="true" checked="checked" value="" id="ftokenstop" class="hidden instantsearch-mode">
+          <input type="submit" value="" class="search-bar-submit" aria-label="Search submit">
+        </form>
+      </div>
+      <div class="search-dropdown">
+        <ul class="search-results">
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <ul class="navigation-component">
+    <li class="browse-menu">
+      <a>Browse <img class="down-arrow" aria-hidden="true" alt="Browse" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu browse-menu-options">
+          <li><a href="../subjects/science.html">Science</a></li>
+          <li><a href="../subjects/biographies.html">Biographies</a></li>
+          <li><a href="../subjects/textbooks.html">Textbooks</a></li>
+          <li><a href="../subjects/science_fiction.html">Sci-Fi</a></li>
+          <li><a href="../subjects/romance.html">Romance</a></li>
+          <li><a href="../subjects/fantasy.html">Fantasy</a></li>
+          <li><a href="../subjects.html">More Subjects</a></li>
+          <li><a href="../lists.html">Reading Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="my-books-menu">
+      <a>My Books <img class="down-arrow" aria-hidden="true" alt="My Books" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu my-books-menu-options">
+          <li><a href="login-redirect=-account-loans.html">My Loans</a></li>
+          <li><a href="login-redirect=-account-books-want-to-read.html">My Reading Log</a></li>
+          <li><a href="login-redirect=-account-lists.html">My Lists</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="more-menu">
+      <a>More <img class="down-arrow" aria-hidden="true" alt="More" role="presentation" src="../static/images/down-arrow.png"/></a>
+      <div class="navigation-dropdown-component">
+        <ul class="dropdown-menu more-menu-options">
+          <li><a href="../books/add.html">Add a Book</a></li>
+          <li><a href="../books/OL3563644M/The_fury_and_the_power.html">Random Book</a></li>
+          <li><a href="../advancedsearch.html">Advanced Search</a></li>
+          <li><a href="../recentchanges.html">Recent Community Edits</a></li>
+        <li><a href="../developers.html">Developer Center</a></li>
+          <li><a href="../help.html">Help &amp; Support</a></li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+
+  <ul class="auth-component">
+    <li class="hide-me">
+      <a class="generic-button generic-button-secondary white"
+         href="login.html">Log In</a></li>
+    <li><a class="generic-button generic-button-primary" href="create.html">Sign Up</a></li>
+  </ul>
+  
+</header>
+
+    
+    <div id="placement">
+      <div id="position">
+        <div id="content">
+          <div class="flash-messages">
+          </div>
+          <div id="contentMsg">
+            <div class="alert attn"><span></span></div>
+          </div>
+
+          <div class="page-banner page-banner-body">
+            <strong>New Feature:</strong> You can now embed Open Library books on your website! &nbsp; <a href="https://blog.openlibrary.org/2018/05/06/turn-your-website-into-a-library/" data-ol-link-track="AnnouncementsBar|BlogWidget" class="btn primary">Learn More</a>
+          </div>
+          
+          
+
+<div id="contentHead">
+    <h1>Log In</h1>
+</div>
+
+<script type="text/javascript">
+  //$().ready(passwordMask);
+  //$().ready(validateForms);
+  //$().ready(validateLogin);
+</script>
+
+<div id="contentBody">
+  <p>Please enter your <a href="https://archive.org">Internet Archive</a> email and password to access your Open Library account.</p>
+  
+  <form id="register" class="login olform" name="register" method="post">
+  
+    <div class="formElement">
+        <div class="label">
+          <label for="username">Email</label>
+          <span class="smaller lighter"></span>
+          &mdash; <a class="forgot-email" href="https://openlibrary.org/account/email/forgot-ia">Forgot your Internet Archive email?</a>
+        </div>
+  
+        <div class="input">
+          <input type="email" class="required" id="username" name="username" value="" placeholder="email" autocapitalize="off" autocorrect="off"/>
+          <span class="invalid clearfix" htmlfor="username"></span>
+        </div>
+    </div>
+  
+    <div class="formElement">
+        <div class="label"><label for="password">Password</label> <span class="smaller lighter"></span></div>
+        <div class="input">
+            <input type="password" class="required" placeholder="Password" id="password" name="password" value="" />
+            <span class="invalid clearfix" htmlfor="password"></span>
+        </div>
+    </div>
+  
+    <div class="formElement">
+        <div class="input">
+            <input name="remember" type="checkbox" id="remember" />
+            <label for="remember" class="small">Remember me</label>
+        </div>
+    </div>
+  
+    <input type="hidden" id="redirect" value="/account/loans" name="redirect" />
+    <input type="hidden" id="debug_token" value="" name="debug_token"/>
+  
+    <div class="clearfix"></div>
+  
+    <div class="formElement bottom">
+        <br/>
+        <input value="Log In" type="submit" class="login-submit" name="login" title="Log In"/>
+    </div>
+    <div class="formElement">
+        <div class="label"></div>
+        <div class="input smaller"><a href="https://archive.org/account/login.forgotpw.php">Forgot your Password?</a>
+        <br/><br/>
+        Not a member of Open Library? <a href="create.html">Sign up now</a>.</div>
+    </div>
+  </form>
+    </div>
+
+
+          <div class="clearfix"></div>
+        </div>
+
+
+
+
+<div class="clearfix"></div>
+
+
+<footer>
+  <div id="footer-content" >
+    <div id="footer-links">
+      <div>
+        <h2>Open Library</h2>
+        <ul>
+          <li><a href="https://openlibrary.org/about/vision" title="Vision">Vision</a></li>
+          <li><a href="https://archive.org/about/jobs.php" title="Jobs">Careers</a></li>
+          <li><a href="http://blog.openlibrary.org/" title="blog">Blog</a></li>
+          <li><a href="https://archive.org/about/terms.php" title="Terms of Service">Terms of Service</a></li>
+          <li><a href="https://archive.org/donate/?platform=ol" title="Donate">Donate</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Discover</h2>
+        <ul>
+          <li><a href="../index.html" title="Go home">Home</a></li>
+          <li><a href="https://openlibrary.org/search" title="Explore Books">Books</a></li>
+          <li><a href="https://openlibrary.org/search/authors" title="Explore authors">Authors</a></li>
+          <li><a href="../subjects.html" title="Explore subjects">Subjects</a></li>
+          <li><a href="../advancedsearch.html" title="Advanced Search">Advanced Search</a></li>
+          <li><a href="#top" title="Navigate to top of this page">Return to Top</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Develop</h2>
+        <ul>
+          <li><a href="../developers.html" title="Explore Open Library Development Center">Development Center</a></li>
+          <li><a href="https://openlibrary.org/developers/api" title="Explore Open Library APIs">API Documentation</a></li>
+          <li><a href="https://openlibrary.org/data" title="Bulk OL Data">Bulk Data Dumps</a></li>
+          <li><a href="https://github.com/internetarchive/openlibrary/wiki/Writing-Bots" title="Write a bot">Writing Bots</a></li>
+          <li><a href="../books/add.html" title="Add a new book to Open Library">Add a Book</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Help</h2>
+        <ul>
+          <li><a href="../help.html" title="Help Center">Help Center</a></li>
+          <li><a href="https://openlibrary.org/contact?path=/" title="Problems">Contact and Support</a></li> 
+          <li><a href="https://openlibrary.org/help/faq/editing" title="Suggest Edits">Suggesting Edits</a></li>
+        </ul>
+        <aside id="footer-icons">
+          <a href="https://twitter.com/OpenLibrary"><i class="fa fa-twitter" aria-hidden="true" title="Open Library on Twitter"></i></a>
+          <a href="https://github.com/internetarchive/openlibrary"><i class="fa fa-github" aria-hidden="true" title="Open Library on GitHub"></i></a>
+        </aside>
+      </div>
+    </div>
+    <hr>
+    <div id="footer-details">
+      <img id="archive-logo" src="https://openlibrary.org/static/images/pantheon.png" alt="" aria-hidden="true">
+      <div id="legal-details" >
+        <span>Open Library is an initiative of the <a href="https://archive.org/">Internet Archive</a>, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other <a href="https://archive.org/projects/">projects</a> include the <a href="https://archive.org/web/">Wayback Machine</a>, <a href="https://archive.org/">archive.org</a> and <a href="https://archive-it.org">archive-it.org</a></span>
+      </div>
+      <div id="version-details">
+        <span class="version">version <a href="https://github.com/internetarchive/openlibrary/commit/b943059">b943059</a></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+<script type="text/javascript">
+if (window.archive_analytics) {
+  var vs = window.archive_analytics.get_data_packets();
+  for (var i in vs) {
+    vs[i]['cache_bust']=Math.random();
+    vs[i]['server_ms']=0;
+    vs[i]['server_name']='ol-web.us.archive.org';
+    vs[i]['service']='ol';
+      }
+  if(window.flights){
+    window.flights.init();
+  }
+  if ($(".more_search").size()>0) {
+    window.archive_analytics.send_scroll_fetch_base_event();
+  }
+  $().ready(function(){
+    $('[data-ol-link-track]').live('click', function(event) {
+      var category_action = $(this).attr('data-ol-link-track').split('|');
+      window.archive_analytics.ol_send_event_ping({'category': category_action[0], 'action': category_action[1]});
+    });
+  });
+}
+</script>
+
+</body>
+</html>
+
